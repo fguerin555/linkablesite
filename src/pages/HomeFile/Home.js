@@ -13,11 +13,12 @@ const Home = () => {
           <h1>L'ARTE È NECESSARIA</h1>
         </div>
         <p className={styles.ParagOne}>
-          L'associazione si dedica a ideare ed organizzare progetti innovatvi di
-          arte in tutte le sue discipline e da integrare nel curriculum
-          scolastico; propone iniziative di apprendimento attraverso progetti
-          culturali al fine di aumentare l'offerta formativa anche a quelle
-          fasce di persone alle quali, per motivi diversi spesso è negato
+          L'associazione si rivolge in prevalenza a giovani a rischio di
+          abbandono scolastico. Propone ed organizza progetti innovativi di arte
+          in tutte le sue discipline dentro e fuori le scuole; offre iniziative
+          di apprendimento attraverso progetti culturali al fine di aumentare
+          l'offerta formativa anche a quelle fasce di persone alle quali, per
+          motivi di carattere sociale, economici o di disabilità spesso è negato
           l'accesso alla cultura. Si occupa inoltre di riqualificare, attaverso
           l'arte, luoghi degradati della città.
         </p>

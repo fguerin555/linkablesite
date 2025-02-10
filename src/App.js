@@ -23,7 +23,7 @@ const App = () => {
         <Navbar />
 
         <Routes>
-          <Route path="/cielincitta" element={<Home />} />
+          <Route path="/linkablesite" element={<Home />} />
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/ciel" element={<Ciel />} />

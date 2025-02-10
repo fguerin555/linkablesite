@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/linkablesite/static/css/main.784db2bc.css",
-    "main.js": "/linkablesite/static/js/main.e091eaac.js",
+    "main.css": "/linkablesite/static/css/main.0cb55f42.css",
+    "main.js": "/linkablesite/static/js/main.a2f5eaa2.js",
     "static/media/Lorenza.jpg": "/linkablesite/static/media/Lorenza.38d175c377d2db478477.jpg",
     "static/media/Dona.jpg": "/linkablesite/static/media/Dona.f52844176982f6be1304.jpg",
     "static/media/Murosonoro1.jpg": "/linkablesite/static/media/Murosonoro1.9433f028cbecda97bbc7.jpg",
@@ -16,7 +16,7 @@
     "static/media/museoPECCI.jpg": "/linkablesite/static/media/museoPECCI.03fe6e8efb013cf9b9d4.jpg",
     "static/media/Joker.jpg": "/linkablesite/static/media/Joker.d8b8b69ad81545de027c.jpg",
     "static/media/Oggi-3.png": "/linkablesite/static/media/Oggi-3.9b1934542a70f31e30f3.png",
-    "static/media/LocandinaONM.jpg": "/linkablesite/static/media/LocandinaONM.c42cf184c67abd4190b1.jpg",
+    "static/media/LocandinaONM.jpg": "/linkablesite/static/media/LocandinaONM.fbb58b8e1452ca60bc3e.jpg",
     "static/media/Nazione-3.png": "/linkablesite/static/media/Nazione-3.3d3cc0c6c9a8c8555a43.png",
     "static/media/Tirreno-2.png": "/linkablesite/static/media/Tirreno-2.2180fdf0e1e8f6ecaccc.png",
     "static/media/CuricIrma-images-0.jpg": "/linkablesite/static/media/CuricIrma-images-0.e03f59286261c211f66c.jpg",
@@ -149,16 +149,16 @@
     "static/media/Pecci-11.png": "/linkablesite/static/media/Pecci-11.17faa849e4e388355ff1.png",
     "static/media/Pecci-5.png": "/linkablesite/static/media/Pecci-5.2c1cd028c8e36539e759.png",
     "static/media/Tirreno-8.png": "/linkablesite/static/media/Tirreno-8.974c6a1eaa021fb852e8.png",
-    "static/media/Tirreno-1.png": "/linkablesite/static/media/Tirreno-1.1b032b467eafab3af589.png",
+    "static/media/Tirreno-1.png": "/linkablesite/static/media/Tirreno-1.8d2b7f8ae3a90e051f56.png",
     "static/media/logoNavbar.png": "/linkablesite/static/media/logoNavbar.ca75fd060d73498c83d4.png",
     "static/media/Logo2.png": "/linkablesite/static/media/Logo2.20196c89365037414b24.png",
     "static/media/Nazione-2.png": "/linkablesite/static/media/Nazione-2.63625ec02132198a7af8.png",
     "index.html": "/linkablesite/index.html",
-    "main.784db2bc.css.map": "/linkablesite/static/css/main.784db2bc.css.map",
-    "main.e091eaac.js.map": "/linkablesite/static/js/main.e091eaac.js.map"
+    "main.0cb55f42.css.map": "/linkablesite/static/css/main.0cb55f42.css.map",
+    "main.a2f5eaa2.js.map": "/linkablesite/static/js/main.a2f5eaa2.js.map"
   },
   "entrypoints": [
-    "static/css/main.784db2bc.css",
-    "static/js/main.e091eaac.js"
+    "static/css/main.0cb55f42.css",
+    "static/js/main.a2f5eaa2.js"
   ]
 }

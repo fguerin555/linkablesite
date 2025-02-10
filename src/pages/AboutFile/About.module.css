@@ -1,0 +1,166 @@
+.AboutPage {
+  .ImageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px; /* Espace entre les images */
+    margin-top: 20px; /* Espace entre la bande de couleur et les images */
+  }
+  .Logo2 img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+
+    margin-top: 30px;
+    width: 170px;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .Dati h2 {
+    font-family: "Montserrat-ultra-light", Arial, Helvetica, sans-serif;
+    color: rgb(86, 84, 84);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px auto;
+  }
+
+  .Dati h4 {
+    font-family: "Montserrat-ultra-light", Arial, Helvetica, sans-serif;
+    color: rgb(86, 84, 84);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 7px auto;
+  }
+
+  .Dati h3 {
+    font-family: "Montserrat-ultra-light", Arial, Helvetica, sans-serif;
+    color: rgb(86, 84, 84);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 13px auto;
+  }
+  .Presentazione h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    font-family: "Montserrat-ultra-light", Arial, Helvetica, sans-serif;
+    /* color: rgb(86, 84, 84); */
+    color: rgba(54, 130, 212, 0.574);
+  }
+  .Presentazione p {
+    max-width: 68%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    font-family: "Montserrat-medium", Arial, Helvetica, sans-serif;
+    color: rgb(86, 84, 84);
+  }
+
+  .ImageContainer img {
+    width: 20vw; /* Largeur de chaque image */
+    height: 20vw; /* Maintient les proportions de l'image */
+    /* object-fit: cover; */
+    border-radius: 5px; /* Optionnel : ajoute des coins arrondis */
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+  }
+  .ImageContainer button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2px;
+    margin-bottom: 20px;
+    background-color: rgb(144, 183, 230);
+    color: beige;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+    border: none;
+    font-size: 12px;
+    text-shadow: 2px 2px 4px #15459e;
+  }
+  .ImageContainer a {
+    text-decoration: none;
+  }
+
+  .ImageWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .ImageCaption {
+    margin-top: 10px;
+    color: rgb(221, 23, 23);
+    font-family: "Montserrat-Medium", Arial, sans-serif;
+    font-size: 18èpx;
+  }
+  .ImageTitle {
+    margin-top: 1px;
+    font-weight: bold;
+    color: rgb(113, 171, 242);
+    font-size: 20px;
+  }
+  .iframe {
+    width: 800px;
+    height: 600px;
+  }
+  .large-iframe {
+    width: 800px;
+    height: 600px;
+  }
+}
+@media (max-width: 1224px) {
+  .ImageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px !important; /* Espace entre les images */
+    margin-top: 10px; /* Espace entre la bande de couleur et les images */
+  }
+  .Presentazione p {
+    min-width: 95%;
+  }
+  .Dati h2 {
+    font-size: 16px;
+    min-height: 90%;
+  }
+  .Dati h4 {
+    font-size: 14px;
+    min-height: 90%;
+  }
+
+  .Dati h3 {
+    font-size: 14px;
+    min-height: 90%;
+  }
+
+  .Presentazione h2 {
+    font-size: 18px;
+  }
+
+  .ImageContainer button {
+    padding: 5px 8px !important;
+  }
+
+  .ImageCaption {
+    font-size: 12px !important;
+  }
+  .ImageTitle {
+    font-size: 14px !important;
+  }
+}

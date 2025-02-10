@@ -1,0 +1,11 @@
+.CatalogoContainer img {
+  object-fit: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  width: 100vw; /* Largeur de chaque image */
+  /* height: 100vw; */
+}

@@ -1,0 +1,17 @@
+.Stampa img {
+  object-fit: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 95vw;
+}
+@media (max-width: 1224px) {
+  .Stampa img {
+    width: 95vw;
+    /* height: 20vw; */
+  }
+}

@@ -1,0 +1,11 @@
+@media (max-width: 1224px) {
+  .close-button {
+    display: display !important;
+    position: fixed;
+    bottom: 115px;
+    left: 2px;
+    width: 30px !important;
+    height: 30px !important;
+    z-index: 1000;
+  }
+}

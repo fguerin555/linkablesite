@@ -1,0 +1,414 @@
+.CielPage {
+  height: auto;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+
+  .Titolo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(63, 63, 72);
+    font-family: "Montserrat-ultra-light", Arial, Helvetica, sans-serif;
+  }
+  .SottoTitolo {
+    margin-top: 115px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat-medium", Arial, Helvetica, sans-serif;
+    margin-bottom: 2px;
+    color: rgb(63, 63, 72);
+    font-size: 16px;
+  }
+  .BandeRose {
+    position: relative;
+    margin: 0 auto;
+    height: 200px; /* Hauteur de la bande de couleur */
+    width: 100%; /* Largeur de la bande de couleur */
+    background-color: rgb(244, 227, 255); /* Couleur de la bande */
+    display: flex; /* Pour centrer le texte */
+    flex-direction: column; /* Pour descendre le texte */
+    justify-content: flex-end; /* Pour descendre le texte */
+    align-items: center; /* Pour centrer le texte */
+    color: #211e1e; /* Couleur du texte */
+    font-size: 12px; /* Taille du texte */
+    padding-bottom: 20px; /* Espacement entre le bas de la bande et le texte */
+  }
+  .CICvideo {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+  }
+  .CICvideo iframe {
+    border-radius: 10px;
+    border: 5px solid rgba(54, 130, 212, 0.574);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+  }
+
+  .LogoCIC {
+    border-radius: 3px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -45%);
+    width: 100px;
+    height: 100px;
+    background-image: url("../../assets/img/Logo2.png");
+    background-size: 100px 100px; /* Ajuster la taille de l'image */
+    background-position: center 20%;
+    background-repeat: no-repeat;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .InauguraMuraTexte h2 {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(63, 63, 72);
+    font-family: "Montserrat-ultra-light", Arial, Helvetica, sans-serif;
+  }
+  .InauguraMuraTexte h3 {
+    /* margin-top: 2px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(63, 63, 72);
+    font-family: "Montserrat-ultra-light", Arial, Helvetica, sans-serif;
+  }
+
+  .InauguraMuraTexte h4 {
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(63, 63, 72);
+    font-family: "Montserrat-medium", Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+  }
+
+  .InauguraMuraTexte p {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(63, 63, 72);
+    font-family: "Montserrat-medium", Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+  .ImagesContainer {
+    margin: 30px auto 0;
+    max-width: 1200px;
+    width: 100%; /* largeur du conteneur */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .ImagesContainer img {
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    max-width: 70%;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  .SalaEden h3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+    color: rgb(63, 63, 72);
+    font-family: "Montserrat-ultra-light", Arial, Helvetica, sans-serif;
+    margin-bottom: 8px;
+  }
+
+  .SalaEden p {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(63, 63, 72);
+    font-family: "Montserrat-medium", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .SalaEden {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .SalaEden img {
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    max-width: 70%;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  .MuseoPecci h3 {
+    margin-top: 60px;
+    color: rgb(63, 63, 72);
+    font-family: "Montserrat-ultra-light", Arial, Helvetica, sans-serif;
+    margin-bottom: 2px;
+  }
+  .MuseoPecci p {
+    font-size: 18px;
+    margin-top: 2px;
+    color: rgb(63, 63, 72);
+    font-family: "Montserrat-medium", Arial, Helvetica, sans-serif;
+  }
+
+  .MuseoPecci {
+    margin: 30px auto 0;
+    max-width: 1200px;
+    width: 100%; /* largeur du conteneur */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .MuseoPecci img {
+    margin-top: 20px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    max-width: 70%;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+}
+.CatalogoBoschetto {
+  margin-bottom: 20px;
+}
+.Boschetto {
+  margin: 30px auto 0;
+  max-width: 1200px;
+  width: 100%; /* largeur du conteneur */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Boschetto h2 {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(63, 63, 72);
+  font-family: "Montserrat-ultra-light", Arial, Helvetica, sans-serif;
+}
+.Boschetto p {
+  margin-top: 30px;
+  text-align: left;
+  display: flex;
+
+  color: rgb(63, 63, 72);
+  font-family: "Montserrat-medium", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.Boschetto img {
+  margin-top: 20px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  max-width: 30%;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.BoschettoCopertina {
+  margin: 30px auto 0;
+  max-width: 1200px;
+  width: 100%; /* largeur du conteneur */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.BoschettoCopertina img {
+  margin-top: 10px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 40px;
+}
+.iframe {
+  width: 800px;
+  height: 600px;
+}
+.large-iframe {
+  width: 800px;
+  height: 600px;
+}
+.Boschetto2 p {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(63, 63, 72);
+  font-family: "Montserrat-medium", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 1224px) {
+  .CielPage {
+    height: auto;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    min-height: 100vh;
+    margin-bottom: 20px;
+  }
+  .BandeRose {
+    position: relative;
+    margin: 0 auto;
+    height: 200px; /* Hauteur de la bande de couleur */
+    width: 100%; /* Largeur de la bande de couleur */
+    background-color: rgb(244, 227, 255); /* Couleur de la bande */
+    display: flex; /* Pour centrer le texte */
+    flex-direction: column; /* Pour descendre le texte */
+    justify-content: flex-end; /* Pour descendre le texte */
+    align-items: center; /* Pour centrer le texte */
+    text-align: center;
+    color: #211e1e; /* Couleur du texte */
+    /* font-size: 12px;  */
+    padding-bottom: 20px; /* Espacement entre le bas de la bande et le texte */
+  }
+  .Titolo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 12px !important;
+    width: 80% !important;
+    color: rgb(63, 63, 72);
+    font-family: "Montserrat-ultra-light", Arial, Helvetica, sans-serif;
+  }
+  .SottoTitolo {
+    width: 80% !important;
+    text-align: center;
+    margin-top: 115px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat-medium", Arial, Helvetica, sans-serif;
+    margin-bottom: 2px;
+
+    color: rgb(63, 63, 72);
+    font-size: 12px !important;
+  }
+
+  .InauguraMuraTexte h2 {
+    max-width: 80%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 10px auto;
+  }
+  .InauguraMuraTexte h3 {
+    /* margin-top: 20px; */
+    max-width: 80%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 20px auto;
+  }
+  .ImagesContainer img {
+    min-width: 95%;
+  }
+  .InauguraMuraTexte p {
+    font-family: "Montserrat-medium", Arial, Helvetica, sans-serif;
+    max-width: 80%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 20px auto;
+  }
+  .CICvideo iframe {
+    min-width: 95%;
+    height: 40vh;
+  }
+  .SalaEden h3 {
+    margin-top: 20px !important;
+  }
+  .SalaEden p {
+    min-width: 95%;
+  }
+  .SalaEden img {
+    min-width: 95%;
+  }
+  .MuseoPecci h3 {
+    margin-top: 2px !important;
+  }
+  .MuseoPecci p {
+    font-family: "Montserrat-medium", Arial, Helvetica, sans-serif;
+    min-width: 95%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .MuseoPecci img {
+    margin-top: 20px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    min-width: 95%;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+
+  .BoschettoCopertina img {
+    max-width: 95%;
+  }
+  .Boschetto p {
+    font-family: "Montserrat-medium", Arial, Helvetica, sans-serif;
+    min-width: 95%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .Boschetto img {
+    min-width: 95%;
+  }
+  .Boschetto2 p {
+    min-width: 95% !important;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    word-spacing: 2px;
+  }
+}
+.LogoCIC {
+  border-radius: 3px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80px !important;
+  height: 80px !important;
+  background-image: url("../../assets/img/Logo2.png");
+  background-size: 80px 80px !important; /* Ajuster la taille de l'image */
+  background-position: center 20%;
+  background-repeat: no-repeat;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}

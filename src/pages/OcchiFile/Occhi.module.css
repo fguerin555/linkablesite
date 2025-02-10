@@ -1,0 +1,115 @@
+.OcchiPage {
+  .OcchiContentContainer {
+    display: flex;
+    align-items: flex-start;
+    gap: 5px;
+    font-size: 26px;
+  }
+  .Corsi {
+    margin-bottom: 0;
+  }
+  .Corsi h1,
+  h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: "Montserrat-Medium", Arial, sans-serif;
+    color: rgb(73, 81, 111);
+  }
+  .Corsi p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 24px;
+    font-family: "Montserrat-Medium", Arial, sans-serif;
+    color: rgb(73, 81, 111);
+  }
+  .OcchiImageContainer {
+    width: 50%;
+    height: auto;
+    margin-bottom: 10;
+  }
+  .OcchiImageContainer img {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 100%;
+    height: auto;
+    border-radius: 3px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+    /* border-radius: 0; // Réinitialise le border-radius pour cette image */
+  }
+  .OcchiTextContainer {
+    margin-top: 8px;
+    text-align: justify;
+    margin-right: 25px;
+    margin-left: 20px;
+    font-family: "Montserrat-Medium", Arial, sans-serif;
+    color: rgb(73, 81, 111);
+    flex-basis: 50%;
+    width: 50%;
+  }
+
+  .Paragraphes {
+    margin-left: 2%;
+    width: 90%;
+    font-size: 24px;
+  }
+  .Paragraphes p {
+    word-spacing: 1px;
+  }
+}
+
+@media (max-width: 1224px) {
+  .OcchiContentContainer {
+    flex-direction: column;
+    width: 100%;
+  }
+  .OcchiImageContainer {
+    min-width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .OcchiImageContainer img {
+    margin-top: 10px;
+    max-width: 95%;
+  }
+  .OcchiTextContainer {
+    margin-top: 5px;
+    min-width: 100%;
+    margin: 0 auto !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Paragraphes {
+    margin: 10px auto !important;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Paragraphes p {
+    word-spacing: normal !important;
+    font-size: 12px;
+    margin: 0 auto !important;
+    font-size: 18px;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    text-align: justify;
+    /* word-spacing: normal !important; */
+  }
+}

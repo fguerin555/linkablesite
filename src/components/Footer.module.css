@@ -1,0 +1,50 @@
+.FooterBandeCouleur {
+  flex-direction: row;
+  height: 92px; /* Hauteur de la bande de couleur */
+  width: 100%;
+  background-color: rgba(54, 130, 212, 0.574);
+  display: flex;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+
+.FooterContactInfo {
+  padding: 10px;
+  flex-direction: column;
+  overflow: visible;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  gap: 5px;
+}
+.FooterTelephone,
+.FooterEmail {
+  margin-top: 0;
+  font-family: "Montserrat-Medium", Arial, sans-serif;
+  font-size: 1.5rem;
+  /* color: #0b34db; */
+  color: white;
+}
+@media (max-width: 1224px) {
+  .FooterContactInfo {
+    padding: 10px;
+    flex-direction: column;
+    overflow: visible;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 5px;
+  }
+  @media (max-width: 1224px) {
+    .FooterTelephone {
+      width: 100%;
+      font-size: 1rem;
+    }
+    .FooterEmail {
+      width: 100%;
+      font-size: 1rem;
+    }
+  }
+}

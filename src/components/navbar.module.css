@@ -1,0 +1,79 @@
+.navbar {
+  width: 100%;
+  display: flex;
+  box-sizing: border-box;
+  justify-content: flex-start; /* Déplacer les éléments vers la gauche */
+  align-items: center;
+  padding: 1em 2em;
+  background-color: rgb(144, 183, 230);
+  color: white;
+}
+
+.navbarLogo img {
+  border-radius: 3px;
+  box-shadow: 3px 3px 10px #0000001a;
+  width: 2em;
+  height: 2em;
+  margin-top: 8px;
+  margin-right: 0; /* Supprimer l'espace entre le logo et le bord gauche */
+}
+
+.navbarLinks {
+  font-family: "source-sans-pro.regular", Arial, sans-serif;
+  list-style: none;
+  display: flex; /* Utilisation de flexbox pour l'alignement */
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 90%;
+  justify-content: space-around;
+  /* Déplacer les liens de navigation vers la droite */
+}
+
+.navbarLinks li {
+  display: inline;
+}
+
+.navbarLinks a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+.navbarLinks a:hover {
+  color: #2a33e2; /* Exemple de changement de couleur au survol */
+}
+
+.navMenu li {
+  margin: 0 1em; /* Espacement entre les éléments de la liste */
+}
+
+@media (max-width: 1224px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start; /* Correction de la syntaxe */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .navbarLinks {
+    flex-direction: column;
+    gap: 10px;
+  }
+  @media (max-width: 480px) {
+    .navbar {
+      padding: 0.5em 1em;
+    }
+    .navbarLogo img {
+      width: 1.5em;
+      height: 1.5em;
+    }
+    .navbarLinks a {
+      font-size: 1.2rem;
+    }
+  }
+}

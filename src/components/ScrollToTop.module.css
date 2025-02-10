@@ -1,0 +1,11 @@
+@media (max-width: 1224px) {
+  .scroll-to-top {
+    display: display !important;
+    position: fixed;
+    bottom: 115px;
+    right: 2px;
+    width: 30px !important;
+    height: 30px !important;
+    z-index: 1000;
+  }
+}

@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/linkablesite/static/css/main.0cb55f42.css",
-    "main.js": "/linkablesite/static/js/main.a2f5eaa2.js",
-    "static/media/Lorenza.jpg": "/linkablesite/static/media/Lorenza.38d175c377d2db478477.jpg",
+    "main.js": "/linkablesite/static/js/main.51171bfd.js",
+    "static/media/Lorenza.jpg": "/linkablesite/static/media/Lorenza.f2064f784cfa976bac9f.jpg",
     "static/media/Dona.jpg": "/linkablesite/static/media/Dona.f52844176982f6be1304.jpg",
     "static/media/Murosonoro1.jpg": "/linkablesite/static/media/Murosonoro1.9433f028cbecda97bbc7.jpg",
     "static/media/salaEden.jpg": "/linkablesite/static/media/salaEden.5a163298716b7944cd00.jpg",
@@ -155,10 +155,10 @@
     "static/media/Nazione-2.png": "/linkablesite/static/media/Nazione-2.63625ec02132198a7af8.png",
     "index.html": "/linkablesite/index.html",
     "main.0cb55f42.css.map": "/linkablesite/static/css/main.0cb55f42.css.map",
-    "main.a2f5eaa2.js.map": "/linkablesite/static/js/main.a2f5eaa2.js.map"
+    "main.51171bfd.js.map": "/linkablesite/static/js/main.51171bfd.js.map"
   },
   "entrypoints": [
     "static/css/main.0cb55f42.css",
-    "static/js/main.a2f5eaa2.js"
+    "static/js/main.51171bfd.js"
   ]
 }

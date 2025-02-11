@@ -77,7 +77,7 @@ const Nuvola = () => {
                   <h3 className={styles.Nome}>Lorenza Ricci</h3>
                   <p className={styles.Paragraphe}>
                     Lorenza Ricci è una illustratrice romana da sempre
-                    appassionata di fumretti. Ama fondere diversi stili grafici
+                    appassionata di fumetti. Ama fondere diversi stili grafici
                     sperimentando l'utilizzo di differenti materiali. È
                     riconoscibile per i suoi bellissimi manga.
                   </p>
@@ -102,7 +102,7 @@ const Nuvola = () => {
                   <p className={styles.Paragraphe}>
                     Riccardo Colosimo, illustratore e disegnatore di fumetti,
                     dopo aver frequentato la Scuola Romana dei Fumetti dove ora
-                    insegna, ha pubblicato in Itaia e Francia; attualmente sta
+                    insegna, ha pubblicato in Italia e Francia; attualmente sta
                     disegnando una graphic novel per il mercato americano.
                   </p>
                 </div>

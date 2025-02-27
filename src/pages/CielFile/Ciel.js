@@ -35,8 +35,6 @@ const Ciel = () => {
           allowfullscreen
           alt="Video dell'inaugurazione di Ciel in Ciità sulle mura di Grosseto"
         />
-
-        {/* <button> Video dell'inaugurazione</button> */}
       </div>
       <div className={styles.Stampa}>
         <Link to="/Stampa">

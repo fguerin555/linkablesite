@@ -64,6 +64,18 @@
   .Paragraphes p {
     word-spacing: 1px;
   }
+  .Occhivideo {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+  }
+  .Occhivideo iframe {
+    border-radius: 10px;
+    border: 5px solid rgba(54, 130, 212, 0.574);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+  }
 }
 
 @media (max-width: 1224px) {

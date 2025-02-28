@@ -64,7 +64,7 @@ const Occhi = () => {
             </div>
           </div>
         </div>
-        <div className={styles.Occhivideo}>
+        {/* <div className={styles.Occhivideo}>
           <iframe
             width="560"
             height="315"
@@ -76,7 +76,7 @@ const Occhi = () => {
             allowfullscreen
             alt="Video del laboratorio di scultura Occhi nelle Mani"
           />
-        </div>
+        </div> */}
         <ScrollToTop />
         <BackButton />
       </div>

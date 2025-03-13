@@ -157,7 +157,9 @@ const About = () => {
           <h4>Viale Luigi Einaudi, 2 - 58100 GROSSETO</h4>
           <h3>C.F. 97994670582</h3>
           <h3>Data costituzione 23.11.2018</h3>
-          <h3>Contatti 389 639 11 50</h3>
+          <h3>
+            contatti<a href="tel:+393896391150">389 639 1150</a>
+          </h3>
           <h3>cielincitta@gmail.com </h3>
           <h3>irma.alonzo@pec.it</h3>
         </div>

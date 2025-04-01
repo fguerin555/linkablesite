@@ -29,7 +29,8 @@
     margin: 0 auto;
     height: auto; /* Hauteur de la bande de couleur */
     width: 100%; /* Largeur de la bande de couleur */
-    background-color: rgb(244, 227, 255); /* Couleur de la bande */
+    background-color: rgba(200, 251, 245, 0.831);
+    /* background-color: rgb(244, 227, 255);  Couleur de la bande  */
     display: flex; /* Pour centrer le texte */
     flex-direction: column; /* Pour descendre le texte */
     justify-content: flex-end; /* Pour descendre le texte */
@@ -47,7 +48,7 @@
   }
   .CICvideo iframe {
     border-radius: 10px;
-    border: 5px solid rgba(54, 130, 212, 0.574);
+    border: 5px solid #eab8f0;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
   }
 

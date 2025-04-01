@@ -54,7 +54,7 @@
     min-width: 100% !important;
     min-height: 300% !important;
     border-radius: 10px;
-    border: 5px solid rgba(54, 130, 212, 0.574);
+    border: 5px solid #eab8f0;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
   }
 }

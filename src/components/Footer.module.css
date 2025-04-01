@@ -2,7 +2,7 @@
   flex-direction: row;
   height: 92px; /* Hauteur de la bande de couleur */
   width: 100%;
-  background-color: rgba(54, 130, 212, 0.574);
+  background: linear-gradient(160deg, #eab8f0, #f5d97ea3);
   display: flex;
   padding-bottom: 10px;
   margin-top: 10px;
@@ -23,9 +23,19 @@
   margin-top: 0;
   font-family: "Montserrat-Medium", Arial, sans-serif;
   font-size: 1.5rem;
-  /* color: #0b34db; */
-  color: white;
 }
+
+.FooterTelephone a,
+.FooterEmail a {
+  color: #411a04;
+}
+
+.FooterTelephone a:hover,
+.FooterEmail a:hover {
+  color: white;
+  cursor: pointer;
+}
+
 @media (max-width: 1224px) {
   .FooterContactInfo {
     padding: 10px;

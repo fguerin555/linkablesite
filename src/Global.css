@@ -60,14 +60,14 @@ button {
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
-  background-color: rgba(144, 183, 230, 0.63);
+  background-color: #eab8f0a8 !important;
   color: beige;
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
   border: none;
   text-shadow: 2px 2px 4px #15459e;
 }
 button:hover {
-  background-color: rgb(230, 206, 247) !important;
+  background-color: #f5d97ea3 !important;
   transition: 0.2s;
 }
 a {

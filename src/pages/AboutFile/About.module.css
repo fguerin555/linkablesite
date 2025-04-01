@@ -46,6 +46,10 @@
     align-items: center;
     margin: 13px auto;
   }
+
+  .Dati h3 a {
+    color: rgb(86, 84, 84);
+  }
   .Presentazione h2 {
     display: flex;
     justify-content: center;

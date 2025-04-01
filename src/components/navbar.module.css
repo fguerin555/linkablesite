@@ -5,7 +5,7 @@
   justify-content: flex-start; /* Déplacer les éléments vers la gauche */
   align-items: center;
   padding: 1em 2em;
-  background-color: rgb(144, 183, 230);
+  background: linear-gradient(160deg, #eab8f0, #f5d97ea3);
   color: white;
 }
 
@@ -45,7 +45,7 @@
 }
 
 .navbarLinks a:hover {
-  color: #2a33e2; /* Exemple de changement de couleur au survol */
+  color: #411a04; /* Exemple de changement de couleur au survol */
 }
 
 .navMenu li {

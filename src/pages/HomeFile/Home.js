@@ -1,7 +1,7 @@
 import React from "react";
 import "../../Global.css";
-import { Link } from "react-router-dom";
 import styles from "./Home.module.css";
+import { Link } from "react-router-dom";
 import image1 from "../../assets/img/IRMA.jpeg";
 import image2 from "../../assets/img/VANESSA.jpg";
 import image3 from "../../assets/img/FREDERIC.jpeg";
@@ -24,12 +24,11 @@ const Home = () => {
           l'arte, luoghi degradati della città.
         </p>
         <div className={styles.BandeCouleur}>
+          <div className={styles.Logo}></div>
           <p className={styles.ParagTwo}>
-            {" "}
             L'associazione nasce nel 2018 durante l'ideazione del progetto
             Ciel'in Città a cui ha dato il nome.
           </p>
-          <div className={styles.Logo}></div>
         </div>
         <div className={styles.ImageContainer}>
           <div className={styles.ImageWrapper}>

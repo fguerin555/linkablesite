@@ -19,6 +19,17 @@
     font-family: "Montserrat-Medium", Arial, sans-serif;
     color: rgb(73, 81, 111);
   }
+  h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 20px;
+    font-family: "Montserrat-Medium", Arial, sans-serif;
+    color: rgb(73, 81, 111);
+  }
   .Corsi p {
     display: flex;
     align-items: center;
@@ -26,7 +37,7 @@
     text-align: center;
     margin-right: auto;
     margin-left: auto;
-    font-size: 24px;
+    font-size: 20px;
     font-family: "Montserrat-Medium", Arial, sans-serif;
     color: rgb(73, 81, 111);
   }

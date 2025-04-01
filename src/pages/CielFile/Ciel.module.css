@@ -4,27 +4,30 @@
   display: flex;
   flex-direction: column;
 
-  .Titolo {
+  .Titolo h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
     color: rgb(63, 63, 72);
     font-family: "Montserrat-ultra-light", Arial, Helvetica, sans-serif;
   }
-  .SottoTitolo {
-    margin-top: 115px;
+
+  .SottoTitolo p {
+    margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: "Montserrat-medium", Arial, Helvetica, sans-serif;
     margin-bottom: 2px;
     color: rgb(63, 63, 72);
-    font-size: 16px;
+    font-size: 24px;
   }
   .BandeRose {
     position: relative;
     margin: 0 auto;
-    height: 200px; /* Hauteur de la bande de couleur */
+    height: auto; /* Hauteur de la bande de couleur */
     width: 100%; /* Largeur de la bande de couleur */
     background-color: rgb(244, 227, 255); /* Couleur de la bande */
     display: flex; /* Pour centrer le texte */
@@ -70,9 +73,11 @@
     align-items: center;
     color: rgb(63, 63, 72);
     font-family: "Montserrat-ultra-light", Arial, Helvetica, sans-serif;
+    font-size: 20px;
   }
   .InauguraMuraTexte h3 {
     /* margin-top: 2px; */
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -81,7 +86,7 @@
   }
 
   .InauguraMuraTexte h4 {
-    font-size: 24px;
+    font-size: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -97,7 +102,7 @@
     align-items: center;
     color: rgb(63, 63, 72);
     font-family: "Montserrat-medium", Arial, Helvetica, sans-serif;
-    font-size: 24px;
+    font-size: 20px;
     margin-bottom: 5px;
   }
   .ImagesContainer {

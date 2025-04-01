@@ -23,9 +23,10 @@
     font-family: "Montserrat-Medium", Arial, sans-serif;
   }
   .BandeCouleur {
+    overflow: auto;
     position: relative;
     margin: 0 auto;
-    height: 200px; /* Hauteur de la bande de couleur */
+    height: 250px; /* Hauteur de la bande de couleur */
     width: 100%; /* Largeur de la bande de couleur */
     background-color: rgb(244, 227, 255); /* Couleur de la bande */
     display: flex; /* Pour centrer le texte */
@@ -40,20 +41,23 @@
   .Logo {
     border-radius: 3px;
     position: absolute;
-    top: 50%;
+    top: 50% !important;
     left: 50%;
+    bottom: 5px !important;
     transform: translate(-50%, -65%);
-    width: 150px;
-    height: 150px;
+    width: 150px !important;
+    height: 150px !important;
     background-image: url("../../assets/img/Logo2.png");
-    background-size: 150px 150px; /* Ajuster la taille de l'image */
+    background-size: 150px 150px !important; /* Ajuster la taille de l'image */
     background-position: center 20%;
     background-repeat: no-repeat;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
   }
 
   .ParagTwo {
-    margin: 5px auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
     font-size: 18px;
     font-family: "Montserrat-Medium", Arial, sans-serif;
     color: rgb(63, 63, 72);
@@ -72,6 +76,29 @@
 
     border-radius: 5px; /* Optionnel : ajoute des coins arrondis */
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+  }
+  .ImageContainer button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2px;
+    margin-bottom: 20px;
+    background-color: rgb(144, 183, 230);
+    color: beige;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+    border: none;
+    font-size: 12px;
+    text-shadow: 2px 2px 4px #15459e;
+  }
+  .ImageContainer a {
+    text-decoration: none;
   }
 
   .ImageWrapper {

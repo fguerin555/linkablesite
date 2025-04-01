@@ -4,8 +4,8 @@
     position: fixed;
     bottom: 115px;
     right: 2px;
-    width: 30px !important;
-    height: 30px !important;
+    width: 25px !important;
+    height: 25px !important;
     z-index: 1000;
   }
 }

@@ -12,9 +12,10 @@ const Occhi = () => {
         <div className={styles.Corsi}>
           <h1> GLI OCCHI NELLE MANI</h1>
           <h2>Inizio Laboratori di Scultura</h2>
-          <p>Insegnante: Irma Alonzo</p>
-          <p>Martedi 11 Febbraio - ore 15.30</p>
-          <p>Via Francesco Ferrucci, 5 </p>
+          <h3>Insegnante: Irma Alonzo</h3>
+          <p>Tutti i Martedi dal 11/02/2025 al 24/06/2025</p>
+          <p> Dalle ore 15.30 alle 17.30</p>
+          <p>Via Francesco Ferrucci, 5</p>
           <p>Grosseto</p>
         </div>
         <div className={styles.OcchiContentContainer}>

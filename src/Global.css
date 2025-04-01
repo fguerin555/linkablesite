@@ -42,7 +42,7 @@ body {
   margin: 0;
   box-sizing: 0;
   padding: 0;
-  background-color: rgb(222, 226, 229);
+  background-color: rgba(200, 251, 245, 0.831);
 }
 html {
   margin: 0;
@@ -60,14 +60,14 @@ button {
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
-  background-color: rgb(144, 183, 230);
+  background-color: rgba(144, 183, 230, 0.63);
   color: beige;
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
   border: none;
   text-shadow: 2px 2px 4px #15459e;
 }
 button:hover {
-  background-color: rgb(247, 37, 6) !important;
+  background-color: rgb(230, 206, 247) !important;
   transition: 0.2s;
 }
 a {

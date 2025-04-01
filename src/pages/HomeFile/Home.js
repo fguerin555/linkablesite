@@ -1,5 +1,6 @@
 import React from "react";
 import "../../Global.css";
+import { Link } from "react-router-dom";
 import styles from "./Home.module.css";
 import image1 from "../../assets/img/IRMA.jpeg";
 import image2 from "../../assets/img/VANESSA.jpg";
@@ -25,7 +26,7 @@ const Home = () => {
         <div className={styles.BandeCouleur}>
           <p className={styles.ParagTwo}>
             {" "}
-            l'associazione nasce nel 2018 durante l'ideazione del progetto
+            L'associazione nasce nel 2018 durante l'ideazione del progetto
             Ciel'in Città a cui ha dato il nome.
           </p>
           <div className={styles.Logo}></div>
@@ -35,16 +36,34 @@ const Home = () => {
             <img src={image1} alt="Irma Alonzo" />
             <p className={styles.ImageCaption}>Irma Alonzo </p>
             <p className={styles.ImageTitle}>Presidente</p>
+            <div className={styles.CuricIrma}>
+              <Link to="/curicIrma">
+                {" "}
+                <button>Curriculum</button>
+              </Link>
+            </div>
           </div>
           <div className={styles.ImageWrapper}>
             <img src={image2} alt="Vanessa Roghi" />
             <p className={styles.ImageCaption}>Vanessa Roghi</p>
             <p className={styles.ImageTitle}>Vicepresidente</p>
+            <div className={styles.CuricVanessa}>
+              <Link to="/curicVanessa">
+                {" "}
+                <button>Curriculum</button>
+              </Link>
+            </div>
           </div>
           <div className={styles.ImageWrapper}>
             <img src={image3} alt="Frédéric Guérin" />
             <p className={styles.ImageCaption}>Frédéric Guérin</p>
             <p className={styles.ImageTitle}>Segretario</p>
+            <div className={styles.CuricFred}>
+              <Link to="/curicFred">
+                {" "}
+                <button>Curriculum</button>
+              </Link>
+            </div>
           </div>
         </div>
       </div>

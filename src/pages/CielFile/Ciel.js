@@ -18,10 +18,12 @@ const Ciel = () => {
     <div className={styles.CielPage}>
       <div className={styles.BandeRose}>
         <div className={styles.LogoCIC}></div>
-        <h1 className={styles.Titolo}>PROGETTO CIEL'IN CITTÀ</h1>
-        <p className={styles.SottoTitolo}>
-          Un idea, anzi una necessità di Irma Alonzo
-        </p>
+        <div className={styles.Titolo}>
+          <h1>PROGETTO CIEL'IN CITTÀ</h1>
+        </div>
+        <div className={styles.SottoTitolo}>
+          <p> Un idea, anzi una necessità di Irma Alonzo </p>
+        </div>
       </div>{" "}
       <div className={styles.CICvideo}>
         <iframe

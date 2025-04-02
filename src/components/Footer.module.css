@@ -1,6 +1,6 @@
 .FooterBandeCouleur {
   flex-direction: row;
-  height: 92px; /* Hauteur de la bande de couleur */
+  height: 85px; /* Hauteur de la bande de couleur */
   width: 100%;
   background: linear-gradient(160deg, #eab8f0, #f5d97ea3);
   display: flex;

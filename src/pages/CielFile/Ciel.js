@@ -17,10 +17,10 @@ const Ciel = () => {
   return (
     <div className={styles.CielPage}>
       <div className={styles.BandeRose}>
-        <div className={styles.LogoCIC}></div>
         <div className={styles.Titolo}>
           <h1>PROGETTO CIEL'IN CITTÀ</h1>
         </div>
+        <div className={styles.LogoCIC}></div>
         <div className={styles.SottoTitolo}>
           <p> Un idea, anzi una necessità di Irma Alonzo </p>
         </div>

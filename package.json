@@ -34,8 +34,14 @@
   "browserslist": {
     "production": [
       ">0.2%",
-      "not dead",
-      "not op_mini all"
+      "last 5 versions",
+      "Firefox >= 52",
+      "Chrome >= 49",
+      "Safari >= 10",
+      "iOS >= 10",
+      "Edge >=  15",
+      "IE 11",
+      "not dead"
     ],
     "development": [
       "last 1 chrome version",
@@ -44,6 +50,8 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.3.0"
+    "autoprefixer": "^10.4.21",
+    "gh-pages": "^6.3.0",
+    "postcss": "^8.5.3"
   }
 }

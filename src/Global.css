@@ -49,6 +49,10 @@ html {
   padding: 0;
 }
 button {
+ display: -webkit-box;  /* Pour les anciens navigateurs WebKit */
+    display: -moz-box;     /* Pour les anciens navigateurs Firefox */
+    display: -ms-flexbox;  /* Pour les anciens navigateurs Internet Explorer 10 */
+    display: -webkit-flex; /* Pour les anciens navigateurs Chrom
   display: flex;
   justify-content: center;
   align-items: center;

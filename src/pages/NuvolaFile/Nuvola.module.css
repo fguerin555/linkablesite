@@ -1,5 +1,9 @@
 .NuvolaPage {
   .NuvolaContentContainer {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
     align-items: flex-start;
     gap: 20px;
@@ -19,6 +23,8 @@
     height: auto;
     border-radius: 5px;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
   }
 
   .NuvolaTextcontainer {
@@ -43,10 +49,13 @@
     margin-bottom: 375px !important;
   }
   .Bvideo {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
     justify-content: center;
     align-items: center;
-
     margin-right: 40%;
     margin-left: 0;
   }
@@ -56,6 +65,8 @@
     border-radius: 10px;
     border: 5px solid #eab8f0;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
   }
 }
 .Part2 h1 {
@@ -63,6 +74,10 @@
   color: rgb(112, 108, 108);
   margin-bottom: 40px;
   font-size: 30px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -71,6 +86,10 @@
 }
 
 .Fumetti .ArtistPackage {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -83,6 +102,8 @@
   margin-left: 20px;
   border-radius: 5px;
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
   margin-bottom: 20px;
 }
 
@@ -97,6 +118,10 @@
 
 .Fumetti .ArtistPackage .Paragraphe {
   font-family: "Montserrat-Medium", Arial, sans-serif;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   flex-basis: 80%;
   color: rgb(86, 84, 84);
@@ -113,6 +138,10 @@
     .NuvolaContentContainer {
       max-width: 100%;
       margin-bottom: 2px;
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
       display: flex;
       flex-direction: column;
       margin: 0 auto;
@@ -121,6 +150,10 @@
       margin-left: auto;
     }
     .NuvolaLocandina {
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -138,6 +171,8 @@
       height: auto;
       border-radius: 5px;
       box-shadow: 3px 3px 10px rgba(11, 11, 11, 0.3);
+      -webkit-box-shadow: 3px 3px 10px rgba(11, 11, 11, 0.3);
+      -moz-box-shadow: 3px 3px 10px rgba(11, 11, 11, 0.3);
       margin-bottom: 0;
       margin-right: auto;
       margin-left: auto;
@@ -149,6 +184,10 @@
 
     .p1 {
       flex-direction: column;
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -160,6 +199,10 @@
     }
     .p2 {
       flex-direction: column;
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
       display: flex;
       justify-content: center;
       align-items: justify;
@@ -172,6 +215,10 @@
     }
     .p3 {
       flex-direction: column;
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
       display: flex;
       justify-content: center;
       align-self: auto;
@@ -184,10 +231,13 @@
     }
     .Part2 h1 {
       color: rgb(112, 108, 108);
-
       width: 40px;
       margin-bottom: 40px;
       font-size: 20px;
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
       display: flex;
       justify-content: center;
       text-align: center;
@@ -197,6 +247,10 @@
     }
 
     .Fumetti .ArtistPackage {
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
       display: flex;
       flex-direction: column;
       align-items: flex-start;
@@ -209,9 +263,15 @@
       height: auto;
       border-radius: 5px;
       box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+      -webkit-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+      -moz-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
     }
 
     .Fumetti .ArtistPackage .Nome {
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -224,6 +284,10 @@
 
     .Fumetti .ArtistPackage .Paragraphe {
       font-family: "Montserrat-Medium", Arial, sans-serif;
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
       display: flex;
       justify-content: center;
       align-items: center;

@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/linkablesite/static/css/main.1b1ea2ad.css",
+    "main.css": "/linkablesite/static/css/main.cd08857e.css",
     "main.js": "/linkablesite/static/js/main.ef2c9168.js",
     "static/media/Lorenza.jpg": "/linkablesite/static/media/Lorenza.f9d96f9b428e0d09af01.jpg",
     "static/media/Dona.jpg": "/linkablesite/static/media/Dona.f52844176982f6be1304.jpg",
@@ -154,11 +154,11 @@
     "static/media/Logo2.png": "/linkablesite/static/media/Logo2.20196c89365037414b24.png",
     "static/media/Nazione-2.png": "/linkablesite/static/media/Nazione-2.63625ec02132198a7af8.png",
     "index.html": "/linkablesite/index.html",
-    "main.1b1ea2ad.css.map": "/linkablesite/static/css/main.1b1ea2ad.css.map",
+    "main.cd08857e.css.map": "/linkablesite/static/css/main.cd08857e.css.map",
     "main.ef2c9168.js.map": "/linkablesite/static/js/main.ef2c9168.js.map"
   },
   "entrypoints": [
-    "static/css/main.1b1ea2ad.css",
+    "static/css/main.cd08857e.css",
     "static/js/main.ef2c9168.js"
   ]
 }

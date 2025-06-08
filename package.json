@@ -2,9 +2,10 @@
   "name": "linkablesite",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://fguerin555.github.io/linkablesite",
+  "homepage": "https://cielincitta.org",
   "dependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@babel/preset-env": "^7.24.0",
     "cra-template": "1.2.0",
     "deploy": "^1.0.3",
     "npm": "^10.9.2",
@@ -14,6 +15,7 @@
     "react-responsive": "^10.0.0",
     "react-router-dom": "^6.29.0",
     "react-scripts": "5.0.1",
+    "regenerator-runtime": "^0.14.1",
     "run": "^1.5.0",
     "styled-components": "^6.1.14"
   },
@@ -33,15 +35,9 @@
   },
   "browserslist": {
     "production": [
-      ">0.2%",
-      "last 5 versions",
-      "Firefox >= 52",
-      "Chrome >= 49",
-      "Safari >= 10",
-      "iOS >= 10",
-      "Edge >=  15",
-      "IE 11",
-      "not dead"
+      ">1%",
+      "last 2 versions",
+      "IE 11"
     ],
     "development": [
       "last 1 chrome version",
@@ -51,6 +47,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.21",
+    "core-js": "^3.36.0",
     "gh-pages": "^6.3.0",
     "postcss": "^8.4.31",
     "postcss-flexbugs-fixes": "^5.0.2"

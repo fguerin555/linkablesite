@@ -33,7 +33,10 @@
     margin: 0 auto;
     height: 250px; /* Hauteur de la bande de couleur */
     width: 100%; /* Largeur de la bande de couleur */
-    background: linear-gradient(160deg, #eab8f0, #f5d97ea3);
+    /* background: linear-gradient(160deg, #eab8f0, #f5d97ea3); */
+    /* background: rgba(200, 251, 245, 0.831); */
+    /* background-color: #90bcf288; */
+    background-color: #e7edefb5;
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
@@ -228,7 +231,7 @@
     color: rgb(113, 171, 242);
   }
 }
-@media (max-width: 1224px) {
+@media (max-width: 509px) {
   .Logo {
     width: 100px !important;
     height: 100px !important;

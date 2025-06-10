@@ -5,7 +5,9 @@
   justify-content: flex-start; /* Déplacer les éléments vers la gauche */
   align-items: center;
   padding: 1em 2em;
-  background: linear-gradient(160deg, #eab8f0, #f5d97ea3);
+  /* background: linear-gradient(160deg, #eab8f0, #f5d97ea3); */
+  /* background: rgba(200, 251, 245, 0.831); */
+  background-color: #90bcf220;
 }
 
 .navbarLogo img {
@@ -37,15 +39,19 @@
 }
 
 .navbarLinks a {
+  font-family: "Montserrat-Medium", Arial, sans-serif;
   text-decoration: none;
-  color: #411a04;
-
+  /* color: rgb(27, 77, 139); */
+  color: #6477a6;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
   font-size: 1.5rem;
   transition: color 0.3s ease;
 }
 
 .navbarLinks a:hover {
-  color: #fff; /* Exemple de changement de couleur au survol */
+  color: #f9210d;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
 }
 
 .navMenu li {

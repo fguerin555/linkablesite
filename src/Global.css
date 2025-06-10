@@ -42,7 +42,9 @@ body {
   margin: 0;
   box-sizing: 0;
   padding: 0;
-  background-color: rgba(200, 251, 245, 0.831);
+  /* background-color: rgba(200, 251, 245, 0.831); */
+  /* background-color: #90bcf2; */
+  background-color: #e7edefb5;
 }
 html {
   margin: 0;
@@ -64,14 +66,15 @@ button {
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
-  background-color: #eab8f0a8 !important;
+  font-family: "Montserrat-Bold";
+  background-color: #90bcf2 !important;
   color: beige;
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
   border: none;
   text-shadow: 2px 2px 4px #15459e;
 }
 button:hover {
-  background-color: #f5d97ea3 !important;
+  background-color: #f9210d !important;
   transition: 0.2s;
 }
 a {

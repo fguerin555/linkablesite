@@ -28,6 +28,13 @@
   width: 100vw; /* Largeur de chaque image */
   /* height: 80vw;  */
 }
+.LinksFred {
+  margin-left: 20px;
+  font-family: "Montserrat-Medium", Arial, sans-serif;
+  color: black;
+  font-size: 30px;
+}
+
 .CuricVanessa img {
   object-fit: contain;
   display: flex;

@@ -17,6 +17,22 @@ const CuricFred = () => {
         <img src={image105} alt="Page 3 curriculum Frederic Guerin" />
         <img src={image106} alt="Page 4 curriculum Frederic Guerin" />
         <img src={image107} alt="Page 5 curriculum Frederic Guerin" />
+        {/* <div className={Styles.LinksFred}>
+          <a
+            href="https://fguerin555.github.io/music-guerin/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <p>site Musiques</p>
+          </a>
+          <a
+            href="https://fguerin555.github.io/fguerin-painting/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <p>site Peinture</p>
+          </a>
+        </div> */}
       </div>
       <ScrollToTop />
       <BackButton />

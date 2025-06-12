@@ -86,3 +86,29 @@ a {
     padding: 5px 8px !important;
   }
 }
+
+:root {
+  --bg-color: #ffffff;
+  --text-color: #1a1a1a;
+  --accent-color: #c1442e; /* rouge brique */
+  --link-color: #2a6f97; /* bleu doux */
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-color: #121212;
+    --text-color: #f0f0f0;
+    --accent-color: #ff6b4a;
+    --link-color: #7ec9f5;
+  }
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+a {
+  color: var(--link-color);
+}

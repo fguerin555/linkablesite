@@ -1,6 +1,10 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Ciel'in Citta",
+  "name": "Associazione Ciel'in Citta",
+  "description": "Associazione culturale e spocilale contro l'abandonno scolastico e per le personne fragile, Arte, culturale",
+  "start_url": "/",
+  "display": "standalone",
+
   "icons": [
     {
       "src": "favicon.ico",
@@ -18,8 +22,7 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": ".",
-  "display": "standalone",
+
   "theme_color": "#000000",
   "background_color": "#ffffff"
 }

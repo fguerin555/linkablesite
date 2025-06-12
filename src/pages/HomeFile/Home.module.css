@@ -146,7 +146,7 @@
   .ImageTitle {
     font-size: 20px;
     margin-top: 1px;
-    font-weight: bold;
+    font-family: "Montserrat-Medium", Arial, sans-serif;
     color: rgb(113, 171, 242);
   }
 }

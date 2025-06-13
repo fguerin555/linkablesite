@@ -1,4 +1,4 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
 Allow: /
-Sitemap: https://cielincitta.org/sitemap.xml
+Sitemap: https://cielincitta.org/sitemap1.xml

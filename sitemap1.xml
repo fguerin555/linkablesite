@@ -9,10 +9,48 @@
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 
+
+
 <url>
   <loc>https://cielincitta.org/</loc>
   <lastmod>2025-06-13T14:26:55+00:00</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>1.0</priority>
+</url>
+
+ <url>
+  <loc>https://cielincitta.org/home</loc>
+  <lastmod>2025-06-13T14:26:55+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
+</url>
+
+<url>
+  <loc>https://cielincitta.org/about</loc>
+  <lastmod>2025-06-13T14:26:55+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.8</priority>
 </url>
 
 
+<url>
+  <loc>https://cielincitta.org/ciel</loc>
+  <lastmod>2025-06-13T14:26:55+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.7</priority>
+</url>
+
+<url>
+  <loc>https://cielincitta.org/nuvola</loc>
+  <lastmod>2025-06-13T14:26:55+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.7</priority>
+</url>
+
+<url>
+  <loc>https://cielincitta.org/occhi</loc>
+  <lastmod>2025-06-13T14:26:55+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.7</priority>
+</url>
 </urlset>

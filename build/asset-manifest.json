@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.97cb2a73.css",
-    "main.js": "/static/js/main.26a2beb8.js",
+    "main.js": "/static/js/main.f0b9116b.js",
     "static/media/Lorenza.jpg": "/static/media/Lorenza.f9d96f9b428e0d09af01.jpg",
     "static/media/Dona.jpg": "/static/media/Dona.f52844176982f6be1304.jpg",
     "static/media/Murosonoro1.jpg": "/static/media/Murosonoro1.9433f028cbecda97bbc7.jpg",
@@ -155,10 +155,10 @@
     "static/media/Nazione-2.png": "/static/media/Nazione-2.63625ec02132198a7af8.png",
     "index.html": "/index.html",
     "main.97cb2a73.css.map": "/static/css/main.97cb2a73.css.map",
-    "main.26a2beb8.js.map": "/static/js/main.26a2beb8.js.map"
+    "main.f0b9116b.js.map": "/static/js/main.f0b9116b.js.map"
   },
   "entrypoints": [
     "static/css/main.97cb2a73.css",
-    "static/js/main.26a2beb8.js"
+    "static/js/main.f0b9116b.js"
   ]
 }

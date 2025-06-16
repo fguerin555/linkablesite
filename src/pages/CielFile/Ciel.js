@@ -52,6 +52,7 @@ const Ciel = () => {
           content="Progetto Ciel'in Città | Parco di sculture-gioco"
         />
       </Helmet>
+      <link rel="canonical" href="https://cielincitta.org/ciel" />
       <div className={styles.CielPage}>
         <div className={styles.BandeRose}>
           <div className={styles.Titolo}>

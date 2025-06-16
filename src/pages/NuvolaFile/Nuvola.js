@@ -14,6 +14,7 @@ const Nuvola = () => {
     <div>
       <Helmet>
         <title>Nuvola Bianca | Arte, Fumetto e Educazione</title>
+        <link rel="canonical" href="https://cielincitta.org/nuvola" />
         <meta
           name="description"
           content="Scopri il progetto Nuvola Bianca: un'iniziativa che valorizza il fumetto come espressione artistica e strumento educativo contro l'abbandono scolastico."

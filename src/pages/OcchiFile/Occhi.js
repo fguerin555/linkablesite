@@ -11,6 +11,7 @@ const Occhi = () => {
     <div>
       <Helmet>
         <title>Gli Occhi nelle Mani | Arte e Inclusione Sociale</title>
+        <link rel="canonical" href="https://cielincitta.org/occhi" />
         <meta
           name="description"
           content="Scopri il progetto Gli Occhi nelle Mani: laboratori di scultura e percorsi sensoriali per persone non vedenti e ipovedenti, in collaborazione con il Museo Archeologico di Grosseto."

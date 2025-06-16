@@ -14,6 +14,7 @@ const Home = () => {
         <title>
           Ciel'in Città | Associazione culturale e progetti educativi
         </title>
+        <link rel="canonical" href="https://cielincitta.org/home" />
         <meta
           name="description"
           content="Ciel'in Città è un'associazione culturale che propone progetti innovativi di arte ed educazione per contrastare l'abbandono scolastico e riqualificare spazi urbani."

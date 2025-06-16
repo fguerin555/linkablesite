@@ -16,6 +16,7 @@ const About = () => {
       {/* Balises Meta SEO */}
       <Helmet>
         <title>À propos - Ciel'in Città | Association culturelle</title>
+        <link rel="canonical" href="https://cielincitta.org/about" />
         <meta
           name="description"
           content="Découvrez l'association Ciel'in Città, ses projets artistiques et éducatifs pour lutter contre la pauvreté scolaire et urbaine."

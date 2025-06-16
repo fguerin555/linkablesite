@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet-async";
 import "../../Global.css";
 import styles from "./Home.module.css";
 import { Link } from "react-router-dom";
@@ -9,6 +10,47 @@ import image3 from "../../assets/img/FREDERIC.jpeg";
 const Home = () => {
   return (
     <div>
+      <Helmet>
+        <title>
+          Ciel'in Città | Associazione culturale e progetti educativi
+        </title>
+        <meta
+          name="description"
+          content="Ciel'in Città è un'associazione culturale che propone progetti innovativi di arte ed educazione per contrastare l'abbandono scolastico e riqualificare spazi urbani."
+        />
+        <meta
+          name="keywords"
+          content="Ciel'in Città, Associazione culturale, Arte, Educazione, Inclusione, Grosseto, Scultura, Laboratori artistici, Progetti sociali"
+        />
+        <meta name="author" content="Associazione Ciel'in Città" />
+
+        {/* Open Graph per Facebook e social media */}
+        <meta
+          property="og:title"
+          content="Ciel'in Città | Arte e Educazione per tutti"
+        />
+        <meta
+          property="og:description"
+          content="Scopri Ciel'in Città, un'associazione che usa l'arte per educare e trasformare gli spazi urbani. Un progetto innovativo a Grosseto."
+        />
+        <meta
+          property="og:image"
+          content="https://cielincitta.org/assets/img/Logo2.png"
+        />
+        <meta property="og:url" content="https://cielincitta.org/" />
+
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="Ciel'in Città | Arte ed Educazione"
+        />
+        <meta
+          name="twitter:description"
+          content="Progetti artistici e sociali per l'inclusione e la cultura, promossi dall'associazione Ciel'in Città."
+        />
+      </Helmet>
+
       <div className={styles.HomePage}>
         <div className={styles.Arte}>
           <h1>L'ARTE È NECESSARIA</h1>

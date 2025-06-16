@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
 import "../../Global.css";
 import styles from "./About.module.css";
@@ -12,6 +13,32 @@ import image3 from "../../assets/img/FREDERIC.jpeg";
 const About = () => {
   return (
     <div>
+      {/* Balises Meta SEO */}
+      <Helmet>
+        <title>À propos - Ciel'in Città | Association culturelle</title>
+        <meta
+          name="description"
+          content="Découvrez l'association Ciel'in Città, ses projets artistiques et éducatifs pour lutter contre la pauvreté scolaire et urbaine."
+        />
+        <meta
+          name="keywords"
+          content="Ciel'in Città, Association, Art, Éducation, Grosseto, Projets sociaux"
+        />
+        <meta name="author" content="Associazione Ciel'in Città" />
+        <meta property="og:title" content="À propos de Ciel'in Città" />
+        <meta
+          property="og:description"
+          content="Ciel'in Città : une association dédiée à l'art et l'éducation pour transformer les espaces urbains."
+        />
+        <meta
+          property="og:image"
+          content="https://cielincitta.org/assets/img/Logo2.png"
+        />
+        <meta property="og:url" content="https://cielincitta.org/about" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="À propos - Ciel'in Città" />
+      </Helmet>
+
       <div className={styles.AboutPage}>
         <div className={styles.Logo2}>
           <img src={logo} alt="Logo Ciel'in Città" />{" "}

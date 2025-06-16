@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet-async";
 import "../../Global.css";
 import styles from "./Occhi.module.css";
 import image6 from "../../assets/img/LocandinaONM.jpg";
@@ -8,6 +9,45 @@ import BackButton from "../../components/BackButton";
 const Occhi = () => {
   return (
     <div>
+      <Helmet>
+        <title>Gli Occhi nelle Mani | Arte e Inclusione Sociale</title>
+        <meta
+          name="description"
+          content="Scopri il progetto Gli Occhi nelle Mani: laboratori di scultura e percorsi sensoriali per persone non vedenti e ipovedenti, in collaborazione con il Museo Archeologico di Grosseto."
+        />
+        <meta
+          name="keywords"
+          content="Gli Occhi nelle Mani, arte inclusiva, scultura, tatto, accessibilità, Grosseto, Museo Archeologico, Auser, Unione Ciechi, cultura"
+        />
+        <meta name="author" content="Associazione Ciel'in Città" />
+
+        {/* Open Graph per Facebook e social media */}
+        <meta
+          property="og:title"
+          content="Gli Occhi nelle Mani | Arte e Inclusione Sociale"
+        />
+        <meta
+          property="og:description"
+          content="Laboratori artistici e percorsi sensoriali per favorire l’inclusione delle persone non vedenti. Un progetto di Ciel'in Città con il Museo Archeologico di Grosseto."
+        />
+        <meta
+          property="og:image"
+          content="https://cielincitta.org/assets/img/LocandinaONM.jpg"
+        />
+        <meta property="og:url" content="https://cielincitta.org/occhi" />
+
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="Gli Occhi nelle Mani | Arte e Inclusione Sociale"
+        />
+        <meta
+          name="twitter:description"
+          content="Scopri il progetto artistico e sensoriale per la comunità non vedente e ipovedente, promosso da Ciel'in Città."
+        />
+      </Helmet>
+
       <div className={styles.OcchiPage}>
         <div className={styles.Corsi}>
           <h1> GLI OCCHI NELLE MANI</h1>

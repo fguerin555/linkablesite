@@ -1,5 +1,6 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HelmetProvider } from "react-helmet-async";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./Global.css";
 import Home from "./pages/HomeFile/Home";
 import About from "./pages/AboutFile/About";
@@ -18,28 +19,30 @@ import Footer from "./components/Footer";
 
 const App = () => {
   return (
-    <Router>
-      <div>
-        <Navbar />
+    <HelmetProvider>
+      <BrowserRouter>
+        <div>
+          <Navbar />
 
-        <Routes>
-          <Route path="/linkablesite" element={<Home />} />
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/ciel" element={<Ciel />} />
-          <Route path="/nuvola" element={<Nuvola />} />
-          <Route path="/occhi" element={<Occhi />} />
-          <Route path="/catalogo" element={<Catalogo />} />
-          <Route path="/curicIrma" element={<CuricIrma />} />
-          <Route path="/curicFred" element={<CuricFred />} />
-          <Route path="/curicVanessa" element={<CuricVanessa />} />
-          <Route path="/pecci" element={<Pecci />} />
-          <Route path="/stampa" element={<Stampa />} />
-          <Route path="/tirreno" element={<Tirreno />} />
-        </Routes>
-        <Footer />
-      </div>
-    </Router>
+          <Routes>
+            <Route path="/linkablesite" element={<Home />} />
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/ciel" element={<Ciel />} />
+            <Route path="/nuvola" element={<Nuvola />} />
+            <Route path="/occhi" element={<Occhi />} />
+            <Route path="/catalogo" element={<Catalogo />} />
+            <Route path="/curicIrma" element={<CuricIrma />} />
+            <Route path="/curicFred" element={<CuricFred />} />
+            <Route path="/curicVanessa" element={<CuricVanessa />} />
+            <Route path="/pecci" element={<Pecci />} />
+            <Route path="/stampa" element={<Stampa />} />
+            <Route path="/tirreno" element={<Tirreno />} />
+          </Routes>
+          <Footer />
+        </div>
+      </BrowserRouter>
+    </HelmetProvider>
   );
 };
 export default App;

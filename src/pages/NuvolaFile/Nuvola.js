@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet-async";
 import "../../Global.css";
 import styles from "./Nuvola.module.css";
 import ScrollToTop from "../../components/ScrollToTop";
@@ -11,6 +12,45 @@ import image11 from "../../assets/img/cortoMaltese.jpg";
 const Nuvola = () => {
   return (
     <div>
+      <Helmet>
+        <title>Nuvola Bianca | Arte, Fumetto e Educazione</title>
+        <meta
+          name="description"
+          content="Scopri il progetto Nuvola Bianca: un'iniziativa che valorizza il fumetto come espressione artistica e strumento educativo contro l'abbandono scolastico."
+        />
+        <meta
+          name="keywords"
+          content="Nuvola Bianca, fumetto, arte, educazione, inclusione, scuole, Grosseto, disegno, illustrazione"
+        />
+        <meta name="author" content="Associazione Ciel'in Città" />
+
+        {/* Open Graph per Facebook e social media */}
+        <meta
+          property="og:title"
+          content="Nuvola Bianca | Arte, Fumetto e Educazione"
+        />
+        <meta
+          property="og:description"
+          content="Un progetto innovativo che porta il fumetto nelle scuole e nelle biblioteche per favorire la creatività e l'inclusione sociale."
+        />
+        <meta
+          property="og:image"
+          content="https://cielincitta.org/assets/img/LOCANDINA-Seminari.jpg"
+        />
+        <meta property="og:url" content="https://cielincitta.org/nuvola" />
+
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="Nuvola Bianca | Arte, Fumetto e Educazione"
+        />
+        <meta
+          name="twitter:description"
+          content="Il fumetto come strumento artistico e educativo per contrastare l'abbandono scolastico e promuovere l'arte."
+        />
+      </Helmet>
+
       <div className={styles.NuvolaPage}>
         <div className={styles.CICbody}>
           <div className={styles.NuvolaContentContainer}>

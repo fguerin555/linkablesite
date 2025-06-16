@@ -5,7 +5,6 @@
   "homepage": "https://cielincitta.org",
   "dependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
-    "@babel/preset-env": "^7.24.0",
     "@react-pdf-viewer/core": "^3.12.0",
     "@react-pdf-viewer/default-layout": "^3.12.0",
     "cra-template": "1.2.0",
@@ -38,14 +37,20 @@
   },
   "browserslist": {
     "production": [
-      "since 2022",
-      "not dead"
+      "> 0.5%",
+      "last 5 versions",
+      "not dead",
+      "IE 11"
     ],
     "development": [
-      "since 2022"
+      "last 1 chrome version"
     ]
   },
   "devDependencies": {
+    "@babel/cli": "^7.27.2",
+    "@babel/core": "^7.27.4",
+    "@babel/preset-env": "^7.27.2",
+    "@babel/preset-react": "^7.27.1",
     "gh-pages": "^6.3.0"
   }
 }

@@ -1,46 +1,47 @@
 @font-face {
   font-family: font-montserrat-medium;
-  src: url("./assets/fonts/Montserrat-Medium.ttf") format("ttf");
+  src: url("./assets/fonts/Montserrat-Medium.woff2") format("woff2"),
+    url("./assets/fonts/Montserrat-Medium.woff") format("woff"),
+    url("./assets/fonts/Montserrat-Medium.ttf") format("truetype");
+}
 
+@font-face {
   font-family: font-montserrat-medium-italic;
-  src: url("./assets/fonts/Montserrat-MediumItalic.ttf") format("ttf");
+  src: url("./assets/fonts/Montserrat-MediumItalic.woff2") format("woff2"),
+    url("./assets/fonts/Montserrat-MediumItalic.woff") format("woff"),
+    url("./assets/fonts/Montserrat-MediumItalic.ttf") format("truetype");
+}
 
+@font-face {
   font-family: font-montserrat-regular;
-  src: url("./assets/fonts/Montserrat-Regular.ttf") format("ttf");
-
-  font-family: font-montserrat-light;
-  src: url("./assets/fonts/Montserrat-Light.ttf") format("ttf");
-
-  font-family: font-montserrat-light-italic;
-  src: url("./assets/fonts/Montserrat-LightItalic.ttf") format("ttf");
-
-  font-family: font-montserrat-thin;
-  src: url("./assets/fonts/Montserrat-Thin.ttf") format("ttf");
-
-  font-family: font-montserrat-thin-italic;
-  src: url("./assets/fonts/Montserrat-ThinItalic.ttf") format("ttf");
-
-  font-family: font-montserrat-extra-light;
-  src: url("./assets/fonts/Montserrat-ExtraLight.ttf") format("ttf");
-
-  font-family: font-montserrat-extra-ligth-italic;
-  src: url("./assets/fonts/Montserrat-ExtraLightItalic.ttf") format("ttf");
+  src: url("./assets/fonts/Montserrat-Regular.woff2") format("woff2"),
+    url("./assets/fonts/Montserrat-Regular.woff") format("woff"),
+    url("./assets/fonts/Montserrat-Regular.ttf") format("truetype");
 }
 
 @font-face {
   font-family: font-source-sans-pro;
-  src: url("./assets/fonts/source-sans-pro.regular.ttf") format("ttf");
+  src: url("./assets/fonts/SourceSansPro-Regular.woff2") format("woff2"),
+    url("./assets/fonts/SourceSansPro-Regular.woff") format("woff"),
+    url("./assets/fonts/SourceSansPro-Regular.ttf") format("truetype");
 }
 
 @font-face {
   font-family: font-Josefin-Sans-Medium;
-  src: url("./assets/fonts/JosefinSans-Medium.ttf") format("ttf");
+  src: url("./assets/fonts/JosefinSans-Medium.woff2") format("woff2"),
+    url("./assets/fonts/JosefinSans-Medium.woff") format("woff"),
+    url("./assets/fonts/JosefinSans-Medium.ttf") format("truetype");
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
 body {
   max-width: 100%;
   margin: 0;
-  box-sizing: 0;
   padding: 0;
   /* background-color: rgba(200, 251, 245, 0.831); */
   /* background-color: #90bcf2; */
@@ -50,7 +51,15 @@ html {
   margin: 0;
   padding: 0;
 }
+
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain; /* Ou cover selon ton besoin */
+}
+
 button {
+  display: block; /* Fallback */
   display: -webkit-box; /* Pour les anciens navigateurs WebKit */
   display: -moz-box; /* Pour les anciens navigateurs Firefox */
   display: -ms-flexbox; /* Pour les anciens navigateurs Internet Explorer 10 */

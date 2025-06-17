@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.69496a02.css",
-    "main.js": "/static/js/main.ac0298b1.js",
+    "main.css": "/static/css/main.d8569e9e.css",
+    "main.js": "/static/js/main.3e87954c.js",
     "static/media/Lorenza.jpg": "/static/media/Lorenza.f9d96f9b428e0d09af01.jpg",
     "static/media/Dona.jpg": "/static/media/Dona.f52844176982f6be1304.jpg",
     "static/media/Murosonoro1.jpg": "/static/media/Murosonoro1.9433f028cbecda97bbc7.jpg",
@@ -93,6 +93,7 @@
     "static/media/Maremma-5.png": "/static/media/Maremma-5.07e7e2bfc839184e8fee.png",
     "static/media/Montserrat-MediumItalic.ttf": "/static/media/Montserrat-MediumItalic.dc530755b08c3cc6eaa2.ttf",
     "static/media/Cat-5.jpg": "/static/media/Cat-5.d2508cd3606cdd116f53.jpg",
+    "static/media/Montserrat-ExtraLight.ttf": "/static/media/Montserrat-ExtraLight.dddbd3a9736fbd967da7.ttf",
     "static/media/Montserrat-Medium.ttf": "/static/media/Montserrat-Medium.c7265d9a0e7b2187927d.ttf",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.d6c6b1b747265946b863.ttf",
     "static/media/Maremma-4.png": "/static/media/Maremma-4.a0e6b5ecb9fe287fa00d.png",
@@ -130,6 +131,7 @@
     "static/media/Oggi-6.png": "/static/media/Oggi-6.3cdc4bef85913e8f7067.png",
     "static/media/Montserrat-Medium.woff": "/static/media/Montserrat-Medium.1ef905124348b2f4a30f.woff",
     "static/media/Montserrat-Regular.woff": "/static/media/Montserrat-Regular.5a50835cd0352b1918fa.woff",
+    "static/media/Montserrat-ExtraLight.woff": "/static/media/Montserrat-ExtraLight.ee96e1309fff0db64e9f.woff",
     "static/media/Pecci-13.png": "/static/media/Pecci-13.9f1b7671780352c3c1e1.png",
     "static/media/Pecci-9.png": "/static/media/Pecci-9.29d9fc2c4c868bbf2c79.png",
     "static/media/Pecci-1.png": "/static/media/Pecci-1.081ecf50fe743bb36450.png",
@@ -140,6 +142,7 @@
     "static/media/Montserrat-Regular.woff2": "/static/media/Montserrat-Regular.a66265ef3ec2c9bd2fe8.woff2",
     "static/media/Pecci-16.png": "/static/media/Pecci-16.7ec6588ffc6517ea5f82.png",
     "static/media/Pecci-14.png": "/static/media/Pecci-14.47766b49f6032f23c370.png",
+    "static/media/Montserrat-ExtraLight.woff2": "/static/media/Montserrat-ExtraLight.78b9ee089f9ce5d9b890.woff2",
     "static/media/JosefinSans-Medium.ttf": "/static/media/JosefinSans-Medium.3ab037b278732b1f5f5d.ttf",
     "static/media/Oggi-1.png": "/static/media/Oggi-1.6d99821f195b7a4dca48.png",
     "static/media/Oggi-2.png": "/static/media/Oggi-2.8b72e8453f40958fb3b1.png",
@@ -158,11 +161,11 @@
     "static/media/Logo2.png": "/static/media/Logo2.20196c89365037414b24.png",
     "static/media/Nazione-2.png": "/static/media/Nazione-2.63625ec02132198a7af8.png",
     "index.html": "/index.html",
-    "main.69496a02.css.map": "/static/css/main.69496a02.css.map",
-    "main.ac0298b1.js.map": "/static/js/main.ac0298b1.js.map"
+    "main.d8569e9e.css.map": "/static/css/main.d8569e9e.css.map",
+    "main.3e87954c.js.map": "/static/js/main.3e87954c.js.map"
   },
   "entrypoints": [
-    "static/css/main.69496a02.css",
-    "static/js/main.ac0298b1.js"
+    "static/css/main.d8569e9e.css",
+    "static/js/main.3e87954c.js"
   ]
 }

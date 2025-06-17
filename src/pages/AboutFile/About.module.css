@@ -31,7 +31,7 @@
   }
 
   .Dati h2 {
-    font-family: "Montserrat-ultra-light", Arial, Helvetica, sans-serif;
+    font-family: "font-montserrat-medium", Arial, Helvetica, sans-serif;
     color: rgb(86, 84, 84);
     display: -webkit-box;
     display: -moz-box;
@@ -44,7 +44,7 @@
   }
 
   .Dati h4 {
-    font-family: "Montserrat-ultra-light", Arial, Helvetica, sans-serif;
+    font-family: "font-montserrat-medium", Arial, Helvetica, sans-serif;
     color: rgb(86, 84, 84);
     display: -webkit-box;
     display: -moz-box;
@@ -57,7 +57,7 @@
   }
 
   .Dati h3 {
-    font-family: "Montserrat-ultra-light", Arial, Helvetica, sans-serif;
+    font-family: "font-montserrat-medium", Arial, Helvetica, sans-serif;
     color: rgb(86, 84, 84);
     display: -webkit-box;
     display: -moz-box;
@@ -81,7 +81,7 @@
     justify-content: center;
     align-items: center;
     margin: 20px auto;
-    font-family: "Montserrat-ultra-light", Arial, Helvetica, sans-serif;
+    font-family: "font-montserrat-medium", Arial, Helvetica, sans-serif;
     /* color: rgb(86, 84, 84); */
     color: rgba(54, 130, 212, 0.574);
   }
@@ -96,13 +96,13 @@
     justify-content: center;
     align-items: center;
     margin: 20px auto;
-    font-family: "Montserrat-medium", Arial, Helvetica, sans-serif;
+    font-family: "font-montserrat-medium", Arial, Helvetica, sans-serif;
     color: rgb(86, 84, 84);
   }
 
   .ImageContainer img {
-    width: 20vw; /* Largeur de chaque image */
-    height: 20vw; /* Maintient les proportions de l'image */
+    width: 150px; /* Largeur de chaque image */
+    height: auto; /* Maintient les proportions de l'image */
     /* object-fit: cover; */
     border-radius: 5px; /* Optionnel : ajoute des coins arrondis */
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
@@ -152,13 +152,13 @@
   .ImageCaption {
     margin-top: 10px;
     color: rgb(221, 23, 23);
-    font-family: "Montserrat-Medium", Arial, sans-serif;
+    font-family: "font-montserrat-medium", Arial, sans-serif;
     font-size: 18px;
   }
   .ImageTitle {
     margin-top: 1px;
     /* font-weight: bold; */
-    font-family: "Montserrat-Medium", Arial, sans-serif;
+    font-family: "font-montserrat-medium", Arial, sans-serif;
     color: rgb(113, 171, 242);
     font-size: 20px;
   }
@@ -171,7 +171,7 @@
     height: 600px;
   }
   .Dati h4 h3 h2 {
-    font-family: "Montserrat-Medium", Arial, sans-serif;
+    font-family: "font-montserrat-medium", Arial, sans-serif;
   }
   @media (max-width: 1224px) {
     .ImageContainer {

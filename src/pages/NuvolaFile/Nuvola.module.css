@@ -32,7 +32,7 @@
     margin-top: 10px;
     text-align: justify;
     max-width: 100%;
-    font-family: "Montserrat-Medium", Arial, sans-serif;
+    font-family: "font-montserrat-medium", Arial, sans-serif;
   }
   .p1 {
     margin-top: 90px;
@@ -81,7 +81,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "Montserrat-Extra-Light", Arial;
+  font-family: "font-montserrat-medium", Arial;
   margin-left: 20%;
 }
 
@@ -97,7 +97,7 @@
 }
 
 .Fumetti .ArtistPackage img {
-  max-width: 50vw;
+  max-width: 50%;
   height: auto;
   margin-left: 20px;
   border-radius: 5px;
@@ -108,7 +108,7 @@
 }
 
 .Fumetti .ArtistPackage .Nome {
-  font-family: "Montserrat-Extra-Light", Arial, sans-serif;
+  font-family: "font-montserrat-medium", Arial, sans-serif;
   color: rgb(144, 183, 230);
   font-size: 30px;
   font-weight: bold;
@@ -117,7 +117,7 @@
 }
 
 .Fumetti .ArtistPackage .Paragraphe {
-  font-family: "Montserrat-Medium", Arial, sans-serif;
+  font-family: "font-montserrat-medium", Arial, sans-serif;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -242,7 +242,7 @@
       justify-content: center;
       text-align: center;
       align-items: center;
-      font-family: "Montserrat-Medium", Arial, sans-serif;
+      font-family: "font-montserrat-medium", Arial, sans-serif;
       margin: 40px auto;
     }
 
@@ -259,7 +259,7 @@
 
     .Fumetti .ArtistPackage img {
       margin: 0 auto;
-      max-width: 50vw;
+      max-width: 50%;
       height: auto;
       border-radius: 5px;
       box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
@@ -275,7 +275,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      font-family: "Montserrat-Extra-Light", Arial, sans-serif;
+      font-family: "font-montserrat-medium", Arial, sans-serif;
       color: rgb(144, 183, 230);
       font-size: 24px;
       font-weight: bold;
@@ -283,7 +283,7 @@
     }
 
     .Fumetti .ArtistPackage .Paragraphe {
-      font-family: "Montserrat-Medium", Arial, sans-serif;
+      font-family: "font-montserrat-medium", Arial, sans-serif;
       display: -webkit-box;
       display: -moz-box;
       display: -ms-flexbox;
@@ -306,7 +306,7 @@
     }
     .Bvideo iframe {
       max-width: 70%;
-      height: 40vh;
+      height: 600px;
     }
   }
 }

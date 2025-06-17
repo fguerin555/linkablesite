@@ -10,7 +10,7 @@
   margin-right: auto;
   margin-left: auto;
   margin-top: 20px;
-  width: 100vw; /* Largeur de chaque image */
+  width: 100%; /* Largeur de chaque image */
   /* height: 80vw; */
 }
 .CuricFred img {
@@ -25,7 +25,7 @@
   margin-right: auto;
   margin-left: auto;
   margin-top: 20px;
-  width: 100vw; /* Largeur de chaque image */
+  width: 100%; /* Largeur de chaque image */
   /* height: 80vw;  */
 }
 .LinksFred {
@@ -47,6 +47,6 @@
   margin-right: auto;
   margin-left: auto;
   margin-top: 20px;
-  width: 100vw; /* Largeur de chaque image */
+  width: 100%; /* Largeur de chaque image */
   /* height: 80vw;  */
 }

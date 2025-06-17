@@ -9,7 +9,7 @@
     align-items: center;
     margin-top: 50px;
     color: rgb(104, 117, 126);
-    font-family: "montserrat-extra-light", Arial, Helvetica, sans-serif;
+    font-family: "font-montserrat-medium", Arial, Helvetica, sans-serif;
   }
 
   .ParagOne {
@@ -25,7 +25,7 @@
     color: rgb(63, 63, 72);
     margin: 60px auto;
     font-size: 19px;
-    font-family: "Montserrat-Medium", Arial, sans-serif;
+    font-family: "font-montserrat-medium", Arial, sans-serif;
   }
   .BandeCouleur {
     overflow: auto;
@@ -73,7 +73,7 @@
     margin-right: auto;
     margin-top: 20px;
     font-size: 18px;
-    font-family: "Montserrat-Medium", Arial, sans-serif;
+    font-family: "font-montserrat-medium", Arial, sans-serif;
     color: #411a04;
   }
   .ImageContainer {
@@ -89,8 +89,8 @@
   }
 
   .ImageContainer img {
-    width: 20vw; /* Largeur de chaque image */
-    height: 20vw; /* Maintient les proportions de l'image */
+    width: 150px; /* Largeur de chaque image */
+    height: auto; /* Maintient les proportions de l'image */
     border-radius: 5px; /* Optionnel : ajoute des coins arrondis */
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
     -webkit-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
@@ -139,14 +139,14 @@
   .ImageCaption {
     margin-top: 10px;
     color: rgb(221, 23, 23);
-    font-family: "Montserrat-Medium", Arial, sans-serif;
+    font-family: "font-montserrat-medium", Arial, sans-serif;
     font-size: 18px;
     margin-bottom: 5px;
   }
   .ImageTitle {
     font-size: 20px;
     margin-top: 1px;
-    font-family: "Montserrat-Medium", Arial, sans-serif;
+    font-family: "font-montserrat-medium", Arial, sans-serif;
     color: rgb(113, 171, 242);
   }
 }
@@ -165,7 +165,7 @@
     align-items: center;
     text-align: center;
     margin: 0 auto !important;
-    min-height: 90vh;
+    min-height: 90%;
     margin-bottom: 20px;
   }
   .Arte {
@@ -179,7 +179,7 @@
     display: flex;
     margin: 0 auto !important;
     font-size: 19px;
-    font-family: "Montserrat-Medium", Arial, sans-serif;
+    font-family: "font-montserrat-medium", Arial, sans-serif;
     min-width: 95%;
     margin-bottom: 20px !important;
   }
@@ -200,7 +200,7 @@
     margin-right: auto;
     margin-top: 30px !important;
     font-size: 18px;
-    font-family: "Montserrat-Medium", Arial, sans-serif;
+    font-family: "font-montserrat-medium", Arial, sans-serif;
     color: rgb(63, 63, 72);
     max-width: 90% !important;
   }
@@ -220,7 +220,7 @@
   .ImageCaption {
     margin-top: 10px;
     color: rgb(221, 23, 23);
-    font-family: "Montserrat-Medium", Arial, sans-serif;
+    font-family: "font-montserrat-medium", Arial, sans-serif;
     font-size: 12px !important;
     margin-bottom: 5px;
   }

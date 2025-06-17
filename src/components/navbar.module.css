@@ -39,7 +39,7 @@
 }
 
 .navbarLinks a {
-  font-family: "Montserrat-Medium", Arial, sans-serif;
+  font-family: "font-montserrat-medium", Arial, sans-serif;
   text-decoration: none;
   /* color: rgb(27, 77, 139); */
   color: #6477a6;
@@ -79,7 +79,7 @@
       height: 1.5em;
     }
     .navbarLinks a {
-      font-size: 1.2rem;
+      font-size: 1.2em;
     }
   }
 }

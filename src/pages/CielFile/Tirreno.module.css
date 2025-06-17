@@ -15,7 +15,7 @@
 }
 @media (max-width: 1224px) {
   .Tirreno img {
-    width: 95vw;
+    max-width: 95%;
     /* height: 20vw; */
   }
 }

@@ -24,7 +24,7 @@
     text-align: center;
     margin-right: auto;
     margin-left: auto;
-    font-family: "Montserrat-Medium", Arial, sans-serif;
+    font-family: "font-montserrat-medium", Arial, sans-serif;
     color: rgb(73, 81, 111);
   }
   h3 {
@@ -39,7 +39,7 @@
     margin-right: auto;
     margin-left: auto;
     font-size: 20px;
-    font-family: "Montserrat-Medium", Arial, sans-serif;
+    font-family: "font-montserrat-medium", Arial, sans-serif;
     color: rgb(73, 81, 111);
   }
   .Corsi p {
@@ -54,7 +54,7 @@
     margin-right: auto;
     margin-left: auto;
     font-size: 20px;
-    font-family: "Montserrat-Medium", Arial, sans-serif;
+    font-family: "font-montserrat-medium", Arial, sans-serif;
     color: rgb(73, 81, 111);
   }
   .OcchiImageContainer {
@@ -79,7 +79,7 @@
     text-align: justify;
     margin-right: 25px;
     margin-left: 20px;
-    font-family: "Montserrat-Medium", Arial, sans-serif;
+    font-family: "font-montserrat-medium", Arial, sans-serif;
     color: rgb(73, 81, 111);
     flex-basis: 50%;
     width: 50%;
@@ -186,7 +186,7 @@
     }
     .Bvideo iframe {
       max-width: 70%;
-      height: 40vh;
+      height: 300px;
     }
   }
 }

@@ -69,10 +69,10 @@ const Ciel = () => {
             height="315"
             src="https://www.youtube.com/embed/At4tr6_RdtA?si=OgjDo8rNJajlyc07"
             title="YouTube video player"
-            frameborder="0"
+            // frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
             alt="Video dell'inaugurazione di Ciel in Ciità sulle mura di Grosseto"
           />
         </div>

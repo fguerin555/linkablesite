@@ -19,7 +19,7 @@
     justify-content: center;
     align-items: center;
     color: rgb(63, 63, 72);
-    font-family: "Montserrat-ultra-light", Arial, Helvetica, sans-serif;
+    font-family: "font-montserrat-medium", Arial, Helvetica, sans-serif;
   }
   .LogoCIC {
     width: 100%;
@@ -53,7 +53,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: "Montserrat-medium", Arial, Helvetica, sans-serif;
+    font-family: "font-montserrat-medium", Arial, Helvetica, sans-serif;
     margin-bottom: 2px;
     color: rgb(63, 63, 72);
     font-size: 24px;
@@ -88,7 +88,7 @@
     justify-content: center;
     align-items: center;
     color: rgb(63, 63, 72);
-    font-family: "Montserrat-ultra-light", Arial, Helvetica, sans-serif;
+    font-family: "font-montserrat-medium", Arial, Helvetica, sans-serif;
     font-size: 20px;
   }
   .InauguraMuraTexte h3 {
@@ -100,7 +100,7 @@
     justify-content: center;
     align-items: center;
     color: rgb(63, 63, 72);
-    font-family: "Montserrat-ultra-light", Arial, Helvetica, sans-serif;
+    font-family: "font-montserrat-medium", Arial, Helvetica, sans-serif;
   }
 
   .InauguraMuraTexte h4 {
@@ -113,7 +113,7 @@
     justify-content: center;
     align-items: center;
     color: rgb(63, 63, 72);
-    font-family: "Montserrat-medium", Arial, Helvetica, sans-serif;
+    font-family: "font-montserrat-medium", Arial, Helvetica, sans-serif;
     margin-bottom: 10px;
   }
 
@@ -127,7 +127,7 @@
     justify-content: center;
     align-items: center;
     color: rgb(63, 63, 72);
-    font-family: "Montserrat-medium", Arial, Helvetica, sans-serif;
+    font-family: "font-montserrat-medium", Arial, Helvetica, sans-serif;
     font-size: 20px;
     margin-bottom: 5px;
   }
@@ -164,7 +164,7 @@
     align-items: center;
     margin-top: 60px;
     color: rgb(63, 63, 72);
-    font-family: "Montserrat-ultra-light", Arial, Helvetica, sans-serif;
+    font-family: "font-montserrat-medium", Arial, Helvetica, sans-serif;
     margin-bottom: 8px;
   }
 
@@ -178,7 +178,7 @@
     justify-content: center;
     align-items: center;
     color: rgb(63, 63, 72);
-    font-family: "Montserrat-medium", Arial, Helvetica, sans-serif;
+    font-family: "font-montserrat-medium", Arial, Helvetica, sans-serif;
     font-size: 18px;
     width: 50%;
     margin: 0 auto;
@@ -206,14 +206,14 @@
   .MuseoPecci h3 {
     margin-top: 60px;
     color: rgb(63, 63, 72);
-    font-family: "Montserrat-ultra-light", Arial, Helvetica, sans-serif;
+    font-family: "font-montserrat-medium", Arial, Helvetica, sans-serif;
     margin-bottom: 2px;
   }
   .MuseoPecci p {
     font-size: 18px;
     margin-top: 2px;
     color: rgb(63, 63, 72);
-    font-family: "Montserrat-medium", Arial, Helvetica, sans-serif;
+    font-family: "font-montserrat-medium", Arial, Helvetica, sans-serif;
   }
 
   .MuseoPecci {
@@ -266,7 +266,7 @@
   justify-content: center;
   align-items: center;
   color: rgb(63, 63, 72);
-  font-family: "Montserrat-ultra-light", Arial, Helvetica, sans-serif;
+  font-family: "font-montserrat-medium", Arial, Helvetica, sans-serif;
 }
 .Boschetto p {
   margin-top: 30px;
@@ -277,7 +277,7 @@
   display: -webkit-flex;
   display: flex;
   color: rgb(63, 63, 72);
-  font-family: "Montserrat-medium", Arial, Helvetica, sans-serif;
+  font-family: "font-montserrat-medium", Arial, Helvetica, sans-serif;
   font-size: 18px;
   width: 50%;
   margin: 0 auto;
@@ -337,7 +337,7 @@
   justify-content: center;
   align-items: center;
   color: rgb(63, 63, 72);
-  font-family: "Montserrat-medium", Arial, Helvetica, sans-serif;
+  font-family: "font-montserrat-medium", Arial, Helvetica, sans-serif;
   font-size: 18px;
   width: 50%;
   margin: 0 auto;
@@ -354,7 +354,7 @@
     display: -webkit-flex;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    min-height: 100%;
     margin-bottom: 20px;
   }
 
@@ -370,7 +370,7 @@
     font-size: 18px !important;
     margin-top: 15px;
     color: rgb(63, 63, 72);
-    font-family: "Montserrat-ultra-light", Arial, Helvetica, sans-serif;
+    font-family: "font-montserrat-medium", Arial, Helvetica, sans-serif;
   }
   .SottoTitolo p {
     text-align: center;
@@ -382,7 +382,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: "Montserrat-medium", Arial, Helvetica, sans-serif;
+    font-family: "font-montserrat-medium", Arial, Helvetica, sans-serif;
     margin-bottom: 2px;
     color: rgb(63, 63, 72);
     font-size: 16px !important;
@@ -414,7 +414,7 @@
     min-width: 95%;
   }
   .InauguraMuraTexte p {
-    font-family: "Montserrat-medium", Arial, Helvetica, sans-serif;
+    font-family: "font-montserrat-medium", Arial, Helvetica, sans-serif;
     max-width: 80%;
     display: -webkit-box;
     display: -moz-box;
@@ -425,9 +425,10 @@
     text-align: center;
     margin: 20px auto;
   }
+
   .CICvideo iframe {
     min-width: 95%;
-    height: 40vh;
+    height: 300px;
   }
   .SalaEden h3 {
     margin-top: 20px !important;
@@ -442,7 +443,7 @@
     margin-top: 2px !important;
   }
   .MuseoPecci p {
-    font-family: "Montserrat-medium", Arial, Helvetica, sans-serif;
+    font-family: "font-montserrat-medium", Arial, Helvetica, sans-serif;
     min-width: 95%;
     display: -webkit-box;
     display: -moz-box;
@@ -470,7 +471,7 @@
     max-width: 95%;
   }
   .Boschetto p {
-    font-family: "Montserrat-medium", Arial, Helvetica, sans-serif;
+    font-family: "font-montserrat-medium", Arial, Helvetica, sans-serif;
     min-width: 95%;
     display: -webkit-box;
     display: -moz-box;

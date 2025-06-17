@@ -16,7 +16,7 @@
 }
 @media (max-width: 1224px) {
   .Pecci img {
-    width: 100vw;
+    max-width: 100%;
     /* height: 20vw; */
   }
 }

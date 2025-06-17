@@ -70,7 +70,19 @@
     flex-direction: column;
     gap: 10px;
   }
-  @media (max-width: 480px) {
+  @media (max-width: 768px) {
+    .navbar {
+      padding: 0.5em 1em;
+    }
+    .navbarLogo img {
+      width: 1.5em;
+      height: 1.5em;
+    }
+    .navbarLinks a {
+      font-size: 0.8em;
+    }
+  }
+  @media (max-width: 509px) {
     .navbar {
       padding: 0.5em 1em;
     }

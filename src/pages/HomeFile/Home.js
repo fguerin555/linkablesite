@@ -3,9 +3,9 @@ import { Helmet } from "react-helmet-async";
 import "../../Global.css";
 import styles from "./Home.module.css";
 import { Link } from "react-router-dom";
-import image1 from "../../assets/img/IRMA.jpeg";
-import image2 from "../../assets/img/VANESSA.jpg";
-import image3 from "../../assets/img/FREDERIC.jpeg";
+import image1 from "../../assets/img/Irma.png";
+import image2 from "../../assets/img/Vanessa.png";
+import image3 from "../../assets/img/Fred.png";
 
 const Home = () => {
   return (

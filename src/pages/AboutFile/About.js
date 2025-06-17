@@ -6,9 +6,9 @@ import styles from "./About.module.css";
 import logo from "../../assets/img/Logo2.png";
 import ScrollToTop from "../../components/ScrollToTop";
 import BackButton from "../../components/BackButton";
-import image1 from "../../assets/img/IRMA.jpeg";
-import image2 from "../../assets/img/VANESSA.jpg";
-import image3 from "../../assets/img/FREDERIC.jpeg";
+import image1 from "../../assets/img/Irma.png";
+import image2 from "../../assets/img/Vanessa.png";
+import image3 from "../../assets/img/Fred.png";
 
 const About = () => {
   return (

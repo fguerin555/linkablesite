@@ -76,26 +76,16 @@
     font-family: "font-montserrat-medium", Arial, sans-serif;
     color: #411a04;
   }
-  .ImageContainer {
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 70px; /* Espace entre les images */
-    margin-top: 20px; /* Espace entre la bande de couleur et les images */
-  }
-
   .ImageContainer img {
-    width: 150px; /* Largeur de chaque image */
-    height: auto; /* Maintient les proportions de l'image */
+    width: 25vw; /* Largeur de chaque image */
+    height: 25vw; /* Maintient les proportions de l'image */
+    object-fit: cover;
     border-radius: 5px; /* Optionnel : ajoute des coins arrondis */
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
     -webkit-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
     -moz-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
   }
+
   .ImageContainer button {
     display: -webkit-box;
     display: -moz-box;
@@ -216,7 +206,15 @@
     gap: 8px !important; /* Espace entre les images */
     margin-top: 10px; /* Espace entre la bande de couleur et les images */
   }
-
+  .ImageContainer img {
+    width: 25vw; /* Largeur de chaque image */
+    height: 25vw; /* Maintient les proportions de l'image */
+    object-fit: cover;
+    border-radius: 5px; /* Optionnel : ajoute des coins arrondis */
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+  }
   .ImageCaption {
     margin-top: 10px;
     color: rgb(221, 23, 23);
@@ -231,10 +229,295 @@
     color: rgb(113, 171, 242);
   }
 }
+
+@media (max-width: 768px) {
+  .HomePage {
+    .Arte {
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 50px;
+      color: rgb(104, 117, 126);
+      font-family: "font-montserrat-medium", Arial, Helvetica, sans-serif;
+    }
+
+    .ParagOne {
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      max-width: 60%;
+      color: rgb(63, 63, 72);
+      margin: 60px auto;
+      font-size: 19px;
+      font-family: "font-montserrat-medium", Arial, sans-serif;
+    }
+    .BandeCouleur {
+      overflow: auto;
+      position: relative;
+      margin: 0 auto;
+      height: 250px; /* Hauteur de la bande de couleur */
+      width: 100%; /* Largeur de la bande de couleur */
+      background-color: #e7edefb5;
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      flex-direction: column; /* Pour descendre le texte */
+      justify-content: flex-end; /* Pour descendre le texte */
+      align-items: center; /* Pour centrer le texte */
+      color: #211e1e; /* Couleur du texte */
+      font-size: 12px; /* Taille du texte */
+      padding-bottom: 20px; /* Espacement entre le bas de la bande et le texte */
+    }
+
+    .Logo {
+      border-radius: 3px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      bottom: 5px;
+      transform: translate(-50%, -65%);
+      width: 150px;
+      height: 150px;
+      background-image: url("../../assets/img/Logo2.png");
+      background-size: 150px 150px; /* Ajuster la taille de l'image */
+      background-position: center 20%;
+      background-repeat: no-repeat;
+      box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+      -webkit-box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+      -moz-box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .ParagTwo {
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 20px;
+      font-size: 18px;
+      font-family: "font-montserrat-medium", Arial, sans-serif;
+      color: #411a04;
+    }
+    .ImageContainer img {
+      width: 25vw; /* Largeur de chaque image */
+      height: 25vw; /* Maintient les proportions de l'image */
+      object-fit: cover;
+      border-radius: 5px; /* Optionnel : ajoute des coins arrondis */
+      box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+      -webkit-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+      -moz-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    .ImageContainer button {
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+      font-size: 18px;
+      padding: 10px 20px;
+      border-radius: 10px;
+      cursor: pointer;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 2px;
+      margin-bottom: 20px;
+      background-color: rgb(144, 183, 230);
+      color: beige;
+      box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+      -webkit-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+      -moz-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+      border: none;
+      font-size: 12px;
+      text-shadow: 2px 2px 4px #15459e;
+    }
+    .ImageContainer a {
+      text-decoration: none;
+    }
+
+    .ImageWrapper {
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    .ImageCaption {
+      margin-top: 10px;
+      color: rgb(221, 23, 23);
+      font-family: "font-montserrat-medium", Arial, sans-serif;
+      font-size: 18px;
+      margin-bottom: 5px;
+    }
+    .ImageTitle {
+      font-size: 20px;
+      margin-top: 1px;
+      font-family: "font-montserrat-medium", Arial, sans-serif;
+      color: rgb(113, 171, 242);
+    }
+  }
+}
+
 @media (max-width: 509px) {
   .Logo {
+    /* Styles existants pour .Logo à 509px, conservés */
     width: 100px !important;
     height: 100px !important;
     top: 30% !important;
+  }
+  /* Ajout du bloc .HomePage avec ses enfants pour 509px */
+  .HomePage {
+    .Arte {
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 50px;
+      color: rgb(104, 117, 126);
+      font-family: "font-montserrat-medium", Arial, Helvetica, sans-serif;
+    }
+
+    .ParagOne {
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      max-width: 60%;
+      color: rgb(63, 63, 72);
+      margin: 60px auto;
+      font-size: 19px;
+      font-family: "font-montserrat-medium", Arial, sans-serif;
+    }
+    .BandeCouleur {
+      overflow: auto;
+      position: relative;
+      margin: 0 auto;
+      height: 250px; /* Hauteur de la bande de couleur */
+      width: 100%; /* Largeur de la bande de couleur */
+      background-color: #e7edefb5;
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      flex-direction: column; /* Pour descendre le texte */
+      justify-content: flex-end; /* Pour descendre le texte */
+      align-items: center; /* Pour centrer le texte */
+      color: #211e1e; /* Couleur du texte */
+      font-size: 12px; /* Taille du texte */
+      padding-bottom: 20px; /* Espacement entre le bas de la bande et le texte */
+    }
+
+    .Logo {
+      /* Ce .Logo est .HomePage .Logo ; les !important du .Logo ci-dessus prévaudront pour width, height, top */
+      border-radius: 3px;
+      position: absolute;
+      /* top: 50%; sera écrasé par top: 30% !important; */
+      left: 50%;
+      bottom: 5px;
+      transform: translate(-50%, -65%);
+      /* width: 150px; sera écrasé par width: 100px !important; */
+      /* height: 150px; sera écrasé par height: 100px !important; */
+      background-image: url("../../assets/img/Logo2.png");
+      background-size: 150px 150px;
+      background-position: center 20%;
+      background-repeat: no-repeat;
+      box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+      -webkit-box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+      -moz-box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .ParagTwo {
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 20px;
+      font-size: 18px;
+      font-family: "font-montserrat-medium", Arial, sans-serif;
+      color: #411a04;
+    }
+    .ImageContainer img {
+      width: 25vw; /* Largeur de chaque image */
+      height: 25vw; /* Maintient les proportions de l'image */
+      object-fit: cover;
+      border-radius: 5px; /* Optionnel : ajoute des coins arrondis */
+      box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+      -webkit-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+      -moz-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    .ImageContainer button {
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+      font-size: 18px;
+      padding: 10px 20px;
+      border-radius: 10px;
+      cursor: pointer;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 2px;
+      margin-bottom: 20px;
+      background-color: rgb(144, 183, 230);
+      color: beige;
+      box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+      -webkit-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+      -moz-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+      border: none;
+      font-size: 12px;
+      text-shadow: 2px 2px 4px #15459e;
+    }
+    .ImageContainer a {
+      text-decoration: none;
+    }
+
+    .ImageWrapper {
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    .ImageCaption {
+      margin-top: 10px;
+      color: rgb(221, 23, 23);
+      font-family: "font-montserrat-medium", Arial, sans-serif;
+      font-size: 18px;
+      margin-bottom: 5px;
+    }
+    .ImageTitle {
+      font-size: 20px;
+      margin-top: 1px;
+      font-family: "font-montserrat-medium", Arial, sans-serif;
+      color: rgb(113, 171, 242);
+    }
   }
 }

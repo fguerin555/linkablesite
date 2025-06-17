@@ -425,11 +425,11 @@
     text-align: center;
     margin: 20px auto;
   }
-
   .CICvideo iframe {
     min-width: 95%;
-    height: 300px;
+    height: 40vh;
   }
+
   .SalaEden h3 {
     margin-top: 20px !important;
   }

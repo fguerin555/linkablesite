@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.9d76dbf4.css",
-    "main.js": "/static/js/main.3e87954c.js",
+    "main.css": "/static/css/main.e50c0d2b.css",
+    "main.js": "/static/js/main.dd2eec1c.js",
     "static/media/Lorenza.jpg": "/static/media/Lorenza.f9d96f9b428e0d09af01.jpg",
     "static/media/Dona.jpg": "/static/media/Dona.f52844176982f6be1304.jpg",
     "static/media/Murosonoro1.jpg": "/static/media/Murosonoro1.9433f028cbecda97bbc7.jpg",
@@ -12,19 +12,18 @@
     "static/media/Oggi-5.png": "/static/media/Oggi-5.a7a6c32b479908432353.png",
     "static/media/Tirreno-3.png": "/static/media/Tirreno-3.6be3d4c9953cfa7757cf.png",
     "static/media/LOCANDINA-Seminari.jpg": "/static/media/LOCANDINA-Seminari.71cbe007f9a3a21ff171.jpg",
-    "static/media/IRMA.jpeg": "/static/media/IRMA.e9f81949d7d7cf76dd18.jpeg",
     "static/media/museoPECCI.jpg": "/static/media/museoPECCI.03fe6e8efb013cf9b9d4.jpg",
     "static/media/Joker.jpg": "/static/media/Joker.d8b8b69ad81545de027c.jpg",
     "static/media/Oggi-3.png": "/static/media/Oggi-3.9b1934542a70f31e30f3.png",
     "static/media/LocandinaONM.jpg": "/static/media/LocandinaONM.fbb58b8e1452ca60bc3e.jpg",
     "static/media/Nazione-3.png": "/static/media/Nazione-3.3d3cc0c6c9a8c8555a43.png",
     "static/media/Tirreno-2.png": "/static/media/Tirreno-2.2180fdf0e1e8f6ecaccc.png",
+    "static/media/Irma.png": "/static/media/Irma.df7384dde92cfc0d7971.png",
     "static/media/CuricIrma-images-0.jpg": "/static/media/CuricIrma-images-0.e03f59286261c211f66c.jpg",
     "static/media/CuricFred-images-1.jpg": "/static/media/CuricFred-images-1.64b9715086767b7b3eab.jpg",
     "static/media/inaugmura2.jpg": "/static/media/inaugmura2.039635e435d42277d046.jpg",
     "static/media/Cat-32.jpg": "/static/media/Cat-32.25d3b9e520f20fed4607.jpg",
     "static/media/Cat-19.jpg": "/static/media/Cat-19.4415ca6a25d6bcecf6ad.jpg",
-    "static/media/FREDERIC.jpeg": "/static/media/FREDERIC.febd3b44de416126c8d2.jpeg",
     "static/media/CuricIrma-images-1.jpg": "/static/media/CuricIrma-images-1.cf932c8eec567b294564.jpg",
     "static/media/Cat-29.jpg": "/static/media/Cat-29.03ebe46fba66cc0aca0a.jpg",
     "static/media/Cat-21.jpg": "/static/media/Cat-21.bbbaccd20d99187ca105.jpg",
@@ -33,6 +32,7 @@
     "static/media/Cat-8.jpg": "/static/media/Cat-8.1207cb29d92bdff16b48.jpg",
     "static/media/Cat-58.jpg": "/static/media/Cat-58.64cf854a4fa9e5911c79.jpg",
     "static/media/CuricVanessa-2.jpg": "/static/media/CuricVanessa-2.c4b9797d85409ec87167.jpg",
+    "static/media/Vanessa.png": "/static/media/Vanessa.f96ec61c0790051ecf04.png",
     "static/media/Cat-17.jpg": "/static/media/Cat-17.6e10c90f36195fcc86d8.jpg",
     "static/media/CuricVanessa-0.jpg": "/static/media/CuricVanessa-0.9fa4b51fd7a89c05d74d.jpg",
     "static/media/Cat-11.jpg": "/static/media/Cat-11.71bb10ac10926de28233.jpg",
@@ -74,11 +74,11 @@
     "static/media/Cat-23.jpg": "/static/media/Cat-23.3b6b38b213f28a52fff2.jpg",
     "static/media/Cat-42.jpg": "/static/media/Cat-42.89b051e4589d196918fb.jpg",
     "static/media/Cat-60.jpg": "/static/media/Cat-60.77eb043dcb5a1f755b1b.jpg",
+    "static/media/Fred.png": "/static/media/Fred.dd4b3f275a6dd37d0324.png",
     "static/media/Cat-35.jpg": "/static/media/Cat-35.1918f94ecb613caa4e5b.jpg",
     "static/media/inaugmura3.jpg": "/static/media/inaugmura3.934c6991ebaad08783b8.jpg",
     "static/media/Cat-10.jpg": "/static/media/Cat-10.c3e1d607c787b8dc5527.jpg",
     "static/media/Cat-49.jpg": "/static/media/Cat-49.3dfbe57ae989470bc643.jpg",
-    "static/media/VANESSA.jpg": "/static/media/VANESSA.06432edd2dd05e5eed7a.jpg",
     "static/media/Cat-41.jpg": "/static/media/Cat-41.30949372d35b97ec549d.jpg",
     "static/media/Cat-63.jpg": "/static/media/Cat-63.ca72a5dd580d6f92190f.jpg",
     "static/media/Cat-45.jpg": "/static/media/Cat-45.b1533a9308c62eb5c57c.jpg",
@@ -161,11 +161,11 @@
     "static/media/Logo2.png": "/static/media/Logo2.20196c89365037414b24.png",
     "static/media/Nazione-2.png": "/static/media/Nazione-2.63625ec02132198a7af8.png",
     "index.html": "/index.html",
-    "main.9d76dbf4.css.map": "/static/css/main.9d76dbf4.css.map",
-    "main.3e87954c.js.map": "/static/js/main.3e87954c.js.map"
+    "main.e50c0d2b.css.map": "/static/css/main.e50c0d2b.css.map",
+    "main.dd2eec1c.js.map": "/static/js/main.dd2eec1c.js.map"
   },
   "entrypoints": [
-    "static/css/main.9d76dbf4.css",
-    "static/js/main.3e87954c.js"
+    "static/css/main.e50c0d2b.css",
+    "static/js/main.dd2eec1c.js"
   ]
 }

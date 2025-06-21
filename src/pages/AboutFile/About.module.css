@@ -100,9 +100,20 @@
     color: rgb(86, 84, 84);
   }
 
+  .ImageContainer {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px !important; /* Espace entre les images */
+    margin-top: 10px; /* Espace entre la bande de couleur et les images */
+  }
   .ImageContainer img {
-    width: 25vw; /* Largeur de chaque image */
-    height: 25vw; /* Maintient les proportions de l'image */
+    width: 10vw; /* Largeur de chaque image */
+    height: 10vw; /* Maintient les proportions de l'image */
     object-fit: cover;
     border-radius: 5px; /* Optionnel : ajoute des coins arrondis */
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);

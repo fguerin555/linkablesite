@@ -101,7 +101,7 @@ const Acqua = () => {
           </span>
           <a
             href="https://ilraccontodellacqua.com"
-            target="_blank"
+            // target="_blank"
             rel="noopener noreferrer"
             aria-label="Logo Il Racconto dell'Acqua"
             title="Visitez Il Racconto dell'Acqua"

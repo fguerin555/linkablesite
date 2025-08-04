@@ -7,6 +7,7 @@ import About from "./pages/AboutFile/About";
 import Ciel from "./pages/CielFile/Ciel";
 import Nuvola from "./pages/NuvolaFile/Nuvola";
 import Occhi from "./pages/OcchiFile/Occhi";
+import Acqua from "./pages/AcquaFile/Acqua";
 import Catalogo from "./pages/CielFile/Catalogo";
 import CuricIrma from "./pages/AboutFile/CuricIrma";
 import CuricFred from "./pages/AboutFile/CuricFred";
@@ -31,6 +32,7 @@ const App = () => {
             <Route path="/ciel" element={<Ciel />} />
             <Route path="/nuvola" element={<Nuvola />} />
             <Route path="/occhi" element={<Occhi />} />
+            <Route path="/acqua" element={<Acqua />} />
             <Route path="/catalogo" element={<Catalogo />} />
             <Route path="/curicIrma" element={<CuricIrma />} />
             <Route path="/curicFred" element={<CuricFred />} />

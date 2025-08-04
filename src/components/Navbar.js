@@ -22,10 +22,13 @@ const Navbar = () => {
           <Link to="/Ciel">Progetto Ciel'in Città</Link>
         </li>
         <li>
-          <Link to="/Nuvola">Progetto Nuvola Bianca</Link>
+          <Link to="/Nuvola"> Nuvola Bianca</Link>
         </li>
         <li>
-          <Link to="/Occhi">Progetto Gli Occhi nelle Mani</Link>
+          <Link to="/Occhi"> Gli Occhi nelle Mani</Link>
+        </li>
+        <li>
+          <Link to="/Acqua"> Il Racconto dell'Acqua</Link>
         </li>
       </ul>
     </nav>

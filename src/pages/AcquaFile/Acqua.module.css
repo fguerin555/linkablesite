@@ -1,41 +1,106 @@
 .AcquaPage {
-  .OcchiContentContainer {
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    align-items: flex-start;
-    gap: 5px;
-    font-size: 26px;
-  }
-  /* .Links {
-    font-size: 20px;
-    font-family: "font-montserrat-medium", Arial, sans-serif;
-    color: rgb(73, 81, 111);
-  }
+  font-family: "font-montserrat-medium", Arial, sans-serif;
+  color: rgb(73, 81, 111);
+}
+.Presentation {
+  margin-bottom: 0;
+}
 
-  .linkContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;
-    margin-top: 20px;
-  }
+.Presentation h1,
+h2 {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: "font-montserrat-medium", Arial, sans-serif;
+  color: rgb(73, 81, 111);
+}
+h3 {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 22px;
+  font-family: "font-montserrat-medium", Arial, sans-serif;
+  color: rgb(73, 81, 111);
+}
+.Presentation p {
+  max-width: 68%;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  hyphens: auto;
+  margin: 20px auto;
+  font-family: "Montserrat-medium", Arial, Helvetica, sans-serif;
+  color: rgb(86, 84, 84);
+}
 
-  .linkText {
-    font-size: 18px;
-    font-weight: 500;
-    font-family: "Montserrat", sans-serif;
-    color: #333;
-  }
+.Links span {
+  font-size: 20px;
+  font-family: "font-montserrat-medium", Arial, sans-serif;
+  color: rgb(73, 81, 111);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-top: 20px;
+}
 
-  .Links img {
-    width: 24px;
-    height: 24px;
-    border-radius: 4px;
-    object-fit: contain;
-  } */
+.logo {
+  width: 35px;
+  height: 35px;
+  border-radius: 8px;
+  object-fit: contain;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+}
+
+.iconImage {
+  width: 35px;
+  height: 35px;
+}
+
+@media (max-width: 1224px) {
+}
+.Presentation p {
+  min-width: 95%;
+  text-align: justify;
+  hyphens: auto;
+  margin-right: auto;
+  margin-left: auto;
+}
+.logo {
+  width: 30px;
+  height: 30px;
+}
+
+.Links span {
+  font-size: 20px;
+  font-family: "font-montserrat-medium", Arial, sans-serif;
+  color: rgb(73, 81, 111);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
   .Presentation {
     margin-bottom: 0;
   }
@@ -65,211 +130,104 @@
     text-align: center;
     margin-right: auto;
     margin-left: auto;
-    font-size: 22px;
+    font-size: 20px;
     font-family: "font-montserrat-medium", Arial, sans-serif;
     color: rgb(73, 81, 111);
   }
   .Presentation p {
-    max-width: 68%;
+    min-width: 67%;
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
-    flex-direction: column;
+    text-align: justify;
+    hyphens: auto;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 20px;
+    font-family: "font-montserrat-medium", Arial, sans-serif;
+    color: rgb(73, 81, 111);
+  }
+  .logo {
+    width: 30px;
+    height: 30px;
+  }
+
+  .Links span {
+    font-size: 20px;
+    font-family: "font-montserrat-medium", Arial, sans-serif;
+    color: rgb(73, 81, 111);
+    display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px auto;
-    font-family: "Montserrat-medium", Arial, Helvetica, sans-serif;
-    color: rgb(86, 84, 84);
-  }
-
-  .Paragraphes {
-    margin-left: 2%;
-    width: 90%;
-    font-size: 24px;
-  }
-  .Paragraphes p {
-    word-spacing: 1px;
-  }
-
-  @media (max-width: 1224px) {
-    .AcquaContentContainer {
-      flex-direction: column;
-      width: 100%;
-    }
-    .AcquaImageContainer {
-      min-width: 100%;
-      justify-content: center;
-      align-items: center;
-      display: -webkit-box;
-      display: -moz-box;
-      display: -ms-flexbox;
-      display: -webkit-flex;
-      display: flex;
-      margin-left: auto;
-      margin-right: auto;
-    }
-    .AcquaImageContainer img {
-      margin-top: 10px;
-      max-width: 95%;
-    }
-    .Links {
-      font-size: 20px;
-      font-family: "font-montserrat-medium", Arial, sans-serif;
-      color: rgb(73, 81, 111);
-    }
-
-    .logoLink {
-      width: 12px;
-      height: 12px;
-    }
-    .Presentation p {
-      min-width: 95%;
-    }
-  }
-}
-
-@media (max-width: 768px) {
-  .AcquaPage {
-    .AcquaContentContainer {
-      display: -webkit-box;
-      display: -moz-box;
-      display: -ms-flexbox;
-      display: -webkit-flex;
-      display: flex;
-      align-items: flex-start;
-      gap: 5px;
-      font-size: 26px;
-    }
-    .Links {
-      font-size: 20px;
-      font-family: "font-montserrat-medium", Arial, sans-serif;
-      color: rgb(73, 81, 111);
-    }
-
-    .Presentation {
-      margin-bottom: 0;
-    }
-    .Presentation h1,
-    h2 {
-      display: -webkit-box;
-      display: -moz-box;
-      display: -ms-flexbox;
-      display: -webkit-flex;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      margin-right: auto;
-      margin-left: auto;
-      font-family: "font-montserrat-medium", Arial, sans-serif;
-      color: rgb(73, 81, 111);
-    }
-    h3 {
-      display: -webkit-box;
-      display: -moz-box;
-      display: -ms-flexbox;
-      display: -webkit-flex;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      margin-right: auto;
-      margin-left: auto;
-      font-size: 20px;
-      font-family: "font-montserrat-medium", Arial, sans-serif;
-      color: rgb(73, 81, 111);
-    }
-    .Presentation p {
-      min-width: 67%;
-      display: -webkit-box;
-      display: -moz-box;
-      display: -ms-flexbox;
-      display: -webkit-flex;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      margin-right: auto;
-      margin-left: auto;
-      font-size: 20px;
-      font-family: "font-montserrat-medium", Arial, sans-serif;
-      color: rgb(73, 81, 111);
-    }
+    gap: 8px;
+    margin-top: 20px;
   }
 }
 
 @media (max-width: 509px) {
-  .AcquaPage {
-    .OcchiContentContainer {
-      display: -webkit-box;
-      display: -moz-box;
-      display: -ms-flexbox;
-      display: -webkit-flex;
-      display: flex;
-      align-items: flex-start;
-      gap: 5px;
-      font-size: 26px;
-    }
-    .Links {
-      font-size: 20px;
-      font-family: "font-montserrat-medium", Arial, sans-serif;
-      color: rgb(73, 81, 111);
-    }
+  .Presentation {
+    margin-bottom: 0;
+  }
+  .Presentation h1,
+  h2 {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: "font-montserrat-medium", Arial, sans-serif;
+    color: rgb(73, 81, 111);
+  }
+  h3 {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 20px;
+    font-family: "font-montserrat-medium", Arial, sans-serif;
+    color: rgb(73, 81, 111);
+  }
+  .Presentation p {
+    min-width: 66%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    text-align: justify;
+    hyphens: auto;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 20px;
+    font-family: "font-montserrat-medium", Arial, sans-serif;
+    color: rgb(73, 81, 111);
+  }
+  .logo {
+    width: 30px;
+    height: 30px;
+  }
 
-    .logoLink {
-      width: 12px;
-      height: 12px;
-    }
-    .Presentation {
-      margin-bottom: 0;
-    }
-    .Presentation h1,
-    h2 {
-      display: -webkit-box;
-      display: -moz-box;
-      display: -ms-flexbox;
-      display: -webkit-flex;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      margin-right: auto;
-      margin-left: auto;
-      font-family: "font-montserrat-medium", Arial, sans-serif;
-      color: rgb(73, 81, 111);
-    }
-    h3 {
-      display: -webkit-box;
-      display: -moz-box;
-      display: -ms-flexbox;
-      display: -webkit-flex;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      margin-right: auto;
-      margin-left: auto;
-      font-size: 20px;
-      font-family: "font-montserrat-medium", Arial, sans-serif;
-      color: rgb(73, 81, 111);
-    }
-    .Presentation p {
-      min-width: 66%;
-      display: -webkit-box;
-      display: -moz-box;
-      display: -ms-flexbox;
-      display: -webkit-flex;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      margin-right: auto;
-      margin-left: auto;
-      font-size: 20px;
-      font-family: "font-montserrat-medium", Arial, sans-serif;
-      color: rgb(73, 81, 111);
-    }
+  .Links span {
+    font-size: 20px;
+    font-family: "font-montserrat-medium", Arial, sans-serif;
+    color: rgb(73, 81, 111);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-top: 20px;
   }
 }

@@ -1,9 +1,8 @@
 import React from "react";
 import { Helmet } from "react-helmet-async";
+import pointingRight from "../../assets/img/pointingRight.png";
 import "../../Global.css";
 import styles from "./Acqua.module.css";
-import Facebook from "../../assets/img/Facebook.png";
-import Instagram from "../../assets/img/Instagram.png";
 import LogoOndaBlue2 from "../../assets/img/LogoOndaBlue2.png";
 import ScrollToTop from "../../components/ScrollToTop";
 import BackButton from "../../components/BackButton";
@@ -58,11 +57,13 @@ const Acqua = () => {
             dall’Associazione Ciel’in Città a cura di Adriana Polveroni, che si
             propone di esplorare il valore simbolico, culturale e ambientale
             dell’acqua attraverso linguaggi artistici, percorsi partecipativi e
-            interventi in alcuni quartieri di Roma. La rassegna si articola in
-            una serie di appuntamenti, opere e attività con il coinvolgimento di
-            artisti, studenti, comunità locali e pellegrini, in occasione del
-            Giubileo 2025 che si terranno da settembre a novembre 2025, tutti a
-            ingresso gratuito.
+            interventi in alcuni quartieri di Roma.
+          </p>
+          <p>
+            La rassegna si articola in una serie di appuntamenti, opere e
+            attività con il coinvolgimento di artisti, studenti, comunità locali
+            e pellegrini, in occasione del Giubileo 2025 che si terranno da
+            settembre a novembre 2025, tutti a ingresso gratuito.
           </p>
           <p>
             Il tema dell’acqua costituisce il fulcro dell’intera manifestazione,
@@ -70,53 +71,33 @@ const Acqua = () => {
             della storia di Roma e fonte d’ispirazione per l’immaginario
             artistico; e come risorsa naturale preziosa, sempre più al centro di
             riflessioni contemporanee legate all’unione, alla condivisione e
-            alla sostenibilità. A partire da questi presupposti, il progetto
-            individua come luoghi d’intervento alcuni acquedotti e aree
-            adiacenti – spazi verdi, siti simbolici, contesti pubblici e privati
-            – nella zona sud-est della città. Sono previste, tra l’altro,
-            videoproiezioni sulle pareti dell’Acquedotto Marcio Felice,
-            all’interno del Parco di Tor Fiscale, e in altri luoghi del
-            Municipio V e del Municipio VII.
+            alla sostenibilità.
+          </p>
+          <p>
+            A partire da questi presupposti, il progetto individua come luoghi
+            d’intervento alcuni acquedotti e aree adiacenti – spazi verdi, siti
+            simbolici, contesti pubblici e privati – nella zona sud-est della
+            città. Sono previste, tra l’altro, videoproiezioni sulle pareti
+            dell’Acquedotto Marcio Felice, all’interno del Parco di Tor Fiscale,
+            e in altri luoghi del Municipio V e del Municipio VII.
           </p>
         </div>
       </div>
       <div className={styles.Links}>
-        <div
-          style={{
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            gap: "8px", // espace entre le texte et le logo
-            marginTop: "20px",
-          }}
-        >
-          <span
-            style={{
-              fontSize: "16px",
-              fontWeight: "bold",
-              fontFamily: "Montserrat",
-            }}
-          >
-            Click on Logo
-          </span>
-          <a
-            href="https://ilraccontodellacqua.com"
-            // target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Logo Il Racconto dell'Acqua"
-            title="Visitez Il Racconto dell'Acqua"
-          >
+        <div>
+          <span>
             <img
-              src={LogoOndaBlue2}
-              alt="Logo Il Racconto dell'Acqua"
-              style={{
-                width: "40px",
-                height: "40px",
-                borderRadius: "5px",
-                boxShadow: "3px 3px 10px rgba(0, 0, 0, 0.3)",
-              }}
+              src={pointingRight}
+              alt="Icône décorative"
+              className={styles.iconImage}
             />
-          </a>
+            Click on Logo
+            <a href="https://ilraccontodellacqua.com" rel="noopener noreferrer">
+              <div className={styles.logo}>
+                <img src={LogoOndaBlue2} alt="Logo Il Racconto dell'Acqua" />
+              </div>
+            </a>
+          </span>
         </div>
       </div>
 

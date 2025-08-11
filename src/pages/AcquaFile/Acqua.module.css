@@ -61,6 +61,9 @@ h3 {
   gap: 8px;
   margin-top: 20px;
 }
+.Links img {
+  border-radius: 5px;
+}
 
 .logo {
   width: 35px;
@@ -71,33 +74,38 @@ h3 {
 }
 
 .iconImage {
+  border-radius: 8px;
   width: 35px;
   height: 35px;
 }
 
 @media (max-width: 1224px) {
-}
-.Presentation p {
-  min-width: 95%;
-  text-align: justify;
-  hyphens: auto;
-  margin-right: auto;
-  margin-left: auto;
-}
-.logo {
-  width: 30px;
-  height: 30px;
-}
+  .Presentation p {
+    min-width: 95%;
+    text-align: justify;
+    hyphens: auto;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .logo {
+    width: 30px;
+    height: 30px;
+    border-radius: 8px;
+  }
 
-.Links span {
-  font-size: 20px;
-  font-family: "font-montserrat-medium", Arial, sans-serif;
-  color: rgb(73, 81, 111);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 8px;
-  margin-top: 20px;
+  .Links span {
+    font-size: 20px;
+    font-family: "font-montserrat-medium", Arial, sans-serif;
+    color: rgb(73, 81, 111);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-top: 20px;
+  }
+  .Links img {
+    border-radius: 5cqmin;
+  }
 }
 
 @media (max-width: 768px) {
@@ -152,6 +160,7 @@ h3 {
   .logo {
     width: 30px;
     height: 30px;
+    border-radius: 8px;
   }
 
   .Links span {
@@ -163,6 +172,9 @@ h3 {
     align-items: center;
     gap: 8px;
     margin-top: 20px;
+  }
+  .Links img {
+    border-radius: 5svh;
   }
 }
 
@@ -219,7 +231,6 @@ h3 {
     width: 30px;
     height: 30px;
   }
-
   .Links span {
     font-size: 20px;
     font-family: "font-montserrat-medium", Arial, sans-serif;
@@ -229,5 +240,8 @@ h3 {
     align-items: center;
     gap: 8px;
     margin-top: 20px;
+  }
+  .Links img {
+    border-radius: 5px;
   }
 }

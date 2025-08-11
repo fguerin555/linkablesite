@@ -138,6 +138,18 @@ const About = () => {
             con Unione Italiana dei Ciechi con Unione Italiana dei Ciechi e
             degli Ipovedenti, con Auser e con il Polo Culturale Le Clarisse.
           </p>
+          <p>
+            2025 Ideazione ed ora in fase di attuazione del progetto “IL
+            RACCONTO DELL'ACQUA” finanziato dall’Unione Europea Next Generation
+            EU nell’ambito del PNRR. Una manifestazione vincitrice dell’Avviso
+            Pubblico Artes et Iubilaeum – 2025 per il Giubileo di Roma. Gli
+            eventi, tutti a ingresso gratuito, si terranno da Settembre a
+            Novembre 2025 intorno al tema l'acqua, elemento fondativo della
+            storia di Roma, fonte d’ispirazione per l’immaginario artistico,
+            risorsa naturale preziosa, è sempre più al centro di riflessioni
+            contemporanee legate all’unione, alla condivisione e alla
+            sostenibilità.
+          </p>
         </div>
         <div className={styles.ImageContainer}>
           <div className={styles.ImageWrapper}>

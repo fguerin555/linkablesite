@@ -1,5 +1,7 @@
 import React from "react";
 import { Helmet } from "react-helmet-async";
+import { useTranslation } from "react-i18next";
+
 import "../../Global.css";
 import styles from "./Home.module.css";
 import { Link } from "react-router-dom";
@@ -8,6 +10,8 @@ import image2 from "../../assets/img/Vanessa.png";
 import image3 from "../../assets/img/Fred.png";
 
 const Home = () => {
+  const { t } = useTranslation(); // 👈 Hook pour traduire
+
   return (
     <div>
       <Helmet>
@@ -24,8 +28,6 @@ const Home = () => {
           content="Ciel'in Città, Associazione culturale, Arte, Educazione, Inclusione, Grosseto, Scultura, Laboratori artistici, Progetti sociali"
         />
         <meta name="author" content="Associazione Ciel'in Città" />
-
-        {/* Open Graph per Facebook e social media */}
         <meta
           property="og:title"
           content="Ciel'in Città | Arte e Educazione per tutti"
@@ -39,8 +41,6 @@ const Home = () => {
           content="https://cielincitta.org/assets/img/Logo2.png"
         />
         <meta property="og:url" content="https://cielincitta.org/" />
-
-        {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
@@ -54,55 +54,45 @@ const Home = () => {
 
       <div className={styles.HomePage}>
         <div className={styles.Arte}>
-          <h1>L'ARTE È NECESSARIA</h1>
+          <h1>{t("home.title")}</h1>
         </div>
-        <p className={styles.ParagOne}>
-          L'associazione si rivolge in prevalenza a giovani a rischio di
-          abbandono scolastico. Propone ed organizza progetti innovativi di arte
-          in tutte le sue discipline dentro e fuori le scuole; offre iniziative
-          di apprendimento attraverso progetti culturali al fine di aumentare
-          l'offerta formativa anche a quelle fasce di persone alle quali, per
-          motivi di carattere sociale, economici o di disabilità spesso è negato
-          l'accesso alla cultura. Si occupa inoltre di riqualificare, attaverso
-          l'arte, luoghi degradati della città.
-        </p>
+
+        <p className={styles.ParagOne}>{t("home.paragraph1")}</p>
+
         <div className={styles.BandeCouleur}>
           <div className={styles.Logo}></div>
-          <p className={styles.ParagTwo}>
-            L'associazione nasce nel 2018 durante l'ideazione del progetto
-            Ciel'in Città a cui ha dato il nome.
-          </p>
+          <p className={styles.ParagTwo}>{t("home.description")}</p>
         </div>
+
         <div className={styles.ImageContainer}>
           <div className={styles.ImageWrapper}>
             <img src={image1} alt="Irma Alonzo" />
-            <p className={styles.ImageCaption}>Irma Alonzo </p>
-            <p className={styles.ImageTitle}>Presidente</p>
+            <p className={styles.ImageCaption}>Irma Alonzo</p>
+            <p className={styles.ImageTitle}>{t("home.person1")}</p>
             <div className={styles.CuricIrma}>
               <Link to="/curicIrma">
-                {" "}
                 <button>Curriculum</button>
               </Link>
             </div>
           </div>
+
           <div className={styles.ImageWrapper}>
             <img src={image2} alt="Vanessa Roghi" />
             <p className={styles.ImageCaption}>Vanessa Roghi</p>
-            <p className={styles.ImageTitle}>Vicepresidente</p>
+            <p className={styles.ImageTitle}>{t("home.person2")}</p>
             <div className={styles.CuricVanessa}>
               <Link to="/curicVanessa">
-                {" "}
                 <button>Curriculum</button>
               </Link>
             </div>
           </div>
+
           <div className={styles.ImageWrapper}>
             <img src={image3} alt="Frédéric Guérin" />
             <p className={styles.ImageCaption}>Frédéric Guérin</p>
-            <p className={styles.ImageTitle}>Segretario</p>
+            <p className={styles.ImageTitle}>{t("home.person3")}</p>
             <div className={styles.CuricFred}>
               <Link to="/curicFred">
-                {" "}
                 <button>Curriculum</button>
               </Link>
             </div>
@@ -113,4 +103,4 @@ const Home = () => {
   );
 };
 
-export default Home; // Default export
+export default Home;

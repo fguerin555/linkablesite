@@ -1,0 +1,21 @@
+{
+  "navbar": {
+    "logoAlt": "Logo - Soleil rouge su tache horizontale bleue",
+    "openMenu": "Ouvrir menu",
+    "closeMenu": "Fermer menu",
+    "home": "Home",
+    "about": "About",
+    "ciel": "Projet Ciel'in Città",
+    "nuvola": "Nuvola Bianca",
+    "occhi": "Gli Occhi nelle Mani",
+    "acqua": "Il Racconto dell'Acqua"
+  },
+  "home": {
+    "title": "L'ART EST NECESSAIRE",
+    "paragraph1": "L’association s’adresse principalement aux jeunes à risque d’abandon scolaire. Propose et organise des projets artistiques innovants dans toutes ses disciplines à l’intérieur et à l’extérieur des écoles; offre des initiatives d’apprentissage par le biais de projets culturels afin d’augmenter l’offre de formation, y compris pour les groupes auxquels, pour des raisons sociales, économiques ou de handicap est souvent refusé l’accès à la culture. Il s’occupe également de requalifier, à travers l’art, des lieux dégradés de la ville.",
+    "description": "L’association est née en 2018 lors de la conception du projet Ciel’in Città dont elle a pris le nom.",
+    "person1": "Présidente",
+    "person2": "Vice présidente",
+    "person3": "Secrétaire"
+  }
+}

@@ -17,6 +17,7 @@ import Stampa from "./pages/CielFile/Stampa";
 import Tirreno from "./pages/CielFile/Tirreno";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import "./i18n";
 
 const App = () => {
   return (

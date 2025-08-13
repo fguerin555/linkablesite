@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "core-js/stable";
 import "regenerator-runtime/runtime";
+import "./i18n";
 import "./Global.css";
 import App from "./App";
 

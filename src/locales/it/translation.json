@@ -1,0 +1,51 @@
+{
+  "navbar": {
+    "logoAlt": "Logo - Sole rosso su macchia azzura",
+    "openMenu": "Apri menu",
+    "closeMenu": "Chiudi menu",
+    "home": "Home",
+    "about": "About",
+    "ciel": "Progetto Ciel'in Città",
+    "nuvola": "Nuvola Bianca",
+    "occhi": "Gli Occhi nelle Mani",
+    "acqua": "Il Racconto dell'Acqua"
+  },
+  "home": {
+    "title": "L'ARTE È NECESSARIA",
+    "paragraph1": "L'associazione si rivolge in prevalenza a giovani a rischio di abbandono scolastico. Propone ed organizza progetti innovativi di arte in tutte le sue discipline dentro e fuori le scuole; offre iniziative di apprendimento attraverso progetti culturali al fine di aumentare l'offerta formativa anche a quelle fasce di persone alle quali, per motivi di carattere sociale, economici o di disabilità spesso è negato l'accesso alla cultura. Si occupa inoltre di riqualificare, attaverso l'arte, luoghi degradati della città.",
+    "description": "L'associazione nasce nel 2018 durante l'ideazione del progetto Ciel'in Città a cui ha dato il nome.",
+    "person1": "Presidente",
+    "person2": "Vicepresidente",
+    "person3": "Segretario"
+  },
+  "ciel": {
+    "ciel": {
+      "title": "PROGETTO CIEL'IN CITTÀ",
+      "subtitle": "Un'idea, anzi una necessità di Irma Alonzo",
+      "videoAlt": "Video dell'inaugurazione di Ciel'in Città sulle mura di Grosseto",
+      "pressButton": "Rassegna stampa",
+      "section1": {
+        "title": "UN NUOVO PARCO D'ARTE PER I BAMBINI",
+        "subtitle": "AL BASTIONE DELLA CAVALLERIZZA SULLE MURA MEDICEE DI GROSSETO",
+        "date": "28 SETTEMBRE 2024",
+        "description": "Inaugurazione delle sculture gioco"
+      },
+      "salaEden": {
+        "title": "SALA EDEN 8 maggio 2024",
+        "description": "Dopo Prato. Inaugurazione con le autorità, del progetto a Grosseto. In questa foto la sala Eden dove, in una mostra itinerante che toccherà anche la città di Massa, ci sono i giocchi che facevano i nonni o i genitori delle bambine e dei bambini che li hanno interpretati."
+      },
+      "museoPecci": {
+        "title": "MUSEO PECCI 5 aprile 2024",
+        "description": "Inaugurazione al museo Pecci di Prato dell'area playground realizzata a seguito del progetto Ciel'in Città.",
+        "button": "Museo Pecci"
+      },
+      "boschetto": {
+        "title": "IL BOSCHETTO",
+        "description1": "Nel 1995 quando l'associazione Ciel'in Città ancora non esisteva, Irma Alonzo ha proposto al comune di Grosseto un parco giochi creato da artisti e destinato ai bambini/e, nacque un parco bellissimo che si chiamava il Boschetto.",
+        "catalogButton": "Catalogo",
+        "description2": "L'incuria ed il vandalismo hanno ridotto le opere ad un ammasso di oggetti degradati. Irma Alonzo, tramite l'associazione Ciel'in Città ha deciso di ripresentare il progetto per la riqualificazione al Comune di Grosseto dopo che molta stampa locale si interrogava del perchè dell'abbandono di un luogo cosi caro ai cittadini. È nato Ciel'in città dall'unione della sua idea e la disponibilità dell'Assessore Ginanneschi che però ha voluto spostare il parco sopra le Mura Medicee.",
+        "tirrenoButton": "Articolo Il Tirreno"
+      }
+    }
+  }
+}

@@ -117,5 +117,42 @@
       "name": "Riccardo Colosimo",
       "bio": "Riccardo Colosimo, illustrator and comics designer, after attending the Roman School of Comics where he now teaches, published in Italy and France; he is currently drawing a graphic novel for the American market."
     }
+  },
+  "occhi": {
+    "pageTitle": "Gli Occhi nelle Mani | Art and Social Inclusion",
+    "metaDescription": "Discover the Gli Occhi nelle Mani project: sculpture workshops and sensory paths to promote social inclusion and accessibility for the blind community.",
+    "metaKeywords": "Gli Occhi nelle Mani, inclusive art, sculpture, touch, accessibility, blind community, artistic workshops, Grosseto",
+    "ogDescription": "Art workshops and sensory pathways to foster social inclusion and accessibility for the blind community.",
+    "twitterDescription": "Discover the artistic and sensorial project for the blind community: Gli Occhi nelle Mani.",
+    "title": "GLI OCCHI NELLE MANI",
+    "subtitle": "Start of Sculpture Workshops",
+    "teacher": "Teacher: Irma Alonzo",
+    "schedule1": "All Tuesdays from 11/02/2025 to 24/06/2025",
+    "schedule2": "From 3.30 pm to 5.30 pm",
+    "address": "Via Francesco Ferrucci, 5",
+    "city": "Grosseto",
+    "imageAlt": "Poster Occhi nelle Mani",
+    "videoTitle": "Sculpture workshop video",
+    "paragraph1": "With this project we intend to create a workshop itinerary of sculpture, history and memory of the territory with two professional figures: sculptor and tutor, and the creation of sensorial itineraries.",
+    "paragraph2": "The project is aimed at predominantly blind and visually impaired subjects of all ages who, when necessary, will be accompanied by Auser staff and open to citizens in order to create an inclusive integrated group to encourage exchange, socialisation, mutual knowledge and issues of the blind universe.",
+    "paragraph3": "Furthermore, the project makes use of the synergistic collaboration of the Italian Union of the Blind and Visually Impaired of Grosseto, the Archaeological and Art Museum of the Maremma, Auser Grosseto and the Le Clarisse cultural centre. The manipulation of clay, which in itself arouses primary emotions, during the sculpture workshops offers participants the opportunity to express themselves creatively through touch and to connect with our archaeological heritage.",
+    "paragraph4": "Is expected, with the supervision and scientific collaboration of the Museum, the creation, by the sculptor Irma Alonzo, of copies of Etruscan artefacts, ex-voto, which can be used as tactile models within a course of cultural and anthropological history of the territory. Furthermore - on the occasion of the final event, during the Visible Night, also to raise awareness among the sighted public, there are sensory paths in the dark, display of materials and related artefacts."
+  },
+  "acqua": {
+    "pageTitle": "Association Ciel'in Città",
+    "metaDescription": "Discover the project Il Racconto dell'Acqua",
+    "metaKeywords": "Rome, Jubilee 2025, art, sculpture, accessibility, culture, water, public art, community, participation",
+    "ogTitle": "Il Racconto dell'Acqua | Jubilee 2025 Rome| Arte and Culture",
+    "ogDescription": "Cultural and artistic events for the Jubilee of Rome 2025",
+    "title": "Il Racconto dell'Acqua",
+    "city": "Rome",
+    "dates": "September October November 2025",
+    "paragraph1": "The story of water is a winning event of the Public Notice Artes et Iubilaeum – 2025, conceived and organized by the Ciel'in Città Association curated by Adriana Polveroni, which aims to explore the symbolic, cultural and environmental value of water through artistic languages, participatory paths and interventions in some neighborhoods of Rome.",
+    "paragraph2": "The event is divided into a series of events, works and activities with the involvement of artists, students, local communities and pilgrims, on the occasion of the 2025 Jubilee which will be held from September to November 2025, all with free entry.",
+    "paragraph3": "The theme of water constitutes the core of the entire event, approached in a dual register: as a founding element of the history of Rome and a source of inspiration for the artistic imagination; and as a precious natural resource, increasingly at the centre of contemporary reflections related to union, sharing and sustainability.",
+    "paragraph4": "Starting from these assumptions, the project identifies some aqueducts and adjacent areas –green spaces, symbolic sites, public and private contexts – in the south-east area of the city as places of intervention. Among other things, video projections are planned on the walls of the Marcio Felice Aqueduct, inside the Tor Fiscale Park, and in other places in Municipality V and Municipality VII.",
+    "iconAlt": "Icône décorative",
+    "clickText": "Click on Logo",
+    "logoAlt": "Logo Il Racconto dell'Acqua"
   }
 }

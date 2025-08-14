@@ -60,6 +60,7 @@ const About = () => {
           <p>{t("about.parag.paragraph6")}</p>
           <p>{t("about.parag.paragraph7")}</p>
           <p>{t("about.parag.paragraph8")}</p>
+          <p>{t("about.parag.paragraph9")}</p>
         </div>
 
         <div className={styles.ImageContainer}>

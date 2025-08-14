@@ -1,5 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet-async";
+import { useTranslation } from "react-i18next";
 import pointingRight from "../../assets/img/pointingRight.png";
 import "../../Global.css";
 import styles from "./Acqua.module.css";
@@ -8,93 +9,51 @@ import ScrollToTop from "../../components/ScrollToTop";
 import BackButton from "../../components/BackButton";
 
 const Acqua = () => {
+  const { t } = useTranslation();
+
   return (
     <div>
       <Helmet>
-        <title>Associazione Ciel'in Città</title>
+        <title>{t("acqua.pageTitle")}</title>
         <link rel="canonical" href="https://ilraccontodellacqua.com" />
-        <meta
-          name="description"
-          content="Scopri il progetto Il Racconto dell'Acqua"
-        />
-        <meta
-          name="keywords"
-          content="Roma, Giubileo 2025, arte, scultura, accessibilità, cultura"
-        />
+        <meta name="description" content={t("acqua.metaDescription")} />
+        <meta name="keywords" content={t("acqua.metaKeywords")} />
         <meta name="author" content="Associazione Ciel'in Città" />
 
-        {/* Open Graph per Facebook e social media */}
-        <meta
-          property="og:title"
-          content="Il Racconto dell'Acqua | Giubileo 2025 Roma| Arte e Cultura"
-        />
-        <meta
-          property="og:description"
-          content="Eventi Culturali ed artisitici per il Giubileo di Roma 2025"
-        />
+        <meta property="og:title" content={t("acqua.ogTitle")} />
+        <meta property="og:description" content={t("acqua.ogDescription")} />
         <meta property="og:image" content="https://ilraccontodellacqua.com" />
         <meta property="og:url" content="https://ilraccontodellacqua.com" />
 
         <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="Il Racconto dell'Acqua | Giubileo 2025 Roma| Arte e Cultura"
-        />
-        <meta
-          name="twitter:description"
-          content="Scopri il progetto Il Racconto dell'Acqua"
-        />
+        <meta name="twitter:title" content={t("acqua.ogTitle")} />
+        <meta name="twitter:description" content={t("acqua.metaDescription")} />
       </Helmet>
 
       <div className={styles.AcquaPage}>
         <div className={styles.Presentation}>
-          <h1>Il Racconto dell'Acqua</h1>
-          <h2>Roma</h2>
-          <h2>Settembre Ottobre Novembre 2025</h2>
-          <p>
-            Il racconto dell’acqua è una manifestazione vincitrice dell’Avviso
-            Pubblico Artes et Iubilaeum – 2025, ideata e organizzata
-            dall’Associazione Ciel’in Città a cura di Adriana Polveroni, che si
-            propone di esplorare il valore simbolico, culturale e ambientale
-            dell’acqua attraverso linguaggi artistici, percorsi partecipativi e
-            interventi in alcuni quartieri di Roma.
-          </p>
-          <p>
-            La rassegna si articola in una serie di appuntamenti, opere e
-            attività con il coinvolgimento di artisti, studenti, comunità locali
-            e pellegrini, in occasione del Giubileo 2025 che si terranno da
-            settembre a novembre 2025, tutti a ingresso gratuito.
-          </p>
-          <p>
-            Il tema dell’acqua costituisce il fulcro dell’intera manifestazione,
-            affrontato secondo un duplice registro: come elemento fondativo
-            della storia di Roma e fonte d’ispirazione per l’immaginario
-            artistico; e come risorsa naturale preziosa, sempre più al centro di
-            riflessioni contemporanee legate all’unione, alla condivisione e
-            alla sostenibilità.
-          </p>
-          <p>
-            A partire da questi presupposti, il progetto individua come luoghi
-            d’intervento alcuni acquedotti e aree adiacenti – spazi verdi, siti
-            simbolici, contesti pubblici e privati – nella zona sud-est della
-            città. Sono previste, tra l’altro, videoproiezioni sulle pareti
-            dell’Acquedotto Marcio Felice, all’interno del Parco di Tor Fiscale,
-            e in altri luoghi del Municipio V e del Municipio VII.
-          </p>
+          <h1>{t("acqua.title")}</h1>
+          <h2>{t("acqua.city")}</h2>
+          <h2>{t("acqua.dates")}</h2>
+          <p>{t("acqua.paragraph1")}</p>
+          <p>{t("acqua.paragraph2")}</p>
+          <p>{t("acqua.paragraph3")}</p>
+          <p>{t("acqua.paragraph4")}</p>
         </div>
       </div>
+
       <div className={styles.Links}>
         <div>
           <span>
             <img
               src={pointingRight}
-              alt="Icône décorative"
+              alt={t("acqua.iconAlt")}
               className={styles.iconImage}
             />
-            Click on Logo
+            {t("acqua.clickText")}
             <a href="https://ilraccontodellacqua.com" rel="noopener noreferrer">
               <div className={styles.logo}>
-                <img src={LogoOndaBlue2} alt="Logo Il Racconto dell'Acqua" />
+                <img src={LogoOndaBlue2} alt={t("acqua.logoAlt")} />
               </div>
             </a>
           </span>

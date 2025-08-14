@@ -28,7 +28,7 @@
       "paragraph6": "2024 Conception du projet “ATENA“ (durée trois ans) en partenariat avec le Polo Universitario Grossetano, le Polo Luciano Bianciardi, la Commune de Grosseto, l’association Ccibo Maremma pour la création de laboratoires dans les écoles et la création d’une nouvelle école avec des cours gratuits pour la récupération des matières scolaires, ateliers de sculpture, propedeutica au numérique.",
       "paragraph7": "2024 Conception du projet “NUOVE PIAZZE“ (PLACES NOUVELLES) en synergie avec la municipalité de Grosseto. Il consiste en la requalification d’un jardin public et de quatre événements dans lesquels toutes les associations partenaires feront des initiatives pour la citoyenneté Pour ce projet, la commune a décidé de participer concrètement avec des ressources économiques sous forme de travaux de construction. En plus de la COMMUNE DE GROSSETO les autres partenaires sont : COESO; AUSER; UISP; cCIBO MAREMMA; Ass. INSIEME. Le projet est en attente d’un appel à propositions pour être financé.",
       "paragraph8": "2024-2025 Conception et maintenant en phase de mise en œuvre du projet “GLI OCCHI NELLE MANI“ (LES YEUX DANS LES MAINS) financé par la Municipalité de Grosseto secteur des services pour le citoyen et la famille - services sociaux en collaboration avec le Musée Archéologique et d’Art de la Maremme et en partenariat avec l’Union Italienne des Aveugles avec l’Union Italienne des Aveugles et des Malvoyants, avec Auser et avec le Pôle Culturel Les Clarisses.",
-      "paragraph9": "2025 Conception et mise en œuvre du projet “IL RACCONTO DELL'ACQUA“ (LE CONTE DE L’EAU) financé par l’Union Européenne Next Generation EU dans le cadre du PNRR. Une manifestation ayant remporté le Concours Publique Artes et Iubilaeum - 2025 pour le Jubilé de Rome. Les événements, tous à entrée gratuite, auront lieu de septembre à novembre 2025 autour du thème de l’eau, élément fondateur de l’histoire de Rome, source d’inspiration pour l’imaginaire artistique, ressource naturelle précieuse, est toujours plus au centre des réflexions contemporaines liées à l’union, le partage et la durabilité."
+      "paragraph9": "2025 Conception et mise en œuvre du projet “IL RACCONTO DELL'ACQUA“ (LE RÉCIT DE L’EAU) financé par l’Union Européenne Next Generation EU dans le cadre du PNRR. Une manifestation ayant remporté le Concours Publique Artes et Iubilaeum - 2025 pour le Jubilé de Rome. Les événements, tous à entrée gratuite, auront lieu de septembre à novembre 2025 autour du thème de l’eau, élément fondateur de l’histoire de Rome, source d’inspiration pour l’imaginaire artistique, ressource naturelle précieuse, est toujours plus au centre des réflexions contemporaines liées à l’union, le partage et la durabilité."
     },
     "person1": {
       "name": "Irma Alonzo",
@@ -116,5 +116,42 @@
       "name": "Riccardo Colosimo",
       "bio": "Riccardo Colosimo, illustrateur et dessinateur de bande dessinée, après avoir fréquenté l’École romaine des bandes dessinées où il enseigne maintenant, a publié en Italie et en France; actuellement il dessine un roman graphique pour le marché américain."
     }
+  },
+  "occhi": {
+    "pageTitle": "Gli Occhi nelle Mani | Art et Inclusion Sociale",
+    "metaDescription": "Découvre le projet Gli Occhi nelle Mani: Ateliers de sculpture et parcours sensoriels pour favoriser l’inclusion sociale et l’accessibilité pour la communauté non-voyante.",
+    "metaKeywords": "Gli Occhi nelle Mani, art inclusif, sculpture, toucher, accessibilité, communauté non-voyante, ateliers artistiques, Grosseto",
+    "ogDescription": "Ateliers artistiques et parcours sensoriels pour favoriser l’inclusion sociale et l’accessibilité pour la communauté non-voyante.",
+    "twitterDescription": "Découvrez le projet artistique et sensoriel pour la communauté non-voyante : Les yeux dans les mains.",
+    "title": "GLI OCCHI NELLE MANI",
+    "subtitle": "Début des ateliers de sculpture",
+    "teacher": "Enseignante: Irma Alonzo",
+    "schedule1": "Tous les Mardi du 11/02/2025 au 24/06/2025",
+    "schedule2": "Dalle ore 15.30 alle 17.30",
+    "address": "Via Francesco Ferrucci, 5",
+    "city": "Grosseto",
+    "imageAlt": "Affiche Occhi nelle Mani",
+    "videoTitle": "Video de l'atelier de sculpture",
+    "paragraph1": "Ce projet vise à réaliser un parcours de laboratoire de sculpture, d’histoire et de mémoire du territoire avec deux figures professionnelles : sculptrice et tuteur, et la création de parcours sensoriels.",
+    "paragraph2": "Le projet s’adresse à des personnes aveugles et malvoyantes de tous âges qui, si nécessaire, seront accompagnées par du personnel Auser et ouvert à la citoyenneté afin de créer un groupe intégré inclusif pour favoriser l’échange, la socialisation, la connaissance mutuelle et les thématiques de l’univers aveugle",
+    "paragraph3": "En outre, le projet bénéficie de la collaboration synergique de l’Union italienne des aveugles et des malvoyants de Grosseto, du Musée archéologique et d’art de la Maremme, d’Auser Grosseto et du pôle culturel Le Clarisse. La manipulation de l’argile, qui en soi suscite des émotions primaires, pendant les ateliers de sculpture offre aux participants la possibilité de s’exprimer de manière créative à travers le toucher et de se connecter avec notre patrimoine archéologique.",
+    "paragraph4": "Il est prévu, avec la supervision et la collaboration scientifique du Musée, la création, par le sculpteur Irma Alonzo, des copies d’objets étrusques, ex-voto, qui peuvent être utilisés comme modèles tactiles dans un parcours de l’histoire culturelle et anthropologique du territoire. En outre, à l’occasion de l’événement final, pendant la nuit visible, également pour sensibiliser le public voyant, il y a des parcours sensoriels dans l’obscurité, exposition des matériaux et des objets connexes."
+  },
+  "acqua": {
+    "pageTitle": "Association Ciel'in Città",
+    "metaDescription": "Découvre le projet Il Racconto dell'Acqua",
+    "metaKeywords": "Rome, Jubilé 2025, art, sculpture, accessibilité, culture",
+    "ogTitle": "Il Racconto dell'Acqua | Jubilé 2025 Rome| Art et Culture",
+    "ogDescription": "Événements culturels et artistiques pour le Jubilé de Rome 2025",
+    "title": "Il Racconto dell'Acqua",
+    "city": "Rome",
+    "dates": "Septembre Octobre Novembre 2025",
+    "paragraph1": "Le récit de l’eau est une manifestation gagnante de l’Avis Public Artes et Iubilaeum - 2025, conçue et organisée par l’Association Cie’in Città par Adriana Polveroni, qui se propose d’explorer la valeur symbolique, culturelle et environnementale de l’eau à travers des langages artistiques, Parcours participatifs et interventions dans certains quartiers de Rome.",
+    "paragraph2": "L’exposition se compose d’une série de rendez-vous, d’œuvres et d’activités avec la participation d’artistes, d’étudiants, de communautés locales et de pèlerins, à l’occasion du Jubilé 2025 qui aura lieu de septembre à novembre 2025.",
+    "paragraph3": "Le thème de l’eau constitue le centre de toute la manifestation, abordée selon un double registre : comme élément fondateur de l’histoire de Rome et source d’inspiration pour l’imaginaire artistique; et comme ressource naturelle précieuse, De plus en plus au centre des réflexions contemporaines liées à l’union, au partage et à la durabilité.",
+    "paragraph4": "À partir de ces hypothèses, le projet identifie comme lieux d’intervention certains aqueducs et zones adjacentes - espaces verts, sites symboliques, contextes publics et privés - dans la zone sud-est de la ville. Il est prévu, entre autres, des projections vidéo sur les murs de l’aqueduc Marcio Felice, à l’intérieur du parc de Tor Fiscale, et dans d’autres endroits de la municipalité V et de la municipalité VII.",
+    "iconAlt": "Icône décorative",
+    "clickText": "Cliquez sur le logo",
+    "logoAlt": "Logo Il Racconto dell'Acqua"
   }
 }

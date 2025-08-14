@@ -114,5 +114,42 @@
       "name": "Riccardo Colosimo",
       "bio": "Riccardo Colosimo, illustratore e disegnatore di fumetti, dopo aver frequentato la Scuola Romana dei Fumetti dove ora insegna, ha pubblicato in Italia e Francia; attualmente sta disegnando una graphic novel per il mercato americano."
     }
+  },
+  "occhi": {
+    "pageTitle": "Gli Occhi nelle Mani | Arte e Inclusione Sociale",
+    "metaDescription": "Scopri il progetto Gli Occhi nelle Mani: laboratori di scultura e percorsi sensoriali per favorire l'inclusione sociale e l'accessibilità per la comunità non vedente.",
+    "metaKeywords": "Gli Occhi nelle Mani, arte inclusiva, scultura, tatto, accessibilità, comunità non vedente, laboratori artistici, Grosseto",
+    "ogDescription": "Laboratori artistici e percorsi sensoriali per favorire l’inclusione sociale e l’accessibilità per la comunità non vedente.",
+    "twitterDescription": "Scopri il progetto artistico e sensoriale per la comunità non vedente: Gli Occhi nelle Mani.",
+    "title": "GLI OCCHI NELLE MANI",
+    "subtitle": "Inizio Laboratori di Scultura",
+    "teacher": "Insegnante: Irma Alonzo",
+    "schedule1": "Tutti i Martedi dal 11/02/2025 al 24/06/2025",
+    "schedule2": "Dalle ore 15.30 alle 17.30",
+    "address": "Via Francesco Ferrucci, 5",
+    "city": "Grosseto",
+    "imageAlt": "Locandina Occhi nelle Mani",
+    "videoTitle": "Video del laboratorio di scultura",
+    "paragraph1": "Con questo progetto si intende realizzare un percorso laboratoriale di scultura, di storia e memoria del territorio con due figure professionali: scultrice e tutor, e la creazione di percorsi sensoriali.",
+    "paragraph2": "Il progetto è rivolto a soggetti in prevalenza non vedenti e ipovedenti di ogni età che, quando necessario, saranno accompagnati da personale Auser e aperto alla cittadinanza al fine di creare un gruppo integrato inclusivo per favorire lo scambio, la socializzazione, la reciproca conoscenza e le tematiche dell'universo non vedente.",
+    "paragraph3": "Inoltre il progetto si avvale della collaborazione sinergica dell'Unione Italiana dei Cieci e degli Ipovedenti di Grosseto, del Museo Archeologico e d'Arte della Maremma, di Auser Grosseto e del Polo culturale Le Clarisse. La manipolazione dell'argilla, che di per se suscita emozioni primarie, durante i laboratori di scultura offre ai partecipanti la possibilità di esprimersi in modo creativo attraverso il tatto e di collegarsi con il nostro patrimonio archeologico.",
+    "paragraph4": "Si prevede, con la supervisione e collaborazione scientifica del Museo, la creazione, da parte della scultrice Irma Alonzo, di copie di manufatti etruschi, ex-voto, da poter essere usati come modelli tattili dentro un persorso di storia culturale e antropologica del territorio. Inoltre , in occasione dell'evento finale, durante la Notte Visibile, anche per sensibilizzare il pubblico vedente, sono previsti percorsi sensoriali al buio, esposizione dei materiali e dei relativi manufatti."
+  },
+  "acqua": {
+    "pageTitle": "Associazione Ciel'in Città",
+    "metaDescription": "Scopri il progetto Il Racconto dell'Acqua",
+    "metaKeywords": "Roma, Giubileo 2025, arte, scultura, accessibilità, cultura",
+    "ogTitle": "Il Racconto dell'Acqua | Giubileo 2025 Roma| Arte e Cultura",
+    "ogDescription": "Eventi Culturali ed artistici per il Giubileo di Roma 2025",
+    "title": "Il Racconto dell'Acqua",
+    "city": "Roma",
+    "dates": "Settembre Ottobre Novembre 2025",
+    "paragraph1": "Il racconto dell’acqua è una manifestazione vincitrice dell’Avviso Pubblico Artes et Iubilaeum – 2025, ideata e organizzata dall’Associazione Ciel’in Città a cura di Adriana Polveroni, che si propone di esplorare il valore simbolico, culturale e ambientale dell’acqua attraverso linguaggi artistici, percorsi partecipativi e interventi in alcuni quartieri di Roma.",
+    "paragraph2": "La rassegna si articola in una serie di appuntamenti, opere e attività con il coinvolgimento di artisti, studenti, comunità locali e pellegrini, in occasione del Giubileo 2025 che si terranno da settembre a novembre 2025, tutti a ingresso gratuito.",
+    "paragraph3": "Il tema dell’acqua costituisce il fulcro dell’intera manifestazione, affrontato secondo un duplice registro: come elemento fondativo della storia di Roma e fonte d’ispirazione per l’immaginario artistico; e come risorsa naturale preziosa, sempre più al centro di riflessioni contemporanee legate all’unione, alla condivisione e alla sostenibilità.",
+    "paragraph4": "A partire da questi presupposti, il progetto individua come luoghi d’intervento alcuni acquedotti e aree adiacenti – spazi verdi, siti simbolici, contesti pubblici e privati – nella zona sud-est della città. Sono previste, tra l’altro, videoproiezioni sulle pareti dell’Acquedotto Marcio Felice, all’interno del Parco di Tor Fiscale, e in altri luoghi del Municipio V e del Municipio VII.",
+    "iconAlt": "Icône décorative",
+    "clickText": "Clicca sul Logo",
+    "logoAlt": "Logo Il Racconto dell'Acqua"
   }
 }

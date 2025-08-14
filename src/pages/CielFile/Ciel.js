@@ -1,6 +1,7 @@
 import React from "react";
 import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 import "../../Global.css";
 import styles from "./Ciel.module.css";
 import ScrollToTop from "../../components/ScrollToTop";
@@ -14,146 +15,114 @@ import image18 from "../../assets/img/salaEden.jpg";
 import image19 from "../../assets/img/museoPECCI.jpg";
 import image20 from "../../assets/img/Boschetto.jpg";
 
-const Ciel = () => {
+const ProjectCiel = () => {
+  const { t } = useTranslation();
+
   return (
     <div>
-      {/* Balises Meta SEO */}
       <Helmet>
-        <title>Progetto Ciel'in Città | Parco di sculture-gioco</title>
-        <meta
-          name="description"
-          content="Découvrez le projet Ciel'in Città : un parco di sculture-gioco, sulle Mura Medicee de Grosseto."
-        />
+        <title>{t("projectCiel.title")} | Parco di sculture-gioco</title>
+        <meta name="description" content={t("projectCiel.subtitle")} />
         <meta
           name="keywords"
           content="Ciel'in Città, Arte, Éducazione, Parco di sculture-gioco, Mura Medicee, Grosseto"
         />
         <meta name="author" content="Associazione Ciel'in Città" />
-
-        {/* Open Graph pour Facebook et réseaux sociaux */}
-        <meta
-          property="og:title"
-          content="Progetto Ciel'in Città | Parco di sculture-gioco"
-        />
+        <meta property="og:title" content={t("projectCiel.title")} />
         <meta
           property="og:description"
-          content="UN NUOVO PARCO D'ARTE PER I BAMBINI AL BASTIONE DELLA CAVALLERIZZA SULLE MURA MEDICEE DI GROSSETO."
+          content={t("projectCiel.section1.subtitle")}
         />
         <meta
           property="og:image"
           content="https://cielincitta.org/assets/img/inaugmura1.jpg"
         />
         <meta property="og:url" content="https://cielincitta.org/ciel" />
-
-        {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          name="twitter:title"
-          content="Progetto Ciel'in Città | Parco di sculture-gioco"
-        />
+        <meta name="twitter:title" content={t("projectCiel.title")} />
       </Helmet>
       <link rel="canonical" href="https://cielincitta.org/ciel" />
+
       <div className={styles.CielPage}>
         <div className={styles.BandeRose}>
           <div className={styles.Titolo}>
-            <h1>PROGETTO CIEL'IN CITTÀ</h1>
+            <h1>{t("projectCiel.title")}</h1>
           </div>
           <div className={styles.LogoCIC}></div>
           <div className={styles.SottoTitolo}>
-            <p> Un idea, anzi una necessità di Irma Alonzo </p>
+            <p>{t("projectCiel.subtitle")}</p>
           </div>
-        </div>{" "}
+        </div>
+
         <div className={styles.CICvideo}>
           <iframe
             width="560"
             height="315"
             src="https://www.youtube.com/embed/At4tr6_RdtA?si=OgjDo8rNJajlyc07"
-            title="YouTube video player"
-            // frameBorder="0"
+            title={t("projectCiel.videoAlt")}
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerPolicy="strict-origin-when-cross-origin"
             allowFullScreen
-            alt="Video dell'inaugurazione di Ciel in Ciità sulle mura di Grosseto"
           />
         </div>
+
         <div className={styles.Stampa}>
           <Link to="/Stampa">
-            {" "}
-            <button>Rassegna stampa</button>
+            <button>{t("projectCiel.pressButton")}</button>
           </Link>
         </div>
+
         <div className={styles.InauguraMuraTexte}>
-          <h2>UN NUOVO PARCO D'ARTE PER I BAMBINI</h2>
-          <h3>AL BASTIONE DELLA CAVALLERIZZA SULLE MURA MEDICEE DI GROSSETO</h3>
-          <h4>28 SETTEMBRE 2024</h4>
-          <p>Inaugurazione delle sculture gioco</p>
+          <h2>{t("projectCiel.section1.title")}</h2>
+          <h3>{t("projectCiel.section1.subtitle")}</h3>
+          <h4>{t("projectCiel.section1.date")}</h4>
+          <p>{t("projectCiel.section1.description")}</p>
         </div>
+
         <div className={styles.ImagesContainer}>
           <img src={image13} alt="Inaugurazione sulle Mura 1" />
           <img src={image14} alt="Inaugurazione sulle Mura 2" />
           <img src={image15} alt="Inaugurazione sulle Mura 3" />
         </div>
+
         <div className={styles.SalaEden}>
-          <h3>SALA EDEN 8 maggio 2024</h3>
-          <p>
-            Dopo Prato. Inaugurazione con le autorità, del progetto a Grosseto.
-            In questa foto la sala Eden dove, in una mostra itinerante che
-            toccherà anche la città di Massa, ci sono i giocchi che facevano i
-            nonni o i genitori delle bambine e dei bambini che li hanno
-            interpretati.
-          </p>
+          <h3>{t("projectCiel.salaEden.title")}</h3>
+          <p>{t("projectCiel.salaEden.description")}</p>
           <img src={image18} alt="Laboratorio Sala Eden" />
         </div>
+
         <div className={styles.MuseoPecci}>
-          <h3>MUSEO PECCI 5 aprile 2024</h3>
-          <p>
-            Inaugurazione al museo Pecci di Prato dell'area playground
-            realizzata a seguito del progetto Ciel'in Città.
-          </p>
+          <h3>{t("projectCiel.museoPecci.title")}</h3>
+          <p>{t("projectCiel.museoPecci.description")}</p>
           <div className={styles.Pecci}>
             <Link to="/Pecci">
-              {" "}
-              <button>Museo Pecci</button>
+              <button>{t("projectCiel.museoPecci.button")}</button>
             </Link>
           </div>
           <img src={image19} alt="Inaugurazione al Museo Pecci" />
         </div>
-        <div className={styles.Boschetto}>
-          <h2>IL BOSCHETTO</h2>
-          <p>
-            Nel 1995 quando l'associazione Ciel'in Città ancora non esisteva,
-            Irma Alonzo ha proposto al comune di Grosseto un parco giochi creato
-            da artisti e destinato ai bambini/e, nacque un parco bellissimo che
-            si chiamava il Boschetto.
-          </p>
 
+        <div className={styles.Boschetto}>
+          <h2>{t("projectCiel.boschetto.title")}</h2>
+          <p>{t("projectCiel.boschetto.description1")}</p>
           <img src={image16} alt="Muro sonoro parco del boschetto" />
           <img src={image17} alt="Muro sonoro con i bambini" />
           <div className={styles.CatalogoBoschetto}>
             <Link to="/catalogo">
-              {" "}
-              <button>Catalogo</button>
+              <button>{t("projectCiel.boschetto.catalogButton")}</button>
             </Link>
           </div>
         </div>
+
         <div className={styles.BoschettoCopertina}>
           <img src={image20} alt="Copertina del catalogo Il Boschetto" />
         </div>
+
         <div className={styles.Boschetto2}>
-          <p>
-            L'incuria ed il vandalismo hanno ridotto le opere ad un ammasso di
-            oggetti degradati. Irma Alonzo, tramite l'associazione Ciel'in Città
-            a deciso di ripresentare il progetto per la riqualificazione al
-            Comune di Grosseto dopo che molta stampa locale si interrogava del
-            perchè dell'abbandono di un luogo cosi caro ai cittadini. È nato
-            Ciel'in città dall'unione della sua idea e la disponibilità
-            dell'Assessore Ginanneschi che però ha voluto spostare il parco
-            sopra le Mura Medicee.
-          </p>
+          <p>{t("projectCiel.boschetto.description2")}</p>
           <div className={styles.Tirreno}>
             <Link to="/Tirreno">
-              {" "}
-              <button>Articolo Il Tirreno</button>
+              <button>{t("projectCiel.boschetto.tirrenoButton")}</button>
             </Link>
           </div>
           <ScrollToTop />
@@ -164,4 +133,4 @@ const Ciel = () => {
   );
 };
 
-export default Ciel;
+export default ProjectCiel;

@@ -66,13 +66,31 @@ const Navbar = () => {
         </li>
 
         <li className={styles.languageSwitcher}>
-          <button onClick={() => changeLanguage("it")} aria-label="Italiano">
+          <button
+            onClick={() => {
+              changeLanguage("it");
+              closeMenu();
+            }}
+            aria-label="Italiano"
+          >
             <img src={flagIT} alt="Italiano" className={styles.flagIcon} />
           </button>
-          <button onClick={() => changeLanguage("en")} aria-label="English">
+          <button
+            onClick={() => {
+              changeLanguage("en");
+              closeMenu();
+            }}
+            aria-label="English"
+          >
             <img src={flagEN} alt="English" className={styles.flagIcon} />
           </button>
-          <button onClick={() => changeLanguage("fr")} aria-label="Français">
+          <button
+            onClick={() => {
+              changeLanguage("fr");
+              closeMenu();
+            }}
+            aria-label="Français"
+          >
             <img src={flagFR} alt="Français" className={styles.flagIcon} />
           </button>
         </li>

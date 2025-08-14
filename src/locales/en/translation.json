@@ -10,6 +10,7 @@
     "occhi": "Gli Occhi nelle Mani",
     "acqua": "Il Racconto dell'Acqua"
   },
+
   "home": {
     "title": "ART IS NECESSARY",
     "paragraph1": "The association is mainly aimed at young people at risk of dropping out of school. It proposes and organizes innovative art projects in all its disciplines inside and outside schools; offers learning initiatives through cultural projects in order to increase the training offer also to those groups of people who, for social, economic or disability reasons, are often denied access to culture. It also deals with redeveloping, through art, degraded places in the city.",
@@ -17,5 +18,72 @@
     "person1": "President",
     "person2": "Vice-President",
     "person3": "Secretary"
+  },
+
+  "about": {
+    "parag": {
+      "paragraph1": "The organization was founded in 2018 with the project “Ciel'in Città“ (Sky in the City), game sculptures in areas to be redeveloped, conceived by the artist Irma Alonzo born in turn, from the Il Boschetto project of 1995, 'From an abandoned garden to a sculpture park -game: thesis Accademia Belle Arti di Carrara-Irma Alonzo', conceived by the same, for the cultural education of primary and secondary school girls and boys . The Collodi Park and the Pecci Museum were among the supporters. In the Ciel'in città project, created to combat school dropout, the organization of the same name is a partner, among others, with the municipalities of Grosseto, Massa, Prato and the Pecci Museum, the “Un Passo Avanti“ (One Step Forward)call issued by “Con i Bambini“ (With Children )a non-profit organization.The aim of the Ciel'in Città association is to disseminate art in its many disciplines by proposing workshops to combat educational poverty and artistic-educational interventions to redevelop degraded urban areas. The main activity carried out by the Association, whose newborn activity was interrupted by Covid, is the conception and implementation of projects and events that can be used both in places institutionally responsible for culture, schools and cultural centres, and in locations traditionally not designated for this purpose, parks and gardens. A commitment aimed at the creation of “Nuove Piazze” (New Squares) scussion and participation in cultural life that encourage the participation of all citizens.",
+      "paragraph2": "2018 - 2024 Conception and implementation for the city of Grosseto of the CIEL'IN CITTA' project to which the association gave its name, which is being built on the Medici Walls in order to combat school dropout with the art at stake.",
+      "paragraph3": "Creation of a partnership where, in addition to the Ciel'in Città association, three provincial capitals of Tuscany participate - Grosseto, Massa, Prato. Other partners are: L. Pecci Foundation for Contemporary Arts, Grosseto Cultura Foundation, Le Mura Foundation, the Social Cooperative “Uscita di Sicurezza” , Artemisia Gentileschi Institute of Massa, Argon initiatives, Spin8 Association, Le Macchine Celibi soc. The Project is selected by the Social Enterprise “Con i Bambini” (With Childrens) following the call “Un Passo Avanti” (A Step Forward). The project ends in December 2024 following extensions granted by “Con i Bambini” ",
+      "paragraph4": "2022/2023 - Conception and implementation of the NUVOLA BIANCA project: fight against educational poverty through comics. The first and second classes of three schools participated: Technical and Graphic Institute and Communication Institute, the Art School, the Comprehensive Institute n. 2 Giovanni Pascoli and the Cultural Center of the Poor Clares where 4 16-hour workshops were held by internationally renowned artists for each Institute following the “call for artistic and cultural activities – ordinary call 2022” of the CR Firenze Foundation.",
+      "paragraph5": "2023-2024 The creation of the projects “STELLE SPLENDENTI” (SHINING STARS) and “NUVOLA BIANCA (WHITE CLOUD) EDUCATIONAL FESTIVAL” for the city of Grosseto have made it possible to expand the network of partners and have also created experiences as leaders. A fruitful collaboration began with three councilors of the Municipality of Grosseto (Education, Culture and Public Works) and with four schools in Rome and three in Grosseto.",
+      "paragraph6": "2024 Design of the project “ATENA” (lasting three years) in partnership with the Grosseto University Centre, the Luciano Bianciardi Centre, the Municipality of Grosseto, the Ccibo Maremma association for the creation of laboratories in schools and creation of a new school with courses free for the recovery of school subjects, sculpture workshops, preparatory to digital.",
+      "paragraph7": "2024 Conception of the NUOVE PIAZZE project in synergy with the Municipality of Grosseto. It consists of the redevelopment of a public garden and four events in which all the partner associations will carry out initiatives for citizens. For this project the Municipality has decided to concretely participate with economic resources in the form of building works. In addition to the MUNICIPALITY OF GROSSETO, the other partners are: COESO; AUSER; UISP; cCIBO MAREMMA; Ass. INSIEME. The project is awaiting a tender in order to be financed.",
+      "paragraph8": "2024-2025 Conception and now in the implementation phase of the project “GLI OCCHI NELLE MANI” (EYES IN HANDS) financed by the Municipality of Grosseto, services sector for citizens and the family - social services in collaboration with the Archaeological and Art Museum of the Maremma and in partnership with Italian Union of the Blind with the Italian Union of the Blind and Visually Impaired, with Auser and with the Le Clarisse Cultural Centre.",
+      "paragraph9": "2025 Conception and now in the implementation phase of the project “IL RACCONTO DELL'ACQUA” (THE TALE OF WATER) funded by the European Union Next Generation EU under the PNRR. A winning event of the Public Notice Artes et Iubilaeum – 2025 for the Jubilee of Rome. The events, all with free admission, will be held from September to November 2025 around the theme of water, a founding element of the history of Rome, a source of inspiration for the artistic imagination, a precious natural resource, and is increasingly at the center of reflections contemporaries linked to union, sharing and sustainability."
+    },
+    "person1": {
+      "name": "Irma Alonzo",
+      "role": "President",
+      "button": "Curriculum"
+    },
+    "person2": {
+      "name": "Vanessa Roghi",
+      "role": "Vice President",
+      "button": "Curriculum"
+    },
+    "person3": {
+      "name": "Frédéric Guérin",
+      "role": "Secretary",
+      "button": "Curriculum"
+    },
+    "associationTitle": "CULTURAL ASSOCIATION ",
+    "associationName": "CIEL'IN CITTA' ets",
+    "legalAddressTitle": "Registered Office",
+    "legalAddress": "Viale Luigi Einaudi, 2 - 58100 GROSSETO",
+    "operationalAddressTitle": "Operational headquarters",
+    "operationalAddress": "Viale Luigi Einaudi, 2 - 58100 GROSSETO",
+    "taxCode": "C.F. 97994670582",
+    "creationDate": "Establishment date: 23.11.2018",
+    "contactLabel": "Contact: 00 (39)  "
+  },
+
+  "projectCiel": {
+    "title": "PROJECT CIEL'IN CITTÀ",
+    "subtitle": "An idea, or rather a necessity by Irma Alonzo",
+    "videoAlt": "Video of the inauguration of Ciel'in Città on the walls of Grosseto",
+    "pressButton": "Press review",
+    "section1": {
+      "title": "A NEW ART PARK FOR CHILDREN",
+      "subtitle": "AT THE CAVALLERIZZA BASTION ON THE MEDICI WALLS OF GROSSETO",
+      "date": "28 SEPTEMBER 2024",
+      "description": "Inauguration of the game sculptures"
+    },
+    "salaEden": {
+      "title": "EDEN HALL 8 May 2024",
+      "description": "After Prato. Inauguration with the authorities of the project in Grosseto. In this photo the Eden room where, in a traveling exhibition that will also visit the city of Massa, there are the games played by the grandparents or parents of the girls and boys who played them"
+    },
+    "museoPecci": {
+      "title": "PECCI MUSEUM 5 April 2024",
+      "description": "Inauguration of the playground area created following the Ciel'in Città project at the Pecci museum in Prato.",
+      "button": "Pecci Museum"
+    },
+    "boschetto": {
+      "title": "THE BOSCHETTO",
+      "description1": "In 1995, when the Ciel'in Città association did not yet exist, Irma Alonzo proposed to the municipality of Grosseto a playground created by artists and intended for children, a beautiful park called the Boschetto was born.",
+      "catalogButton": "Catalog",
+      "description2": "Neglect and vandalism have reduced the works to a mass of degraded objects. Irma Alonzo, through the Ciel'in Città association, decided to resubmit the redevelopment project to the Municipality of Grosseto after much local press questioned the reason for the abandonment of a place so dear to the citizens. Ciel'in città was born from the union of his idea and the availability of Councilor Ginanneschi who, however, wanted to move the park above the Medici Walls.",
+      "tirrenoButton": "Article Il Tirreno"
+    }
   }
 }

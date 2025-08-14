@@ -18,34 +18,69 @@
     "person2": "Vicepresidente",
     "person3": "Segretario"
   },
-  "ciel": {
-    "ciel": {
-      "title": "PROGETTO CIEL'IN CITTÀ",
-      "subtitle": "Un'idea, anzi una necessità di Irma Alonzo",
-      "videoAlt": "Video dell'inaugurazione di Ciel'in Città sulle mura di Grosseto",
-      "pressButton": "Rassegna stampa",
-      "section1": {
-        "title": "UN NUOVO PARCO D'ARTE PER I BAMBINI",
-        "subtitle": "AL BASTIONE DELLA CAVALLERIZZA SULLE MURA MEDICEE DI GROSSETO",
-        "date": "28 SETTEMBRE 2024",
-        "description": "Inaugurazione delle sculture gioco"
-      },
-      "salaEden": {
-        "title": "SALA EDEN 8 maggio 2024",
-        "description": "Dopo Prato. Inaugurazione con le autorità, del progetto a Grosseto. In questa foto la sala Eden dove, in una mostra itinerante che toccherà anche la città di Massa, ci sono i giocchi che facevano i nonni o i genitori delle bambine e dei bambini che li hanno interpretati."
-      },
-      "museoPecci": {
-        "title": "MUSEO PECCI 5 aprile 2024",
-        "description": "Inaugurazione al museo Pecci di Prato dell'area playground realizzata a seguito del progetto Ciel'in Città.",
-        "button": "Museo Pecci"
-      },
-      "boschetto": {
-        "title": "IL BOSCHETTO",
-        "description1": "Nel 1995 quando l'associazione Ciel'in Città ancora non esisteva, Irma Alonzo ha proposto al comune di Grosseto un parco giochi creato da artisti e destinato ai bambini/e, nacque un parco bellissimo che si chiamava il Boschetto.",
-        "catalogButton": "Catalogo",
-        "description2": "L'incuria ed il vandalismo hanno ridotto le opere ad un ammasso di oggetti degradati. Irma Alonzo, tramite l'associazione Ciel'in Città ha deciso di ripresentare il progetto per la riqualificazione al Comune di Grosseto dopo che molta stampa locale si interrogava del perchè dell'abbandono di un luogo cosi caro ai cittadini. È nato Ciel'in città dall'unione della sua idea e la disponibilità dell'Assessore Ginanneschi che però ha voluto spostare il parco sopra le Mura Medicee.",
-        "tirrenoButton": "Articolo Il Tirreno"
-      }
+  "about": {
+    "parag": {
+      "paragraph1": "L'Ente nasce nel 2018 con il progetto “Ciel'in città“, sculture-gioco in aree da riqualificare, ideato dall'artista Irma Alonzo nato a sua volta, dal progetto Il Boschetto del 1995, 'Da giardino abbandonato a parco di sculture-gioco: tesi Accademia Belle Arti di Carrara- Irma Alonzo', ideato dalla stessa, per la formazione culturale di bambine e bambini della scuola primaria e secondaria . Il Parco di Collodi ed il Museo Pecci furono tra i sostenitori. Nel progetto Ciel'in città, creato per contrastare l'abbandono scolastico, l'Ente omonimo risulta partner tra gli altri con i Comuni di Grosseto, Massa, Prato ed il Museo Pecci, il bando 'Un passo avanti' emesso da “Con i bambini“ una onlus. Lo scopo dell'associazione Ciel'in Città è divulgare l'arte nelle sue molteplici discipline proponendo laboratori per contrastare la povertà educativa e interventii artistico-educativi per riqualificare aree urbane degradate. L’attività principale svolta dall’Associazione, la cui attività appena nata é stata interrotta dal Covid, è l’ideazione e realizzazione di progetti ed eventi fruibili sia in luoghi istituzionalmente deputati della cultura, scuole e centri culturali, sia in sedi tradizionalmente non deputate a tale scopo, parchi e giardini. Un impegno rivolto alla creazione di “nuove piazze” di libero confronto e partecipazione alla vita culturale che favoriscano la partecipazione di tutti cittadini.",
+      "paragraph2": "2018 - 2024 Ideazione e realizzazione per la città di Grosseto del progetto CIEL'IN CITTA' a cui l'associazione ha dato il nome, che si sta realizzando sulle Mura Medicee al fine di contrastare la dispersione scolastica con l'arte in gioco.",
+      "paragraph3": "Creazione di un partenariato dove partecipano oltre all'associazione Ciel'in Città tre capoluoghi di Provincia della Toscana : Grosseto, Massa, Prato. Altri partners sono: Fondazione per le Arti Contemporanee L. Pecci, Fondazione Grosseto Cultura, Fondazione Le Mura, l Cooperativa sociale “Uscita di Sicurezza” , Istituto Artemisia Gentileschi di Massa, Argon iniziative, Associazione Spin8, Le Macchine Celibi soc. Il Progetto è selezionato dall'Impresa sociale “Con i Bambini” a seguito del bando “Un Passo Avanti”. Il progetto termina a dicembre del 2024 a seguito di proroghe concesse da “Con i Bambini”",
+      "paragraph4": "2022/2023 - Ideazione e realizzazione del progetto NUVOLA BIANCA: contrasto alla povertà educativa attraverso il fumetto. Hanno partecipato le prime e seconde classi di tre iiIstituti Scolastici: Istituto Tecnico e Grafico e della Comunicazioe, il Liceo Artistico, l'Istituto Comprensivo n. 2 Giovanni Pascoli ed il Centro Culturale delle Clarisse dove sono stati realizzati da artisti di fama internazionale 4 laboratori di 16 ore per ogni Istituto a seguito del “ bando attività artistiche e culturali – bando ordinario 2022” della Fondazione CR Firenze.",
+      "paragraph5": "2023-2024 L'ideazione dei progetti “STELLE SPLENDENTI” e “NUVOLA BIANCA FESTIVAL DIDATTICO” per la citta di Grosseto, hanno permesso di allargare la rete dei partners ed hanno altresì creato esperienze come capofila. E' iniziata una proficua collaborazione con tre assessori del Comune di Grosseto (Istruzione, Cultura e Lavori pubblici) e con quattro Istituti scolastici di Roma e tre di Grosseto.",
+      "paragraph6": "2024 Ideazione del progetto “ATENA” ( durata tre anni) in partenariato con il Polo Universitario Grossetano, il Polo Luciano Bianciardi, il Comune di Grosseto, l'associazione Ccibo Maremma per la creazione di laboratori nelle scuole e creazione di una nuova scuola con corsi gratuiti per il recupero delle materie scolastiche, laboratori di scultura, propedeutica al digitale.",
+      "paragraph7": "2024 Ideazione del progetto NUOVE PIAZZE in sinergia con il Comune di Grosseto. Esso consiste nella riqualificazione di un giardino pubblico e di quattro eventi in cui tutte le associazioni partner faranno iniziative per la cittadinanza Per questo progetto il Comune ha deciso di partecipare concretamente con risorse economiche sotto forma di lavori edili. Oltre al COMUNE DI GROSSETO gli altri partner sono: COESO; AUSER; UISP; cCIBO MAREMMA; Ass. INSIEME. Il progetto è in attesa di un bando per poter essere finanziato.",
+      "paragraph8": "2024-2025 Ideazione ed ora in fase di attuazione del progetto “GLI OCCHI NELLE MANI” finanziato dal Comune di Grosseto settore servizi per il cittadino e la famiglia - servizi sociali in collaborazione con il Museo Archeologico e d'Arte della Maremma ed in partenariato con Unione Italiana dei Ciechi con Unione Italiana dei Ciechi e degli Ipovedenti, con Auser e con il Polo Culturale Le Clarisse.",
+      "paragraph9": "2025 Ideazione ed ora in fase di attuazione del progetto “IL RACCONTO DELL'ACQUA” finanziato dall’Unione Europea Next Generation EU nell’ambito del PNRR. Una manifestazione vincitrice dell’Avviso Pubblico Artes et Iubilaeum – 2025 per il Giubileo di Roma. Gli eventi, tutti a ingresso gratuito, si terranno da Settembre a Novembre 2025 intorno al tema l'acqua, elemento fondativo della storia di Roma, fonte d’ispirazione per l’immaginario artistico, risorsa naturale preziosa, è sempre più al centro di riflessioni contemporanee legate all’unione, alla condivisione e alla sostenibilità."
+    },
+    "person1": {
+      "name": "Irma Alonzo",
+      "role": "Presidente",
+      "button": "Curriculum"
+    },
+    "person2": {
+      "name": "Vanessa Roghi",
+      "role": "Vicepresidente",
+      "button": "Curriculum"
+    },
+    "person3": {
+      "name": "Frédéric Guérin",
+      "role": "Segretario",
+      "button": "Curriculum"
+    },
+    "associationTitle": "ASSOCIAZIONE CULTURALE",
+    "associationName": "CIEL'IN CITTA' ets",
+    "legalAddressTitle": "Sede legale",
+    "legalAddress": "Viale Luigi Einaudi, 2 - 58100 GROSSETO",
+    "operationalAddressTitle": "Sede operativa",
+    "operationalAddress": "Viale Luigi Einaudi, 2 - 58100 GROSSETO",
+    "taxCode": "C.F. 97994670582",
+    "creationDate": "Data di costituzione: 23.11.2018",
+    "contactLabel": "Contatto:"
+  },
+  "projectCiel": {
+    "title": "PROGETTO CIEL'IN CITTÀ",
+    "subtitle": "Un'idea, anzi una necessità di Irma Alonzo",
+    "videoAlt": "Video dell'inaugurazione di Ciel'in Città sulle mura di Grosseto",
+    "pressButton": "Rassegna stampa",
+    "section1": {
+      "title": "UN NUOVO PARCO D'ARTE PER I BAMBINI",
+      "subtitle": "AL BASTIONE DELLA CAVALLERIZZA SULLE MURA MEDICEE DI GROSSETO",
+      "date": "28 SETTEMBRE 2024",
+      "description": "Inaugurazione delle sculture gioco"
+    },
+    "salaEden": {
+      "title": "SALA EDEN 8 maggio 2024",
+      "description": "Dopo Prato. Inaugurazione con le autorità, del progetto a Grosseto. In questa foto la sala Eden dove, in una mostra itinerante che toccherà anche la città di Massa, ci sono i giocchi che facevano i nonni o i genitori delle bambine e dei bambini che li hanno interpretati."
+    },
+    "museoPecci": {
+      "title": "MUSEO PECCI 5 aprile 2024",
+      "description": "Inaugurazione al museo Pecci di Prato dell'area playground realizzata a seguito del progetto Ciel'in Città.",
+      "button": "Museo Pecci"
+    },
+    "boschetto": {
+      "title": "IL BOSCHETTO",
+      "description1": "Nel 1995 quando l'associazione Ciel'in Città ancora non esisteva, Irma Alonzo ha proposto al comune di Grosseto un parco giochi creato da artisti e destinato ai bambini/e, nacque un parco bellissimo che si chiamava il Boschetto.",
+      "catalogButton": "Catalogo",
+      "description2": "L'incuria ed il vandalismo hanno ridotto le opere ad un ammasso di oggetti degradati. Irma Alonzo, tramite l'associazione Ciel'in Città ha deciso di ripresentare il progetto per la riqualificazione al Comune di Grosseto dopo che molta stampa locale si interrogava del perchè dell'abbandono di un luogo cosi caro ai cittadini. È nato Ciel'in città dall'unione della sua idea e la disponibilità dell'Assessore Ginanneschi che però ha voluto spostare il parco sopra le Mura Medicee.",
+      "tirrenoButton": "Articolo Il Tirreno"
     }
   }
 }

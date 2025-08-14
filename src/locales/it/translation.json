@@ -82,5 +82,37 @@
       "description2": "L'incuria ed il vandalismo hanno ridotto le opere ad un ammasso di oggetti degradati. Irma Alonzo, tramite l'associazione Ciel'in Città ha deciso di ripresentare il progetto per la riqualificazione al Comune di Grosseto dopo che molta stampa locale si interrogava del perchè dell'abbandono di un luogo cosi caro ai cittadini. È nato Ciel'in città dall'unione della sua idea e la disponibilità dell'Assessore Ginanneschi che però ha voluto spostare il parco sopra le Mura Medicee.",
       "tirrenoButton": "Articolo Il Tirreno"
     }
+  },
+  "nuvola": {
+    "pageTitle": "Nuvola Bianca | Arte, Fumetto e Educazione",
+    "metaDescription": "Scopri il progetto Nuvola Bianca: un'iniziativa che valorizza il fumetto come espressione artistica e strumento educativo contro l'abbandono scolastico.",
+    "metaKeywords": "Nuvola Bianca, fumetto, arte, educazione, inclusione, scuole, Grosseto, disegno, illustrazione, cultura",
+    "ogDescription": "Un progetto innovativo che porta il fumetto nelle scuole e nelle biblioteche per favorire la creatività e l'inclusione sociale.",
+    "twitterDescription": "Il fumetto come strumento artistico e educativo per contrastare l'abbandono scolastico e promuovere l'arte.",
+    "locandinaAlt": "Locandina Nuvola Bianca",
+    "text1": "CON ”NUVOLA BIANCA” SI INTENDE VALORIZZARE IL FUMETTO CON ESPRESSIONE ARTISTICA E FAVORIRNE LA DIFFUSIONE ATTRAVERSO LE SCUOLE, LE ISTITUZIONI CULTURALI, E LE BIBLIOTECHE AL FINE DI SVILUPPARE RETI E SISTEMI DI PROMOZIONE E DIFFUSIONE IN ITALIA E ALL'ESTERO.",
+    "text2": "SI INTENDE INOLTRE CONTINUARE A FAR SI CHE LA CREATIVITÀ DIVENTI POTENTE MEZZO PER CONTRASTARE L'ABBANDONO SCOLASTICO.",
+    "text3": "QUESTO PROGETTO INTENDE CONTRASTARE L'ABBANDONO SCOLASTICO CHE COLPISCE QUEI GIOVANI CHE LASCIANO GLI STUDI CON LA SOLA LICENZA MEDIA, SENZA CONSEGUIRE ULTERIORI TITOLI DI STUDIO O QUALIFICHE PROFESSIONALI.",
+    "artistsTitle": "GLI ARTISTI DELL'ANNO SCOLASTICO 2022/2023",
+    "artist1": {
+      "alt": "Joker di Batman",
+      "name": "Giancarlo Caracuzzo",
+      "bio": "Giancarlo Caracuzzo inizia la sua carriera di illustratore e disegnatore di fumetti circa 40 anni fa, collaborando con i più importanti editori italiani, europei, americani e non solo. Ha designato storie per Sergio Bonelli Editore, Mondadori, Marvel, DC Comics, Delcourt, Dupuis, Soleil ed editori australiani. Ha illustrato libri, collaborato come storyboard artist per il cinema e la pubblicità. È fra i soci fondatori nonché insegnante della Scuola Romana dei Fumetti."
+    },
+    "artist2": {
+      "alt": "Ragazza Volante Manga",
+      "name": "Lorenza Ricci",
+      "bio": "Lorenza Ricci è una illustratrice romana da sempre appassionata di fumetti. Ama fondere diversi stili grafici sperimentando l'utilizzo di differenti materiali. È riconoscibile per i suoi bellissimi manga."
+    },
+    "artist3": {
+      "alt": "Corto Maltese",
+      "name": "Federico Mele",
+      "bio": "Federico Mele scrive e racconta storie con i disegni da quando ha cominciato a parlare e tenere una matita in mano. Lavora come fumettista, illustratore, storyboardista ed insegnante."
+    },
+    "artist4": {
+      "alt": "Don Chisciotte",
+      "name": "Riccardo Colosimo",
+      "bio": "Riccardo Colosimo, illustratore e disegnatore di fumetti, dopo aver frequentato la Scuola Romana dei Fumetti dove ora insegna, ha pubblicato in Italia e Francia; attualmente sta disegnando una graphic novel per il mercato americano."
+    }
   }
 }

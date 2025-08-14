@@ -85,5 +85,37 @@
       "description2": "Neglect and vandalism have reduced the works to a mass of degraded objects. Irma Alonzo, through the Ciel'in Città association, decided to resubmit the redevelopment project to the Municipality of Grosseto after much local press questioned the reason for the abandonment of a place so dear to the citizens. Ciel'in città was born from the union of his idea and the availability of Councilor Ginanneschi who, however, wanted to move the park above the Medici Walls.",
       "tirrenoButton": "Article Il Tirreno"
     }
+  },
+  "nuvola": {
+    "pageTitle": "Nuvola Bianca | Art, Comics and Education",
+    "metaDescription": "Discover the Nuvola Bianca project: an initiative that enhances comics as an artistic expression and educational tool against school dropout.",
+    "metaKeywords": "Nuvola Bianca, comics, art, education, inclusion, schools, Grosseto, drawing, illustration, culture",
+    "ogDescription": "An innovative project that brings comics to schools and libraries to encourage creativity and social inclusion.",
+    "twitterDescription": "Comics as an artistic and educational tool to combat school dropout and promote art.",
+    "locandinaAlt": "Poster Nuvola Bianca",
+    "text1": "WITH ”NUVOLA BIANCA” (WHITE CLOUD) WE INTEND TO ENHANCE COMICS WITH ARTISTIC EXPRESSION AND ENCOURAGE THEIR DIFFUSION THROUGH SCHOOLS, CULTURAL INSTITUTIONS AND LIBRARIES IN ORDER TO DEVELOP NETWORKS AND SYSTEMS OF PROMOTION AND DIFFUSION IN ITALY AND ABROAD.",
+    "text2": "IT IS ALSO INTENDED TO CONTINUE TO ENSURE THAT CREATIVITY BECOMES A POWERFUL MEANS OF COMBATING SCHOOL DROPOUT.",
+    "text3": "THIS PROJECT INTENDS TO COMBAT SCHOOL DROPOUT WHICH AFFECTS THOSE YOUNG PEOPLE WHO LEAVE THEIR STUDIES WITH ONLY A MIDDLE SCHOOL DIPLOMA, WITHOUT OBTAINING FURTHER QUALIFICATIONS OR PROFESSIONAL QUALIFICATIONS.",
+    "artistsTitle": "THE ARTISTS OF THE 2022/2023 SCHOOL YEAR",
+    "artist1": {
+      "alt": "Joker of Batman",
+      "name": "Giancarlo Caracuzzo",
+      "bio": "Giancarlo Caracuzzo began his career as an illustrator and cartoonist about 40 years ago, collaborating with the most important Italian, European, American and other publishers. He has designated stories for Sergio Bonelli Editore, Mondadori, Marvel, DC Comics, Delcourt, Dupuis, Soleil and Australian publishers. He has illustrated books, collaborated as a storyboard artist for cinema and advertising. He is one of the founding members and professor of the Roman school of comics.."
+    },
+    "artist2": {
+      "alt": "Ragazza Volante Manga",
+      "name": "Lorenza Ricci",
+      "bio": "Lorenza Ricci is a Roman illustrator passionate about comics. She likes to merge different graphic styles by experimenting with the use of different materials. She is recognizable by her magnificent manga."
+    },
+    "artist3": {
+      "alt": "Corto Maltese",
+      "name": "Federico Mele",
+      "bio": "Federico Mele has been writing and telling stories with drawings since he started talking and holding a pencil in his hand. He works as a cartoonist, illustrator, storyboardist and teacher."
+    },
+    "artist4": {
+      "alt": "Don Chisciotte",
+      "name": "Riccardo Colosimo",
+      "bio": "Riccardo Colosimo, illustrator and comics designer, after attending the Roman School of Comics where he now teaches, published in Italy and France; he is currently drawing a graphic novel for the American market."
+    }
   }
 }

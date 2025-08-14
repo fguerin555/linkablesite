@@ -84,5 +84,37 @@
       "description2": "La négligence et le vandalisme ont réduit les œuvres à un amas d’objets dégradés. Irma Alonzo, par l’intermédiaire de l’association Cie’in Città a décidé de présenter à nouveau le projet de réaménagement à la municipalité de Grosseto après que beaucoup de presse locale se demandait pourquoi l’abandon d’un lieu si cher aux citoyens. Ciel' est né dans la ville de l’union de son idée et la disponibilité de l’assesseur Ginanneschi, mais il a voulu déplacer le parc au-dessus des remparts Médicis.",
       "tirrenoButton": "Article Il Tirreno"
     }
+  },
+  "nuvola": {
+    "pageTitle": "Nuvola Bianca | Art, BD e Education",
+    "metaDescription": "Découvrez le projet Nuvola Bianca : une initiative qui valorise la bande dessinée comme expression artistique et outil éducatif contre l’abandon scolaire.",
+    "metaKeywords": "Nuage Blanc, bande dessinée, art, éducation, inclusion, écoles, Grosseto, dessin, illustration, culture",
+    "ogDescription": "Un projet innovant qui introduit la bande dessinée dans les écoles et les bibliothèques pour favoriser la créativité et l’inclusion sociale.",
+    "twitterDescription": "La bande dessinée comme outil artistique et éducatif pour lutter contre le décrochage scolaire et promouvoir l’art.",
+    "locandinaAlt": "Affiche Nuvola Bianca",
+    "text1": "“Le projet NUVOLA BIANCA“ (NUAGE BLANC) sert à valoriser la bande dessinée comme expression artistique et favoriser sa diffusion à travers les écoles, les institutions culturelles et les bibliothèques afin de développer des réseaux et des systèmes de promotion et de diffusion en Italie et à l’étranger",
+    "text2": "IL EST ÉGALEMENT PRÉVU DE CONTINUER À FAIRE DE LA CRÉATIVITÉ UN PUISSANT MOYEN POUR LUTTER CONTRE LE DÉCROCHAGE SCOLAIRE.",
+    "text3": "CE PROJET VISE À LUTTER CONTRE LE DÉCROCHAGE SCOLAIRE QUI FRAPPE LES JEUNES QUI QUITTENT L’ÉCOLE AVEC UNE SEULE LICENCE, SANS OBTENIR DE NOUVEAUX DIPLÔMES OU QUALIFICATIONS PROFESSIONNELLES.",
+    "artistsTitle": "LES ARTISTES DE L’ANNÉE 2022/2023",
+    "artist1": {
+      "alt": "Joker de Batman",
+      "name": "Giancarlo Caracuzzo",
+      "bio": "Giancarlo Caracuzzo commence sa carrière d’illustrateur et dessinateur de bandes dessinées il y a environ 40 ans, en collaborant avec les plus importants éditeurs italiens, européens, américains et autres. Il a désigné des histoires pour Sergio Bonelli Editore, Mondadori, Marvel, DC Comics, Delcourt, Dupuis, Soleil et éditeurs australiens. Il a illustré des livres, collaboré en tant qu’artiste de storyboard pour le cinéma et la publicité. Il est l’un des membres fondateurs et professeur de l’École romaine des bandes dessinées."
+    },
+    "artist2": {
+      "alt": "Ragazza Volante Manga",
+      "name": "Lorenza Ricci",
+      "bio": "Lorenza Ricci est une illustratrice romaine passionnée de bandes dessinées. Elle aime fusionner différents styles graphiques en expérimentant l’utilisation de différents matériaux. Elle est reconnaissable à ses magnifiques mangas."
+    },
+    "artist3": {
+      "alt": "Corto Maltese",
+      "name": "Federico Mele",
+      "bio": "Federico Mele écrit et raconte des histoires avec des dessins depuis qu’il a commencé à parler et à tenir un crayon dans sa main. Il travaille comme dessinateur, illustrateur, storyboardeur et enseignant."
+    },
+    "artist4": {
+      "alt": "Don Chisciotte",
+      "name": "Riccardo Colosimo",
+      "bio": "Riccardo Colosimo, illustrateur et dessinateur de bande dessinée, après avoir fréquenté l’École romaine des bandes dessinées où il enseigne maintenant, a publié en Italie et en France; actuellement il dessine un roman graphique pour le marché américain."
+    }
   }
 }

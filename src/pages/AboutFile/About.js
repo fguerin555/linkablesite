@@ -1,5 +1,6 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
+import { Trans } from "react-i18next";
 
 import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
@@ -52,15 +53,33 @@ const About = () => {
         </div>
 
         <div className={styles.Presentazione}>
-          <p>{t("about.parag.paragraph1")}</p>
-          <p>{t("about.parag.paragraph2")}</p>
-          <p>{t("about.parag.paragraph3")}</p>
-          <p>{t("about.parag.paragraph4")}</p>
-          <p>{t("about.parag.paragraph5")}</p>
-          <p>{t("about.parag.paragraph6")}</p>
-          <p>{t("about.parag.paragraph7")}</p>
-          <p>{t("about.parag.paragraph8")}</p>
-          <p>{t("about.parag.paragraph9")}</p>
+          <p>
+            <Trans i18nKey="about.parag.paragraph1" />
+          </p>
+          <p>
+            <Trans i18nKey="about.parag.paragraph2" />
+          </p>
+          <p>
+            <Trans i18nKey="about.parag.paragraph3" />
+          </p>
+          <p>
+            <Trans i18nKey="about.parag.paragraph4" />
+          </p>
+          <p>
+            <Trans i18nKey="about.parag.paragraph5" />
+          </p>
+          <p>
+            <Trans i18nKey="about.parag.paragraph6" />
+          </p>
+          <p>
+            <Trans i18nKey="about.parag.paragraph7" />
+          </p>
+          <p>
+            <Trans i18nKey="about.parag.paragraph8" />
+          </p>
+          <p>
+            <Trans i18nKey="about.parag.paragraph9" />
+          </p>
         </div>
 
         <div className={styles.ImageContainer}>

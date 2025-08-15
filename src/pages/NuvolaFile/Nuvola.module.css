@@ -37,16 +37,19 @@
   .p1 {
     margin-top: 90px;
     width: 80%;
+    text-align: justify;
   }
   .p2 {
     margin-top: 90px;
     width: 80%;
+    text-align: justify;
   }
   .p3 {
     margin-top: 90px;
     width: 80%;
     word-spacing: 2px;
     margin-bottom: 150px !important;
+    text-align: justify;
   }
   .Bvideo {
     max-width: 100%;
@@ -113,7 +116,7 @@
   font-size: 30px;
   font-weight: bold;
   margin-top: 200px;
-  margin-left: 20%;
+  margin-left: -20%;
 }
 
 .Fumetti .ArtistPackage .Paragraphe {
@@ -122,6 +125,8 @@
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
+  hyphens: auto;
+  white-space: normal;
   display: flex;
   flex-basis: 80%;
   color: rgb(86, 84, 84);
@@ -191,6 +196,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      text-align: justify;
       margin: 2px auto;
       text-align: center;
       min-width: 90%;
@@ -205,9 +211,9 @@
       display: -webkit-flex;
       display: flex;
       justify-content: center;
+      text-align: justify;
       align-items: justify;
       margin: 15px auto;
-      text-align: center;
       min-width: 90%;
       font-size: 12px;
       word-spacing: 2px;
@@ -221,8 +227,8 @@
       display: -webkit-flex;
       display: flex;
       justify-content: center;
+      text-align: justify;
       align-self: auto;
-      text-align: center;
       margin: 15px auto;
       min-width: 90%;
       font-size: 12px;
@@ -351,15 +357,18 @@
     .p1 {
       margin-top: 90px;
       width: 80%;
+      text-align: justify;
     }
     .p2 {
       margin-top: 90px;
       width: 80%;
+      text-align: justify;
     }
     .p3 {
       margin-top: 90px;
       width: 80%;
-      word-spacing: 2px;
+      word-spacing: 1px;
+      text-align: justify;
       margin-bottom: 150px !important;
     }
     .Bvideo {
@@ -488,15 +497,18 @@
     .p1 {
       margin-top: 90px;
       width: 80%;
+      text-align: justify;
     }
     .p2 {
       margin-top: 90px;
       width: 80%;
+      text-align: justify;
     }
     .p3 {
       margin-top: 90px;
       width: 80%;
-      word-spacing: 2px;
+      word-spacing: 1px;
+      text-align: justify;
       margin-bottom: 150px !important;
     }
     .Bvideo {

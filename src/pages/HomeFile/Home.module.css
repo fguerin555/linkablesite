@@ -17,16 +17,19 @@
     display: -moz-box;
     display: -ms-flexbox;
     display: -webkit-flex;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    max-width: 60%;
-    color: rgb(63, 63, 72);
-    margin: 60px auto;
-    font-size: 19px;
-    font-family: "font-montserrat-medium", Arial, sans-serif;
+    font-size: 20px;
+    max-width: 68%;
+    margin: 20px auto;
+    text-align: left;
+    word-spacing: 0.05em;
+    overflow-wrap: break-word;
+    word-break: keep-all;
+    overflow-wrap: break-word;
+    hyphens: none;
+    font-family: "Montserrat-medium", Arial, Helvetica, sans-serif;
+    color: rgb(86, 84, 84);
   }
+
   .BandeCouleur {
     overflow: auto;
     position: relative;
@@ -177,9 +180,14 @@
     display: -moz-box;
     display: -ms-flexbox;
     display: -webkit-flex;
-    display: flex;
+    font-size: 18px;
+    text-align: left;
+    word-spacing: 0.05em;
+    overflow-wrap: break-word;
+    word-break: keep-all;
+    overflow-wrap: break-word;
+    hyphens: none;
     margin: 0 auto !important;
-    font-size: 19px;
     font-family: "font-montserrat-medium", Arial, sans-serif;
     min-width: 95%;
     margin-bottom: 20px !important;
@@ -200,7 +208,7 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px !important;
-    font-size: 18px;
+    font-size: 16px;
     font-family: "font-montserrat-medium", Arial, sans-serif;
     color: rgb(63, 63, 72);
     max-width: 90% !important;
@@ -261,14 +269,18 @@
       display: -moz-box;
       display: -ms-flexbox;
       display: -webkit-flex;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
+      font-size: 16px;
+      text-align: left;
+      word-spacing: 0.05em;
+      overflow-wrap: break-word;
+      word-break: keep-all;
+      overflow-wrap: break-word;
+      hyphens: none;
+      /* justify-content: center;
+      align-items: center; */
       max-width: 60%;
       color: rgb(63, 63, 72);
       margin: 60px auto;
-      font-size: 19px;
       font-family: "font-montserrat-medium", Arial, sans-serif;
     }
     .BandeCouleur {
@@ -313,7 +325,7 @@
       margin-left: auto;
       margin-right: auto;
       margin-top: 20px;
-      font-size: 18px;
+      font-size: 15px;
       font-family: "font-montserrat-medium", Arial, sans-serif;
       color: #411a04;
     }
@@ -410,14 +422,16 @@
       display: -moz-box;
       display: -ms-flexbox;
       display: -webkit-flex;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
+      font-size: 16px;
+      text-align: left;
+      word-spacing: 0.05em;
+      overflow-wrap: break-word;
+      word-break: keep-all;
+      overflow-wrap: break-word;
+      hyphens: none;
       max-width: 60%;
       color: rgb(63, 63, 72);
       margin: 60px auto;
-      font-size: 19px;
       font-family: "font-montserrat-medium", Arial, sans-serif;
     }
     .BandeCouleur {
@@ -463,7 +477,7 @@
       margin-left: auto;
       margin-right: auto;
       margin-top: 20px;
-      font-size: 18px;
+      font-size: 15px;
       font-family: "font-montserrat-medium", Arial, sans-serif;
       color: #411a04;
     }

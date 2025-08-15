@@ -2,8 +2,6 @@
   flex-direction: row;
   height: 85px; /* Hauteur de la bande de couleur */
   width: 100%;
-  /* background: linear-gradient(160deg, #eab8f0, #f5d97ea3); */
-  /* background: rgba(200, 251, 245, 0.831); */
   background-color: #90bcf238;
   display: flex;
   padding-bottom: 10px;
@@ -53,14 +51,92 @@
     margin: 0 auto;
     gap: 5px;
   }
-  @media (max-width: 1224px) {
-    .FooterTelephone {
-      width: 100%;
-      font-size: 1rem;
-    }
-    .FooterEmail {
-      width: 100%;
-      font-size: 1rem;
-    }
+
+  .FooterTelephone {
+    width: 100%;
+    font-size: 1rem;
+  }
+  .FooterEmail {
+    width: 100%;
+    font-size: 1rem;
+  }
+  .FooterTelephone a,
+  .FooterEmail a {
+    color: #6477a6;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  }
+
+  .FooterTelephone a:hover,
+  .FooterEmail a:hover {
+    color: #f9210d;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 768px) {
+  .FooterContactInfo {
+    padding: 10px;
+    flex-direction: column;
+    overflow: visible;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 5px;
+  }
+
+  .FooterTelephone {
+    width: 100%;
+    font-size: 1rem;
+  }
+  .FooterEmail {
+    width: 100%;
+    font-size: 1rem;
+  }
+  .FooterTelephone a,
+  .FooterEmail a {
+    color: #6477a6;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  }
+
+  .FooterTelephone a:hover,
+  .FooterEmail a:hover {
+    color: #f9210d;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }
+}
+@media (max-width: 509px) {
+  .FooterContactInfo {
+    padding: 10px;
+    flex-direction: column;
+    overflow: visible;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 5px;
+  }
+
+  .FooterTelephone {
+    width: 100%;
+    font-size: 1rem;
+  }
+  .FooterEmail {
+    width: 100%;
+    font-size: 1rem;
+  }
+  .FooterTelephone a,
+  .FooterEmail a {
+    color: #6477a6;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  }
+
+  .FooterTelephone a:hover,
+  .FooterEmail a:hover {
+    color: #f9210d;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
   }
 }

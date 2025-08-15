@@ -1,6 +1,8 @@
 import React from "react";
 import { Helmet } from "react-helmet-async";
 import { useTranslation } from "react-i18next";
+import { Trans } from "react-i18next";
+
 import "../../Global.css";
 import styles from "./Occhi.module.css";
 import image6 from "../../assets/img/LocandinaONM.jpg";
@@ -50,13 +52,21 @@ const Occhi = () => {
           </div>
           <div className={styles.OcchiTextContainer}>
             <div className={styles.Paragraphes}>
-              <p>{t("occhi.paragraph1")}</p>
+              <p>
+                <Trans i18nKey="occhi.paragraph1" />
+              </p>
               <span></span>
-              <p>{t("occhi.paragraph2")}</p>
+              <p>
+                <Trans i18nKey="occhi.paragraph2" />
+              </p>
               <span></span>
-              <p>{t("occhi.paragraph3")}</p>
+              <p>
+                <Trans i18nKey="occhi.paragraph3" />
+              </p>
               <span></span>
-              <p>{t("occhi.paragraph4")}</p>
+              <p>
+                <Trans i18nKey="occhi.paragraph4" />
+              </p>
             </div>
 
             <div className={styles.Bvideo}>

@@ -38,15 +38,13 @@ h3 {
 }
 .Presentation p {
   max-width: 68%;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  flex-direction: column;
-  text-align: justify;
-  hyphens: auto;
   margin: 20px auto;
+  text-align: left;
+  word-spacing: 0.05em;
+  overflow-wrap: break-word;
+  word-break: keep-all;
+  overflow-wrap: break-word;
+  hyphens: none;
   font-family: "Montserrat-medium", Arial, Helvetica, sans-serif;
   color: rgb(86, 84, 84);
 }
@@ -83,9 +81,12 @@ h3 {
   .Presentation p {
     min-width: 95%;
     text-align: justify;
-    hyphens: auto;
+    word-break: keep-all;
+    overflow-wrap: break-word;
+    hyphens: none;
     margin-right: auto;
     margin-left: auto;
+    font-size: 18px;
   }
   .logo {
     width: 30px;
@@ -142,21 +143,14 @@ h3 {
     font-family: "font-montserrat-medium", Arial, sans-serif;
     color: rgb(73, 81, 111);
   }
-  .Presentation p {
-    min-width: 67%;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    text-align: justify;
-    hyphens: auto;
-    margin-right: auto;
-    margin-left: auto;
-    font-size: 20px;
-    font-family: "font-montserrat-medium", Arial, sans-serif;
-    color: rgb(73, 81, 111);
+  @media (max-width: 768px) {
+    .Presentation p {
+      max-width: 90%;
+      font-size: 1rem;
+      word-spacing: normal;
+    }
   }
+
   .logo {
     width: 30px;
     height: 30px;
@@ -212,21 +206,14 @@ h3 {
     font-family: "font-montserrat-medium", Arial, sans-serif;
     color: rgb(73, 81, 111);
   }
-  .Presentation p {
-    min-width: 66%;
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    text-align: justify;
-    hyphens: auto;
-    margin-right: auto;
-    margin-left: auto;
-    font-size: 20px;
-    font-family: "font-montserrat-medium", Arial, sans-serif;
-    color: rgb(73, 81, 111);
+  @media (max-width: 768px) {
+    .Presentation p {
+      max-width: 90%;
+      font-size: 1rem;
+      word-spacing: normal;
+    }
   }
+
   .logo {
     width: 30px;
     height: 30px;

@@ -1,6 +1,7 @@
 import React from "react";
 import { Helmet } from "react-helmet-async";
 import { useTranslation } from "react-i18next";
+import { Trans } from "react-i18next";
 
 import "../../Global.css";
 import styles from "./Home.module.css";
@@ -57,7 +58,9 @@ const Home = () => {
           <h1>{t("home.title")}</h1>
         </div>
 
-        <p className={styles.ParagOne}>{t("home.paragraph1")}</p>
+        <p className={styles.ParagOne}>
+          <Trans i18nKey="home.paragraph1" />
+        </p>
 
         <div className={styles.BandeCouleur}>
           <div className={styles.Logo}></div>

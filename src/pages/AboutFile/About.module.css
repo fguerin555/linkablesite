@@ -94,6 +94,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: justify;
     align-items: center;
     margin: 20px auto;
     font-family: "Montserrat-medium", Arial, Helvetica, sans-serif;
@@ -312,6 +313,7 @@
       display: -webkit-flex;
       display: flex;
       justify-content: center;
+      text-align: left;
       align-items: center;
       margin: 20px auto;
       font-family: "Montserrat-ultra-light", Arial, Helvetica, sans-serif;
@@ -496,6 +498,7 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
+      text-align: left;
       align-items: center;
       margin: 20px auto;
       font-family: "Montserrat-medium", Arial, Helvetica, sans-serif;

@@ -41,7 +41,7 @@ const CuricVanessa = () => {
                     siteLink1: (
                       <a
                         href={site1}
-                        target="_blank"
+                        // target="_blank"
                         rel="noopener noreferrer"
                         className={Styles.link}
                       >

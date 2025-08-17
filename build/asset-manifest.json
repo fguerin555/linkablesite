@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ce534431.css",
-    "main.js": "/static/js/main.5661fa54.js",
+    "main.css": "/static/css/main.6c868829.css",
+    "main.js": "/static/js/main.e349727b.js",
     "static/media/Lorenza.jpg": "/static/media/Lorenza.f9d96f9b428e0d09af01.jpg",
     "static/media/Dona.jpg": "/static/media/Dona.f52844176982f6be1304.jpg",
     "static/media/Murosonoro1.jpg": "/static/media/Murosonoro1.9433f028cbecda97bbc7.jpg",
@@ -19,24 +19,18 @@
     "static/media/Nazione-3.png": "/static/media/Nazione-3.3d3cc0c6c9a8c8555a43.png",
     "static/media/Tirreno-2.png": "/static/media/Tirreno-2.2180fdf0e1e8f6ecaccc.png",
     "static/media/Irma.png": "/static/media/Irma.df7384dde92cfc0d7971.png",
-    "static/media/CuricIrma-images-0.jpg": "/static/media/CuricIrma-images-0.e03f59286261c211f66c.jpg",
-    "static/media/CuricFred-images-1.jpg": "/static/media/CuricFred-images-1.64b9715086767b7b3eab.jpg",
     "static/media/inaugmura2.jpg": "/static/media/inaugmura2.039635e435d42277d046.jpg",
     "static/media/Cat-32.jpg": "/static/media/Cat-32.25d3b9e520f20fed4607.jpg",
     "static/media/Cat-19.jpg": "/static/media/Cat-19.4415ca6a25d6bcecf6ad.jpg",
-    "static/media/CuricIrma-images-1.jpg": "/static/media/CuricIrma-images-1.cf932c8eec567b294564.jpg",
     "static/media/Cat-29.jpg": "/static/media/Cat-29.03ebe46fba66cc0aca0a.jpg",
     "static/media/Cat-21.jpg": "/static/media/Cat-21.bbbaccd20d99187ca105.jpg",
     "static/media/Cat-30.jpg": "/static/media/Cat-30.12a238ad23a9ed3b4575.jpg",
     "static/media/Cat-31.jpg": "/static/media/Cat-31.d2b8a1206bd505fc22f7.jpg",
     "static/media/Cat-8.jpg": "/static/media/Cat-8.1207cb29d92bdff16b48.jpg",
     "static/media/Cat-58.jpg": "/static/media/Cat-58.64cf854a4fa9e5911c79.jpg",
-    "static/media/CuricVanessa-2.jpg": "/static/media/CuricVanessa-2.c4b9797d85409ec87167.jpg",
     "static/media/Vanessa.png": "/static/media/Vanessa.f96ec61c0790051ecf04.png",
     "static/media/Cat-17.jpg": "/static/media/Cat-17.6e10c90f36195fcc86d8.jpg",
-    "static/media/CuricVanessa-0.jpg": "/static/media/CuricVanessa-0.9fa4b51fd7a89c05d74d.jpg",
     "static/media/Cat-11.jpg": "/static/media/Cat-11.71bb10ac10926de28233.jpg",
-    "static/media/CuricVanessa-1.jpg": "/static/media/CuricVanessa-1.c9a01f6c30514e5e2a43.jpg",
     "static/media/Cat-36.jpg": "/static/media/Cat-36.fd2737cc5a05692ffcd1.jpg",
     "static/media/Cat-9.jpg": "/static/media/Cat-9.0b0d37882d31c43a7a9b.jpg",
     "static/media/Cat-52.jpg": "/static/media/Cat-52.aee0bcd4dff3b60c44ce.jpg",
@@ -46,8 +40,6 @@
     "static/media/Cat-15.jpg": "/static/media/Cat-15.4c5e13dc2280dfd941c3.jpg",
     "static/media/Cat-28.jpg": "/static/media/Cat-28.17b3dfc4ef02aba517b9.jpg",
     "static/media/Cat-22.jpg": "/static/media/Cat-22.27c24b994f650e906a5a.jpg",
-    "static/media/CuricFred-images-3.jpg": "/static/media/CuricFred-images-3.0ff6ec549f187e4f40df.jpg",
-    "static/media/CuricFred-images-2.jpg": "/static/media/CuricFred-images-2.1b3c159f9192d6d86463.jpg",
     "static/media/Cat-12.jpg": "/static/media/Cat-12.1a5539c8b2d14d173880.jpg",
     "static/media/Cat-56.jpg": "/static/media/Cat-56.ddfac71394063ba7b35a.jpg",
     "static/media/Cat-14.jpg": "/static/media/Cat-14.0341129abd800b58434c.jpg",
@@ -65,7 +57,6 @@
     "static/media/Cat-25.jpg": "/static/media/Cat-25.c6e3d9085649ac604b01.jpg",
     "static/media/Cat-26.jpg": "/static/media/Cat-26.484829f52486d21150ba.jpg",
     "static/media/Cat-27.jpg": "/static/media/Cat-27.06efaa62520f606d8863.jpg",
-    "static/media/CuricFred-images-0.jpg": "/static/media/CuricFred-images-0.286382925b3d8531dcf7.jpg",
     "static/media/Cat-55.jpg": "/static/media/Cat-55.5afae2541f749941b544.jpg",
     "static/media/Cat-38.jpg": "/static/media/Cat-38.76b7ab4a7889a433e8dd.jpg",
     "static/media/Cat-57.jpg": "/static/media/Cat-57.d3249367808aa4162574.jpg",
@@ -85,7 +76,6 @@
     "static/media/Cat-37.jpg": "/static/media/Cat-37.ad37feb03149fffa2b3d.jpg",
     "static/media/Cat-47.jpg": "/static/media/Cat-47.7bd175f3914ac55ab0f2.jpg",
     "static/media/Cat-61.jpg": "/static/media/Cat-61.42896ed58627bb0a4cab.jpg",
-    "static/media/CuricFred-images-4.jpg": "/static/media/CuricFred-images-4.fb8ea2c8e8909633a173.jpg",
     "static/media/Cat-40.jpg": "/static/media/Cat-40.8d04be04832beca52437.jpg",
     "static/media/Cat-0.jpg": "/static/media/Cat-0.8e72e61160609a2f29c4.jpg",
     "static/media/Cat-43.jpg": "/static/media/Cat-43.2317a2c4e9d991b8f9d8.jpg",
@@ -164,11 +154,11 @@
     "static/media/Nazione-2.png": "/static/media/Nazione-2.63625ec02132198a7af8.png",
     "static/media/pointingRight.png": "/static/media/pointingRight.fbce2d8a283a0ee99a5c.png",
     "index.html": "/index.html",
-    "main.ce534431.css.map": "/static/css/main.ce534431.css.map",
-    "main.5661fa54.js.map": "/static/js/main.5661fa54.js.map"
+    "main.6c868829.css.map": "/static/css/main.6c868829.css.map",
+    "main.e349727b.js.map": "/static/js/main.e349727b.js.map"
   },
   "entrypoints": [
-    "static/css/main.ce534431.css",
-    "static/js/main.5661fa54.js"
+    "static/css/main.6c868829.css",
+    "static/js/main.e349727b.js"
   ]
 }

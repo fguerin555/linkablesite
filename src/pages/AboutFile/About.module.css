@@ -186,7 +186,7 @@
     font-family: "Montserrat-Medium", Arial, sans-serif;
   }
   @media (max-width: 1224px) {
-    .ImageContainer {
+    .ImageContainer { 
       display: flex;
       justify-content: center;
       align-items: center;

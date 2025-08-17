@@ -2,21 +2,65 @@ import React from "react";
 import Styles from "./Curic.module.css";
 import ScrollToTop from "../../components/ScrollToTop";
 import BackButton from "../../components/BackButton";
-import image108 from "../../assets/img/CuricVanessa/CuricVanessa-0.jpg";
-import image109 from "../../assets/img/CuricVanessa/CuricVanessa-1.jpg";
-import image110 from "../../assets/img/CuricVanessa/CuricVanessa-2.jpg";
+import { useTranslation, Trans } from "react-i18next";
+import { FaExternalLinkAlt } from "react-icons/fa"; // Ajouté pour l'icône
 
 const CuricVanessa = () => {
+  const { t } = useTranslation();
+  const renderWithLineBreaks = (text) =>
+    text.split(/<br\s*\/?>/).map((line, i) => (
+      <React.Fragment key={i}>
+        {line}
+        <br />
+      </React.Fragment>
+    ));
+  // Récupération des données traduites
+  const paragraphs = t("about.person2.currictxt", { returnObjects: true });
+  const email = t("about.person2.email");
+  const site1 = t("about.person2.site1");
+
   return (
-    <div>
-      <div className={Styles.CuricVanessa}>
-        <img src={image108} alt="Page 1 curriculum Vanessa Roghi" />
-        <img src={image109} alt="Page 2 curriculum Vanessa Roghi" />
-        <img src={image110} alt="Page 3 curriculum Vanessa Roghi" />
-      </div>
+    <div className={Styles.CuricVanessa}>
+      {Array.isArray(paragraphs) &&
+        paragraphs.map((para, index) => {
+          // Vérifie si le paragraphe contient un lien dynamique
+          const hasEmail = para.includes("<emailLink />");
+          const hasSite1 = para.includes("<siteLink1 />");
+
+          if (hasEmail || hasSite1) {
+            return (
+              <p key={index}>
+                <Trans
+                  i18nKey={`about.person2.currictxt.${index}`}
+                  components={{
+                    emailLink: (
+                      <a href={`mailto:${email}`} className={Styles.link}>
+                        {email}
+                      </a>
+                    ),
+                    siteLink1: (
+                      <a
+                        href={site1}
+                        // target="_blank"
+                        rel="noopener noreferrer"
+                        className={Styles.link}
+                      >
+                        <FaExternalLinkAlt />
+                      </a>
+                    ),
+                  }}
+                />
+              </p>
+            );
+          }
+          // ✅ Paragraphe sans lien dynamique mais avec <br />
+          return <p key={index}>{renderWithLineBreaks(para)}</p>;
+        })}
+
       <BackButton />
       <ScrollToTop />
     </div>
   );
 };
+
 export default CuricVanessa;

@@ -1,52 +1,39 @@
-.CuricIrma img {
-  object-fit: contain;
-  display: flex;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
+.CuricIrma {
   justify-content: center;
   align-items: center;
+  text-align: left;
+  font-family: "Montserrat-ultra-light", Arial, Helvetica, sans-serif;
+  color: rgb(86, 84, 84);
+  font-size: 20px;
   margin-right: auto;
   margin-left: auto;
   margin-top: 20px;
-  width: 100%; /* Largeur de chaque image */
+  width: 70%; /* Largeur de chaque image */
   /* height: 80vw; */
 }
-.CuricFred img {
-  object-fit: contain;
-  display: flex;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
+.CuricFred {
   justify-content: center;
   align-items: center;
+  text-align: left;
+  font-family: "Montserrat-ultra-light", Arial, Helvetica, sans-serif;
+  color: rgb(86, 84, 84);
+  font-size: 20px;
   margin-right: auto;
   margin-left: auto;
   margin-top: 20px;
-  width: 100%; /* Largeur de chaque image */
-  /* height: 80vw;  */
+  width: 70%; /* Largeur de chaque image */
+  /* height: 80vw; */
 }
-.LinksFred {
-  margin-left: 20px;
-  font-family: "Montserrat-Medium", Arial, sans-serif;
-  color: black;
-  font-size: 30px;
-}
-
-.CuricVanessa img {
-  object-fit: contain;
-  display: flex;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
+.CuricVanessa {
   justify-content: center;
   align-items: center;
+  text-align: left;
+  font-family: "Montserrat-ultra-light", Arial, Helvetica, sans-serif;
+  color: rgb(86, 84, 84);
+  font-size: 20px;
   margin-right: auto;
   margin-left: auto;
   margin-top: 20px;
-  width: 100%; /* Largeur de chaque image */
-  /* height: 80vw;  */
+  width: 70%; /* Largeur de chaque image */
+  /* height: 80vw; */
 }

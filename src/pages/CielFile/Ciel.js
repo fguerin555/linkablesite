@@ -14,6 +14,9 @@ import image17 from "../../assets/img/Murosonoro2.jpg";
 import image18 from "../../assets/img/salaEden.jpg";
 import image19 from "../../assets/img/museoPECCI.jpg";
 import image20 from "../../assets/img/Boschetto.jpg";
+import image21 from "../../assets/img/Alvaro13.png";
+import image22 from "../../assets/img/Tana.png";
+import image23 from "../../assets/img/Fargo.png";
 
 const ProjectCiel = () => {
   const { t } = useTranslation();
@@ -83,6 +86,12 @@ const ProjectCiel = () => {
           <img src={image13} alt="Inaugurazione sulle Mura 1" />
           <img src={image14} alt="Inaugurazione sulle Mura 2" />
           <img src={image15} alt="Inaugurazione sulle Mura 3" />
+        </div>
+
+        <div className={styles.Scultures}>
+          <img src={image21} alt="Sculture gioco Alvaro13  " />
+          <img src={image22} alt="Sculture gioco Tana  " />
+          <img src={image23} alt="Sculture gioco Vorrei giocare con voi  " />
         </div>
 
         <div className={styles.SalaEden}>

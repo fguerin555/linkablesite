@@ -31,33 +31,35 @@ const Acqua = () => {
       </Helmet>
 
       <div className={styles.AcquaPage}>
-        <div className={styles.Presentation}>
-          <h1>{t("acqua.title")}</h1>
-          <h2>{t("acqua.city")}</h2>
-          <h2>{t("acqua.dates")}</h2>
-          <p>{t("acqua.paragraph1")}</p>
-          <p>{t("acqua.paragraph2")}</p>
-          <p>{t("acqua.paragraph3")}</p>
-          <p>{t("acqua.paragraph4")}</p>
+        <div className={styles.Links}>
+          <div>
+            <span>
+              <img
+                src={pointingRight}
+                alt={t("acqua.iconAlt")}
+                className={styles.iconImage}
+              />
+              {t("acqua.clickText")}
+              <a
+                href="https://ilraccontodellacqua.com"
+                rel="noopener noreferrer"
+              >
+                <div className={styles.logo}>
+                  <img src={LogoOndaBlue2} alt={t("acqua.logoAlt")} />
+                </div>
+              </a>
+            </span>
+          </div>
         </div>
       </div>
-
-      <div className={styles.Links}>
-        <div>
-          <span>
-            <img
-              src={pointingRight}
-              alt={t("acqua.iconAlt")}
-              className={styles.iconImage}
-            />
-            {t("acqua.clickText")}
-            <a href="https://ilraccontodellacqua.com" rel="noopener noreferrer">
-              <div className={styles.logo}>
-                <img src={LogoOndaBlue2} alt={t("acqua.logoAlt")} />
-              </div>
-            </a>
-          </span>
-        </div>
+      <div className={styles.Presentation}>
+        <h1>{t("acqua.title")}</h1>
+        <h2>{t("acqua.city")}</h2>
+        <h2>{t("acqua.dates")}</h2>
+        <p>{t("acqua.paragraph1")}</p>
+        <p>{t("acqua.paragraph2")}</p>
+        <p>{t("acqua.paragraph3")}</p>
+        <p>{t("acqua.paragraph4")}</p>
       </div>
 
       <ScrollToTop />

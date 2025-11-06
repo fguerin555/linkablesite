@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.3ba4e02b.css",
-    "main.js": "/static/js/main.aeab0d0c.js",
+    "main.css": "/static/css/main.46898cb5.css",
+    "main.js": "/static/js/main.03f08460.js",
     "static/media/Lorenza.jpg": "/static/media/Lorenza.f9d96f9b428e0d09af01.jpg",
     "static/media/Dona.jpg": "/static/media/Dona.f52844176982f6be1304.jpg",
     "static/media/Murosonoro1.jpg": "/static/media/Murosonoro1.9433f028cbecda97bbc7.jpg",
@@ -19,8 +19,11 @@
     "static/media/Nazione-3.png": "/static/media/Nazione-3.3d3cc0c6c9a8c8555a43.png",
     "static/media/Tirreno-2.png": "/static/media/Tirreno-2.2180fdf0e1e8f6ecaccc.png",
     "static/media/Irma.png": "/static/media/Irma.df7384dde92cfc0d7971.png",
+    "static/media/Fargo.png": "/static/media/Fargo.9d8dfbeae30548e16459.png",
     "static/media/inaugmura2.jpg": "/static/media/inaugmura2.039635e435d42277d046.jpg",
+    "static/media/Alvaro13.png": "/static/media/Alvaro13.9252f52756e339232a72.png",
     "static/media/Cat-32.jpg": "/static/media/Cat-32.25d3b9e520f20fed4607.jpg",
+    "static/media/Tana.png": "/static/media/Tana.a9bf6d34881bdf3f1aea.png",
     "static/media/Cat-19.jpg": "/static/media/Cat-19.4415ca6a25d6bcecf6ad.jpg",
     "static/media/Cat-29.jpg": "/static/media/Cat-29.03ebe46fba66cc0aca0a.jpg",
     "static/media/Cat-21.jpg": "/static/media/Cat-21.bbbaccd20d99187ca105.jpg",
@@ -154,11 +157,11 @@
     "static/media/Nazione-2.png": "/static/media/Nazione-2.63625ec02132198a7af8.png",
     "static/media/pointingRight.png": "/static/media/pointingRight.fbce2d8a283a0ee99a5c.png",
     "index.html": "/index.html",
-    "main.3ba4e02b.css.map": "/static/css/main.3ba4e02b.css.map",
-    "main.aeab0d0c.js.map": "/static/js/main.aeab0d0c.js.map"
+    "main.46898cb5.css.map": "/static/css/main.46898cb5.css.map",
+    "main.03f08460.js.map": "/static/js/main.03f08460.js.map"
   },
   "entrypoints": [
-    "static/css/main.3ba4e02b.css",
-    "static/js/main.aeab0d0c.js"
+    "static/css/main.46898cb5.css",
+    "static/js/main.03f08460.js"
   ]
 }
